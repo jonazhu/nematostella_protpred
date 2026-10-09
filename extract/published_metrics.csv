@@ -1,0 +1,15 @@
+Complex,iPTM,PTM
+SpAxin and Spβ-catenin,0.6,0.47
+SpAxin and SpGSK,0.77,0.43
+NvAxin and NvGSK-3β,0.77,0.42
+NvAxin and Nvβ-cat,0.61,0.46
+Nvβ-cat and NvAPC-like,0.56,0.43
+NvAxin and NvAPC-like,0.25,0.35
+NvGSK-3β and NvAPC-like,0.33,0.36
+NvAPC-like_β-catBD and Nvβ-cat,0.8,0.72
+NvAPC-like Axin binding domain and NvAxin RGS,0.77,0.9
+NvAxin_βcatBM and Nvβ-catenin,0.61,0.46
+NvAxin_βcatBM2 and Nvβ-catenin,0.3,0.71
+TaAxin_βcatBM and Taβ-catenin,0.42,0.77
+AqAxin_βcatBM and Aqβ-catenin,0.53,0.58
+MlAxin_βcatBM and Mlβ-catenin,0.6,0.61
