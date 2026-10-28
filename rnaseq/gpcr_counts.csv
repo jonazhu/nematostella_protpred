@@ -1,0 +1,74 @@
+,id_x,main_id,name,gene_id,N1,N2,N3
+1168,NV2t019080003.1,NV2t019080001.1,G-protein coupled receptor GRL101,190800,232,238,309
+1592,NV2t000801005.1,NV2t000801001.1,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751
+2014,NV2t018839001.1,SELF,G-protein coupled receptor 83,188390,57,60,67
+2182,NV2t000674001.1,SELF,Adhesion G-protein coupled receptor G4,006740,322,361,399
+2486,NV2t013314002.1,NV2t013314001.1,G-protein coupled receptor,133140,6,20,11
+2498,NV2t000782006.1,NV2t000782004.1,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+3060,NV2t017448001.1,SELF,G-protein coupled receptor 12-like,174480,43,60,51
+3085,NV2t004055001.1,SELF,adhesion G-protein coupled receptor,040550,109,93,130
+3327,NV2t013818001.1,SELF,Probable G-protein coupled receptor 19,138180,9,13,11
+5224,NV2t000783001.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,007830,1,1,3
+6348,NV2t007042001.1,SELF,G-protein coupled receptor 151,070420,22,30,26
+6435,NV2t007608001.1,SELF,G-protein coupled receptor,076080,131,143,152
+6648,NV2t000120001.1,SELF,G-protein coupled receptor,001200,10,13,19
+6840,NV2t006059001.1,SELF,Adhesion G-protein coupled receptor D1,060590,1,0,1
+7755,NV2t000782004.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+8386,NV2t006386001.1,SELF,Adhesion G-protein coupled receptor V1,063860,194,127,108
+8400,NV2t000782002.1,NV2t000782004.1,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+8787,NV2t000782003.1,NV2t000782004.1,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+9004,NV2t019080001.1,SELF,G-protein coupled receptor GRL101,190800,232,238,309
+9013,NV2t023292001.1,SELF,G-protein coupled receptor GRL101-like isoform X1,232920,245,224,298
+10036,NV2t023279003.1,NV2t023279001.1,Adhesion G-protein coupled receptor V1,232790,1028,1173,1317
+10214,NV2t005982001.1,SELF,probable G-protein coupled receptor 21,059820,32,31,46
+10303,NV2t023280002.1,NV2t023280001.1,G-protein coupled receptor GRL101,232800,182,172,222
+12244,NV2t024716001.1,SELF,Adhesion G-protein coupled receptor V1,247160,82,80,68
+12948,NV2t023019002.1,NV2t023019001.1,G-protein coupled receptor GRL101-like isoform X1,230190,6,12,13
+13134,NV2t000120002.1,NV2t000120001.1,G-protein coupled receptor,001200,10,13,19
+13386,NV2t013314001.1,SELF,G-protein coupled receptor,133140,6,20,11
+13689,NV2t002628001.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,026280,0,0,0
+14014,NV2t000801004.1,NV2t000801001.1,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751
+15395,NV2t003564001.1,SELF,probable G-protein coupled receptor 83,035640,237,267,234
+15552,NV2t009952001.1,SELF,G-protein coupled receptor 83,099520,25,23,24
+15754,NV2t003133001.1,SELF,G-protein coupled receptor 157,031330,475,459,568
+15755,NV2t003436001.1,SELF,probable G-protein coupled receptor 83,034360,19,24,29
+16496,NV2t011292001.1,SELF,Adhesion G-protein coupled receptor D1,112920,8,1,2
+16717,NV2t000801001.1,SELF,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751
+16878,NV2t015169001.1,SELF,Adhesion G-protein coupled receptor G6,151690,3,1,3
+17253,NV2t013818002.1,NV2t013818001.1,Probable G-protein coupled receptor 19,138180,9,13,11
+17456,NV2t006113001.1,SELF,mas-related G-protein coupled receptor member,061130,6,2,9
+18010,NV2t010145001.1,SELF,Adhesion G-protein coupled receptor D1,101450,593,640,737
+19197,NV2t020451001.1,SELF,G-protein coupled receptor 84-like,204510,18,21,26
+19639,NV2t000801006.1,NV2t000801001.1,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751
+21188,NV2t012716001.1,SELF,G-protein coupled receptor 54-like,127160,1,4,1
+21192,NV2t002625001.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,026250,0,0,5
+21943,NV2t023270001.1,SELF,Adhesion G-protein coupled receptor V1,232700,2423,1899,2137
+21945,NV2t006809001.1,SELF,G-protein coupled receptor GRL101,068090,78,69,91
+22079,NV2t020455001.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,204550,12,13,2
+22571,NV2t022974002.1,NV2t022974001.1,G-protein coupled receptor GRL101,229740,27,19,25
+23806,NV2t022518001.1,SELF,Adhesion G-protein coupled receptor D1,225180,131,121,159
+23807,NV2t005624002.1,NV2t005624001.1,adhesion G-protein coupled receptor G1,056240,295,278,351
+24032,NV2t017448002.1,NV2t017448001.1,G-protein coupled receptor 12-like,174480,43,60,51
+24127,NV2t004851001.1,SELF,Adhesion G-protein coupled receptor D1,048510,25,36,48
+24537,NV2t009953001.1,SELF,G-protein coupled receptor 54,099530,13,25,26
+25590,NV2t005624003.1,NV2t005624001.1,adhesion G-protein coupled receptor G1,056240,295,278,351
+25617,NV2t023280001.1,SELF,G-protein coupled receptor GRL101,232800,182,172,222
+25840,NV2t025291001.1,SELF,adhesion G-protein coupled receptor G4-like,252910,242,232,225
+26544,NV2t002018001.1,SELF,probable G-protein coupled receptor 158,020180,38,26,27
+27627,NV2t005045001.1,SELF,Adhesion G-protein coupled receptor D1,050450,2267,2331,2627
+29085,NV2t023278001.1,SELF,Adhesion G-protein coupled receptor V1,232780,1771,1244,1348
+29601,NV2t001180001.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,011800,6,11,10
+29743,NV2t000782005.1,NV2t000782004.1,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+30418,NV2t023279001.1,SELF,Adhesion G-protein coupled receptor V1,232790,1028,1173,1317
+30509,NV2t017010001.1,SELF,probable G-protein coupled receptor 21,170100,5,13,7
+30949,NV2t019080002.1,NV2t019080001.1,G-protein coupled receptor GRL101,190800,232,238,309
+31328,NV2t005624001.1,SELF,adhesion G-protein coupled receptor G1,056240,295,278,351
+32015,NV2t000801003.1,NV2t000801001.1,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751
+32303,NV2t005081001.1,SELF,Adhesion G-protein coupled receptor D1,050810,77,93,94
+33691,NV2t023019001.1,SELF,G-protein coupled receptor GRL101-like isoform X1,230190,6,12,13
+33822,NV2t023279002.1,NV2t023279001.1,Adhesion G-protein coupled receptor V1,232790,1028,1173,1317
+34056,NV2t023815001.1,SELF,G-protein coupled receptor GRL101,238150,154,132,175
+34492,NV2t022974001.1,SELF,G-protein coupled receptor GRL101,229740,27,19,25
+34974,NV2t000782001.1,NV2t000782004.1,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+35091,NV2t025291002.1,NV2t025291001.1,adhesion G-protein coupled receptor G4-like,252910,242,232,225
+35288,NV2t000801002.1,NV2t000801001.1,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751

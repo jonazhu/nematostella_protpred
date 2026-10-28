@@ -30,7 +30,7 @@ samtools view N1.sorted.bam | cut -f5 | sort -n | uniq -c
 #actual filtering here: note -q 59, which is consistent with HISAT's unique read score
 #if using STAR use -q 255
 samtools view -b -F 1804 -f 2 -q 59 N1.sorted.bam > N1.filt.bam
-samtools sort -n -o N1.filt.sort.bam N1.filt.bam
+samtools sort -o N1.filt.sort.bam N1.filt.bam
 samtools index N1.filt.sort.bam
 
 cd ../N2
@@ -53,9 +53,8 @@ samtools flagstat N2.sorted.bam
 
 echo "MAPQ quality check"
 samtools view N2.sorted.bam | cut -f5 | sort -n | uniq -c
-#actual filtering here: note -q 255, which is consistent with STAR's unique read score
-samtools view -b -F 1804 -f 2 -q 255 N2.sorted.bam > N2.filt.bam
-samtools sort -n -o N2.filt.sort.bam N2.filt.bam
+samtools view -b -F 1804 -f 2 -q 59 N2.sorted.bam > N2.filt.bam
+samtools sort -o N2.filt.sort.bam N2.filt.bam
 samtools index N2.filt.sort.bam
 
 cd ../N3
@@ -78,9 +77,8 @@ samtools flagstat N3.sorted.bam
 
 echo "MAPQ quality check"
 samtools view N3.sorted.bam | cut -f5 | sort -n | uniq -c
-#actual filtering here: note -q 255, which is consistent with STAR's unique read score
-samtools view -b -F 1804 -f 2 -q 255 N3.sorted.bam > N3.filt.bam
-samtools sort -n -o N3.filt.sort.bam N3.filt.bam
+samtools view -b -F 1804 -f 2 -q 59 N3.sorted.bam > N3.filt.bam
+samtools sort -o N3.filt.sort.bam N3.filt.bam
 samtools index N3.filt.sort.bam
 
 cd ..

@@ -1,0 +1,1512 @@
+,id_x,main_id,name,gene_id,N1,N2,N3
+18,NV2t020403001.1,SELF,oxoglutarate receptor 1 ,204030,7,6,12
+19,NV2t020368001.1,SELF,5-hydroxytryptamine receptor 1A,203680,25,26,32
+35,NV2t004542003.1,NV2t004542002.1,signal sequence receptor subunit 1,045420,3118,3281,3587
+41,NV2t016348003.1,NV2t016348002.1,visual pigment-like receptor peropsin,163480,1,1,1
+82,NV2t007387002.1,NV2t007387001.1,somatostatin receptor,073870,50,33,45
+121,NV2t025713002.1,NV2t025713001.1,5-hydroxytryptamine receptor 7 ,257130,73,74,89
+153,NV2t017928001.1,NV2t017928002.1,LDL receptor related protein 5,179280,1641,1838,1905
+176,NV2t021298001.1,SELF,G protein-coupled receptor 180 ,212980,148,162,164
+179,NV2t010262003.1,NV2t010262001.1,cholinergic receptor nicotinic alpha 6 subunit ,102620,130,129,129
+267,NV2t013205001.1,SELF,Galanin receptor 2b,132050,155,187,201
+273,NV2t020158001.1,SELF,cornichon family AMPA receptor auxiliary protein 3 ,201580,509,466,540
+274,NV2t001025002.1,NV2t001025001.1,low density lipoprotein receptor,010250,1639,1504,1681
+295,NV2t010521004.1,NV2t010521001.1,G protein-coupled receptor 165,105210,157,174,197
+340,NV2t018125004.1,NV2t018125001.1,D(1)-like dopamine receptor,181250,32,48,48
+348,NV2t013337001.1,SELF,Melatonin-related receptor,133370,92,68,47
+355,NV2t022397002.1,NV2t022397001.1,neurotrophic receptor tyrosine kinase 3 ,223970,4,1,0
+357,NV2t020105002.1,NV2t020105001.1,5-hydroxytryptamine receptor 5A ,201050,49,32,29
+366,NV2t015251003.1,NV2t015251001.1,G protein-coupled receptor 12,152510,37,50,61
+374,NV2t008354001.1,SELF,insulin like growth factor 2 receptor,083540,815,802,834
+376,NV2t002930001.1,SELF,"polycystin 2, transient receptor potential cation channel",029300,5858,5579,6141
+378,NV2t011114001.1,SELF,Alpha-1A adrenergic receptor,111140,21,20,19
+385,NV2t003381001.1,SELF,folate receptor alpha,033810,169,183,201
+422,NV2t016211001.1,SELF,Discoidin domain-containing receptor 2,162110,56,72,79
+423,NV2t011411002.1,SELF,olfactory receptor family 9 subfamily A member 4 ,114110,360,409,428
+437,NV2t015888001.1,SELF,macrophage receptor with collagenous structure,158880,807,833,831
+453,NV2t014958001.1,SELF,MAM and LDL-receptor class A domain-containing protein 2 (Fragment),149580,2506,2300,2519
+534,NV2t018589002.1,SELF,acetylcholine receptor subunit,185890,1009,1063,1287
+545,NV2t017574002.1,NV2t017574001.1,hypocretin receptor 2 ,175740,184,226,266
+579,NV2t017904001.1,SELF,Fibroblast growth factor receptor 1,179040,154,197,200
+598,NV2t019798001.1,SELF,scavenger receptor class A member 5,197980,103,89,109
+613,NV2t021604004.1,NV2t021604001.1,RYamide receptor,216040,390,386,489
+622,NV2t012248001.1,SELF,Cyclic nucleotide-gated channel rod photoreceptor subunit alpha,122480,14,23,23
+624,NV2t000786001.1,SELF,follicle-stimulating hormone receptor,007860,25,24,40
+648,NV2t010701001.1,SELF,Octopamine receptor,107010,39,35,40
+651,NV2t009466001.1,SELF,Putative serine/threonine-protein kinase/receptor R818,094660,3,13,14
+656,NV2t022721001.1,SELF,Nuclear receptor subfamily 2 group E member,227210,303,251,312
+700,NV2t006707001.1,SELF,Melatonin receptor type 1B-B,067070,53,54,46
+726,NV2t001269001.1,SELF,Alpha-1B adrenergic receptor,012690,66,68,44
+728,NV2t023912001.1,SELF,cholinergic receptor nicotinic alpha 2 subunit ,239120,24,22,48
+776,NV2t018103001.1,NV2t018103002.1,growth factor receptor like 1,181030,395,448,554
+782,NV2t023013001.1,SELF,lipoprotein receptor,230130,0,0,0
+794,NV2t006948002.1,NV2t006948003.1,aryl hydrocarbon receptor nuclear translocator-like protein 1,069480,445,469,522
+820,NV2t005716001.1,NV2t005716002.1,smoothened frizzled class receptor,057160,38,87,45
+858,NV2t013221001.1,SELF,natriuretic peptide receptor,132210,76,100,101
+868,NV2t016585002.1,NV2t016585001.1,Secretory phospholipase A2 receptor,165850,103,100,114
+873,NV2t020778002.1,NV2t020778001.1,polycystin family receptor for egg jelly ,207780,641,583,594
+934,NV2t015052001.1,NV2t015052002.1,epidermal growth factor receptor pathway substrate 8 ,150520,37,27,35
+961,NV2t019790001.1,SELF,neuromedin U receptor 2 ,197900,19,18,22
+977,NV2t016378003.1,NV2t016378002.1,growth regulating estrogen receptor binding 1,163780,3316,3265,3746
+1004,NV2t006364001.1,SELF,cholinergic receptor nicotinic alpha 6 subunit ,063640,20,14,13
+1013,NV2t002684001.1,SELF,somatostatin receptor type 4-like,026840,9,25,26
+1086,NV2t012692002.1,NV2t012692001.1,N-methyl-D-aspartate receptor-associated protein; transcript_id=FBtr0089875,126920,803,883,1051
+1094,NV2t006116001.1,SELF,melanocortin receptor 5,061160,0,1,4
+1168,NV2t019080003.1,NV2t019080001.1,G-protein coupled receptor GRL101,190800,232,238,309
+1209,NV2t007002004.1,NV2t007002002.1,TNF receptor associated factor 7 ,070020,412,408,357
+1269,NV2t012673001.1,SELF,Cholecystokinin receptor type A,126730,44,47,29
+1362,NV2t019843001.1,SELF,Melatonin receptor type 1C,198430,0,2,0
+1363,NV2t018773001.1,SELF,D(1)-like dopamine receptor,187730,24,19,38
+1371,NV2t006506001.1,SELF,TNF receptor-associated factor 4,065060,2,0,3
+1381,NV2t009331001.1,NV2t009331002.1,no mechanoreceptor potential B; transcript_id=FBtr0340651,093310,576,587,722
+1385,NV2t002826001.1,SELF,Neuronal acetylcholine receptor subunit alpha-7,028260,27,30,39
+1413,NV2t004311002.1,NV2t004311001.1,sphingosine-1-phosphate receptor 5 ,043110,150,142,176
+1414,NV2t009331002.1,SELF,no mechanoreceptor potential B; transcript_id=FBtr0340651,093310,576,587,722
+1415,NV2t009815001.1,SELF,MAM and LDL-receptor class A domain-containing protein 1 (Fragment),098150,4,4,5
+1426,NV2t018589001.1,NV2t018589002.1,acetylcholine receptor subunit,185890,1009,1063,1287
+1431,NV2t020306001.1,SELF,neuromedin U receptor 1,203060,30,48,60
+1454,NV2t013832001.1,SELF,Octopamine receptor beta-2R,138320,6,15,21
+1475,NV2t019377001.1,SELF,transient receptor potential cation channel subfamily A member,193770,129,162,237
+1483,NV2t011813001.1,SELF,metabotropic glutamate receptor,118130,38,58,43
+1537,NV2t016213001.1,SELF,Sortilin-related receptor,162130,2676,2551,2627
+1557,NV2t018089003.1,SELF,fibroblast growth factor receptor 2,180890,823,844,1002
+1565,NV2t016386003.1,SELF,Tnf receptor-associated factor,163860,455,455,537
+1592,NV2t000801005.1,NV2t000801001.1,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751
+1595,NV2t001679001.1,SELF,Fibroblast growth factor receptor 1,016790,601,666,745
+1622,NV2t009849002.1,SELF,very low-density lipoprotein receptor,098490,1794,1555,1794
+1657,NV2t000302002.1,NV2t000302001.1,Extracellular calcium-sensing receptor,003020,566,643,690
+1664,NV2t015075001.1,SELF,Trace amine-associated receptor 7h,150750,85,99,117
+1708,NV2t007960001.1,SELF,estrogen-related receptor; transcript_id=FBtr0076725,079600,164,210,212
+1733,NV2t017081002.1,NV2t017081003.1,hyaluronan mediated motility receptor ,170810,249,202,265
+1798,NV2t003562001.1,SELF,transient receptor potential cation channel subfamily A member,035620,194,195,241
+1814,NV2t019857001.1,SELF,Tyrosine kinase receptor Cad96Ca,198570,0,0,1
+1816,NV2t009943001.1,SELF,gamma-aminobutyric acid type A receptor,099430,16,21,16
+1818,NV2t018930001.1,SELF,Sperm receptor for egg jelly,189300,0,0,0
+1844,NV2t013834001.1,SELF,Octopamine receptor beta-2R,138340,5,0,2
+1872,NV2t013878005.1,NV2t013878001.1,Gamma-aminobutyric acid type B receptor subunit 2,138780,500,489,581
+1878,NV2t008805001.1,SELF,frizzled class receptor 4 ,088050,493,533,594
+1935,NV2t006768001.1,SELF,Tyrosine-protein kinase transmembrane receptor ROR2,067680,117,121,109
+1958,NV2t013878002.1,NV2t013878001.1,Gamma-aminobutyric acid type B receptor subunit 2,138780,500,489,581
+1966,NV2t002822001.1,SELF,Short transient receptor potential channel 4-associated protein,028220,0,1,0
+1989,NV2t022079001.1,SELF,anti-Mullerian hormone receptor type 2 ,220790,4,2,8
+2009,NV2t013543001.1,SELF,melanin concentrating hormone receptor 2,135430,10,16,23
+2014,NV2t018839001.1,SELF,G-protein coupled receptor 83,188390,57,60,67
+2063,NV2t003768001.1,NV2t003768002.1,platelet endothelial aggregation receptor 1 ,037680,832,871,1019
+2071,NV2t012859001.1,SELF,C-type mannose receptor,128590,266,271,338
+2090,NV2t020637001.1,SELF,fms-related tyrosine kinase 1 vascular endothelial growth factor/vascular permeability factor receptor,206370,240,266,286
+2102,NV2t025722001.1,SELF,complement C3d receptor 2 ,257220,73,60,52
+2120,NV2t010062001.1,SELF,somatostatin receptor 4 ,100620,14,14,11
+2163,NV2t017710001.1,SELF,adhesion G protein-coupled receptor,177100,622,614,634
+2176,NV2t025296001.1,SELF,Extracellular calcium-sensing receptor,252960,1628,1636,1729
+2182,NV2t000674001.1,SELF,Adhesion G-protein coupled receptor G4,006740,322,361,399
+2218,NV2t020244001.1,SELF,5-hydroxytryptamine receptor 1E,202440,27,27,29
+2239,NV2t013369001.1,NV2t013369002.1,glycine receptor alpha 2 ,133690,30,23,46
+2272,NV2t012681002.1,NV2t012681001.1,Glutamate receptor,126810,51,41,64
+2276,NV2t010262002.1,NV2t010262001.1,cholinergic receptor nicotinic alpha 6 subunit ,102620,130,129,129
+2383,NV2t003638001.1,NV2t003638002.1,neuropeptide Y receptor Y2 ,036380,226,181,209
+2388,NV2t004027001.1,SELF,Histamine H2 receptor,040270,2,8,5
+2392,NV2t017789001.1,SELF,Allatostatin-A receptor,177890,17,20,17
+2410,NV2t016904002.1,NV2t016904001.1,"Glutamate receptor ionotropic, kainate 1",169040,144,151,163
+2433,NV2t007754001.1,SELF,C-C motif chemokine receptor like 2,077540,12,14,5
+2439,NV2t003631001.1,SELF,Neuropeptide FF receptor 2,036310,13,19,19
+2486,NV2t013314002.1,NV2t013314001.1,G-protein coupled receptor,133140,6,20,11
+2498,NV2t000782006.1,NV2t000782004.1,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+2499,NV2t008714001.1,SELF,acetylcholine receptor subunit,087140,62,55,71
+2515,NV2t017045001.1,NV2t017045003.1,nuclear receptor binding protein 1,170450,242,275,320
+2528,NV2t005085003.1,NV2t005085001.1,autocrine motility factor receptor,050850,554,575,721
+2541,NV2t000910001.1,SELF,acetylcholine receptor subunit,009100,5,8,8
+2579,NV2t024658004.1,NV2t024658001.1,tumor necrosis factor receptor superfamily member,246580,114,207,232
+2589,NV2t006958001.1,NV2t006958002.1,G protein-coupled receptor 78,069580,1,0,1
+2634,NV2t024583002.1,NV2t024583001.1,G protein-coupled receptor 87,245830,19,29,37
+2690,NV2t002472001.1,SELF,Cadherin EGF LAG seven-pass G-type receptor fmi-1,024720,2715,2369,2593
+2710,NV2t023357001.1,SELF,olfactory receptor,233570,14,8,8
+2780,NV2t014121001.1,SELF,Gustatory receptor,141210,162,157,190
+2928,NV2t009904001.1,SELF,G protein-coupled receptor 22 ,099040,35,49,59
+2939,NV2t000086001.1,SELF,cholinergic receptor muscarinic 4 ,000860,5,12,29
+2948,NV2t015033002.1,NV2t015033001.1,gamma-aminobutyric acid type B receptor subunit,150330,78,64,96
+2953,NV2t011770002.1,NV2t011770001.1,protein tyrosine phosphatase non-receptor type 14 ,117700,370,389,440
+2989,NV2t007513001.1,SELF,transient receptor potential cation channel subfamily A member,075130,228,251,300
+2991,NV2t017081001.1,NV2t017081003.1,hyaluronan mediated motility receptor ,170810,249,202,265
+3010,NV2t007690001.1,NV2t007690004.1,melatonin receptor type,076900,144,125,170
+3027,NV2t006081003.1,NV2t006081002.1,Tyrosine-protein kinase receptor Tie-1 (Fragment),060810,55,79,104
+3041,NV2t011770001.1,SELF,protein tyrosine phosphatase non-receptor type 14 ,117700,370,389,440
+3060,NV2t017448001.1,SELF,G-protein coupled receptor 12-like,174480,43,60,51
+3085,NV2t004055001.1,SELF,adhesion G-protein coupled receptor,040550,109,93,130
+3086,NV2t025474001.1,SELF,discoidin domain receptor tyrosine kinase 1 ,254740,745,745,827
+3128,NV2t016378002.1,SELF,growth regulating estrogen receptor binding 1,163780,3316,3265,3746
+3142,NV2t024694003.1,NV2t024694001.1,xenotropic and polytropic retrovirus receptor 1,246940,433,519,524
+3143,NV2t014974002.1,SELF,protein tyrosine phosphatase receptor type t,149740,10,12,4
+3189,NV2t002324001.1,SELF,adhesion G protein-coupled receptor L4,023240,91,91,106
+3253,NV2t011538002.1,NV2t011538001.1,G protein-coupled receptor 101 ,115380,41,50,48
+3278,NV2t010731001.1,SELF,Neuropeptide receptor npr-1,107310,12,14,24
+3286,NV2t019044001.1,SELF,Macrophage mannose receptor 1,190440,35,29,39
+3292,NV2t008454001.1,SELF,G protein-coupled receptor class C group 6 member A,084540,8,4,12
+3327,NV2t013818001.1,SELF,Probable G-protein coupled receptor 19,138180,9,13,11
+3396,NV2t020156001.1,SELF,Melatonin receptor type 1A,201560,158,138,164
+3424,NV2t022067001.1,SELF,Beta-1 adrenergic receptor,220670,2,0,0
+3430,NV2t005630001.1,SELF,atypical chemokine receptor 4 ,056300,47,63,67
+3512,NV2t008061001.1,SELF,"Glutamate receptor ionotropic, NMDA 2A",080610,0,0,1
+3513,NV2t013658001.1,SELF,EPH receptor B4,136580,1287,1201,1283
+3524,NV2t025474002.1,NV2t025474001.1,discoidin domain receptor tyrosine kinase 1 ,254740,745,745,827
+3542,NV2t004241004.1,NV2t004241003.1,nuclear receptor coactivator 5,042410,1375,1402,1651
+3568,NV2t015033003.1,NV2t015033001.1,gamma-aminobutyric acid type B receptor subunit,150330,78,64,96
+3604,NV2t014739001.1,SELF,Signal recognition particle receptor beta; transcript_id=FBtr0333891,147390,352,390,357
+3616,NV2t021950001.1,SELF,Neuropeptide Y receptor type 4,219500,104,147,117
+3625,NV2t018750003.1,SELF,TNF receptor associated factor 6 ,187500,2514,2228,2430
+3644,NV2t017123001.1,SELF,gonadotropin-releasing hormone II receptor-like,171230,85,112,126
+3683,NV2t010582002.1,NV2t010582001.1,tachykinin receptor 2 ,105820,7,6,12
+3718,NV2t013452005.1,SELF,Cannabinoid receptor 1,134520,15,17,15
+3735,NV2t005827005.1,NV2t005827003.1,nuclear receptor coactivator,058270,1353,1256,1384
+3758,NV2t022837001.1,SELF,G protein-coupled receptor 50 ,228370,73,55,77
+3772,NV2t009791001.1,SELF,glycine receptor alpha 2 ,097910,73,77,80
+3796,NV2t021262001.1,SELF,Scavenger receptor cysteine-rich type 1 protein M130,212620,3,4,7
+3797,NV2t011670005.1,NV2t011670006.1,protein tyrosine phosphatase receptor type,116700,4523,4432,4782
+3829,NV2t009017001.1,SELF,TNF-receptor-associated factor 6,090170,73,70,117
+3834,NV2t005202004.1,NV2t005202001.1,5-hydroxytryptamine receptor 4,052020,348,346,389
+3845,NV2t023847001.1,SELF,receptor accessory protein 5 ,238470,4034,4230,4396
+3859,NV2t011670001.1,NV2t011670006.1,protein tyrosine phosphatase receptor type,116700,4523,4432,4782
+3896,NV2t019844001.1,SELF,Melatonin receptor type 1C,198440,13,1,8
+3908,NV2t006567001.1,SELF,glutamate receptor,065670,67,87,121
+3930,NV2t012681001.1,SELF,glutamate ionotropic receptor NMDA type subunit 2C,126810,51,41,64
+3962,NV2t003296004.1,NV2t003296001.1,cholinergic receptor nicotinic beta 1 subunit ,032960,315,323,379
+3989,NV2t023421005.1,NV2t023421001.1,Gastrin/cholecystokinin type B receptor,234210,626,569,678
+4021,NV2t001025001.1,SELF,low density lipoprotein receptor,010250,1639,1504,1681
+4032,NV2t016287001.1,SELF,RYamide receptor,162870,69,81,105
+4050,NV2t010691006.1,NV2t010691002.1,Notch receptor 2,106910,290,258,264
+4162,NV2t005740008.1,NV2t005740006.1,proteasomal ubiquitin receptor ADRM1,057400,577,648,686
+4218,NV2t024105001.1,SELF,neuropeptides B and W receptor 1 ,241050,2,4,1
+4236,NV2t000866001.1,SELF,G protein-coupled receptor 6,008660,17,21,18
+4276,NV2t001269002.1,NV2t001269001.1,Alpha-1B adrenergic receptor,012690,66,68,44
+4330,NV2t003551001.1,NV2t003551003.1,scavenger receptor class B member 2 ,035510,152,155,204
+4332,NV2t008762002.1,NV2t008762001.1,Galanin receptor 2a,087620,14,18,36
+4351,NV2t023711001.1,SELF,5-hydroxytryptamine serotonin receptor 5A,237110,19,17,22
+4375,NV2t002930002.1,NV2t002930001.1,"polycystin 2, transient receptor potential cation channel",029300,5858,5579,6141
+4383,NV2t025060001.1,SELF,glutamate receptor,250600,10,7,11
+4393,NV2t002785001.1,NV2t002785002.1,nuclear receptor subfamily 2 group C member 2,027850,223,248,245
+4395,NV2t008714002.1,NV2t008714001.1,acetylcholine receptor subunit,087140,62,55,71
+4445,NV2t008593001.1,SELF,Gamma-aminobutyric acid receptor subunit alpha-3,085930,3,3,1
+4452,NV2t015467001.1,SELF,no mechanoreceptor potential C; transcript_id=FBtr0347409,154670,394,411,505
+4470,NV2t023402002.1,NV2t023402001.1,relaxin family peptide receptor 3,234020,13,30,23
+4484,NV2t000789001.1,SELF,Tyrosine-protein phosphatase non-receptor type 12,007890,662,612,742
+4583,NV2t011070001.1,SELF,Toll-like receptor 6,110700,144,110,88
+4596,NV2t016368001.1,SELF,cholinergic receptor nicotinic gamma,163680,4,5,6
+4626,NV2t022492001.1,SELF,low density lipoprotein receptor adaptor protein 1 ,224920,22,24,18
+4676,NV2t023512004.1,SELF,cholecystokinin A receptor ,235120,17,14,25
+4682,NV2t017409002.1,NV2t017409001.1,protein tyrosine phosphatase receptor type R ,174090,981,946,1160
+4696,NV2t014588004.1,NV2t014588005.1,unc-5 netrin receptor B,145880,39,49,70
+4699,NV2t006888001.1,SELF,cholinergic receptor nicotinic beta 1 subunit ,068880,85,85,92
+4737,NV2t017889001.1,SELF,growth factor receptor,178890,77,74,67
+4751,NV2t021650001.1,SELF,lysophosphatidic acid receptor 3 ,216500,132,155,146
+4790,NV2t002937001.1,SELF,adenosine receptor A1-like,029370,4,9,7
+4799,NV2t007116002.1,SELF,TNF receptor associated factor 1,071160,221,203,252
+4808,NV2t010897001.1,SELF,Nuclear receptor subfamily 2 group E member,108970,38,59,77
+4815,NV2t002934001.1,SELF,Fibroblast growth factor receptor 2,029340,1160,1215,1296
+4858,NV2t004547001.1,SELF,leukocyte receptor cluster member 1,045470,196,233,283
+4869,NV2t023421006.1,NV2t023421001.1,Gastrin/cholecystokinin type B receptor,234210,626,569,678
+4878,NV2t000396001.1,SELF,scavenger receptor class B member 1,003960,61,76,71
+4880,NV2t018103003.1,NV2t018103002.1,growth factor receptor like 1,181030,395,448,554
+4884,NV2t002617001.1,SELF,olfactory receptor family 1 subfamily M member 1 ,026170,6,23,28
+4986,NV2t024694002.1,NV2t024694001.1,xenotropic and polytropic retrovirus receptor 1,246940,433,519,524
+5029,NV2t010764001.1,SELF,sphingosine-1-phosphate receptor 4,107640,8,19,9
+5044,NV2t013452002.1,SELF,Cannabinoid receptor 1,134520,15,17,15
+5062,NV2t024087001.1,SELF,Gastrin/cholecystokinin type B receptor,240870,108,78,115
+5074,NV2t021395001.1,SELF,Octopamine receptor beta-1R,213950,180,156,197
+5075,NV2t017045003.1,SELF,nuclear receptor binding protein 1,170450,242,275,320
+5139,NV2t019841001.1,SELF,Beta-2 adrenergic receptor,198410,17,19,16
+5177,NV2t014184003.1,NV2t014184001.1,retention in endoplasmic reticulum sorting receptor 1,141840,588,553,670
+5224,NV2t000783001.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,007830,1,1,3
+5247,NV2t003874001.1,SELF,Neuropeptide FF receptor 1,038740,21,9,12
+5301,NV2t014865001.1,SELF,Galanin receptor 2a,148650,1,0,0
+5313,NV2t022551001.1,SELF,interleukin 27 receptor subunit alpha,225510,17,11,18
+5320,NV2t007827003.1,NV2t007827001.1,Metabotropic glutamate receptor 4,078270,289,273,265
+5325,NV2t009619002.1,NV2t009619003.1,neuropeptide FF receptor,096190,170,196,212
+5332,NV2t010230001.1,SELF,trace amine associated receptor 9 ,102300,170,154,199
+5340,NV2t023359001.1,SELF,relaxin family peptide receptor 3.2b,233590,41,54,58
+5344,NV2t003396003.1,NV2t003396001.1,Adhesion G protein-coupled receptor E1,033960,315,370,388
+5365,NV2t006081005.1,NV2t006081002.1,Tyrosine-protein kinase receptor Tie-1 (Fragment),060810,55,79,104
+5386,NV2t016530005.1,NV2t016530001.1,neuromedin-K receptor,165300,117,128,143
+5390,NV2t025713001.1,SELF,5-hydroxytryptamine receptor 7 ,257130,73,74,89
+5410,NV2t016286001.1,SELF,G protein-coupled receptor 39 ,162860,99,108,150
+5415,NV2t015033001.1,SELF,gamma-aminobutyric acid type B receptor subunit,150330,78,64,96
+5430,NV2t009790001.1,SELF,glycine receptor alpha 2 ,097900,79,111,101
+5454,NV2t013263004.1,SELF,transient receptor potential cation channel subfamily A member,132630,462,492,483
+5509,NV2t007397001.1,SELF,Olfactory receptor,073970,1,1,1
+5599,NV2t020402001.1,SELF,Cholecystokinin receptor,204020,1,4,7
+5607,NV2t022837002.1,NV2t022837001.1,G protein-coupled receptor 50 ,228370,73,55,77
+5620,NV2t024123001.1,SELF,protein tyrosine phosphatase non-receptor type 9,241230,254,185,254
+5633,NV2t017067001.1,SELF,B1 bradykinin receptor,170670,97,82,86
+5665,NV2t006812001.1,SELF,MAM and LDL-receptor class A domain-containing protein 2 (Fragment),068120,18,21,37
+5747,NV2t018772002.1,NV2t018772001.1,glutamate receptor,187720,92,71,77
+5751,NV2t023332001.1,SELF,prostaglandin E receptor 2,233320,13,10,10
+5770,NV2t010701003.1,NV2t010701001.1,Octopamine receptor,107010,39,35,40
+5809,NV2t008417001.1,SELF,sphingosine 1-phosphate receptor 1,084170,5,12,6
+5849,NV2t000886001.1,SELF,G protein-coupled receptor 143,008860,99,88,98
+5852,NV2t017641002.1,NV2t017641001.1,G protein-coupled receptor class C group 6 member A ,176410,430,443,442
+5863,NV2t011643002.1,NV2t011643001.1,bone morphogenetic protein receptor type 1B ,116430,215,256,253
+5906,NV2t023332002.1,NV2t023332001.1,prostaglandin E receptor 2,233320,13,10,10
+5913,NV2t001943002.1,NV2t001943001.1,neuropeptide FF receptor 2,019430,35,47,48
+5917,NV2t010086001.1,SELF,receptor for activated C kinase 1 ,100860,16400,16960,18279
+5931,NV2t018185001.1,SELF,gamma-aminobutyric acid type A receptor subunit rho1 ,181850,14,14,23
+5934,NV2t010189001.1,SELF,melanocortin 3 receptor ,101890,51,59,63
+5936,NV2t010228001.1,SELF,lysophosphatidic acid receptor 1 ,102280,6,19,18
+5954,NV2t009908002.1,SELF,Tachykinin-like peptides receptor 86C,099080,230,260,293
+5975,NV2t012117001.1,SELF,Toll-like receptor 13,121170,2,10,10
+6041,NV2t014349001.1,SELF,adenosine A2b receptor,143490,9,14,15
+6068,NV2t023604002.1,SELF,insulin receptor related receptor ,236040,681,640,676
+6072,NV2t006984001.1,SELF,Melatonin receptor type 1B-B,069840,1,1,3
+6075,NV2t025293003.1,NV2t025293001.1,Somatostatin receptor type 5-like,252930,108,119,134
+6103,NV2t005085002.1,NV2t005085001.1,autocrine motility factor receptor,050850,554,575,721
+6114,NV2t000620001.1,SELF,neuropeptides B and W receptor 1 ,006200,24,16,7
+6121,NV2t014906001.1,SELF,sphingosine-1-phosphate receptor 4,149060,4,2,8
+6125,NV2t000581002.1,NV2t000581003.1,protein tyrosine phosphatase receptor type M ,005810,59,62,37
+6135,NV2t010007001.1,SELF,adhesion G protein-coupled receptor,100070,114,115,167
+6140,NV2t021079001.1,SELF,Neuropeptide S receptor,210790,0,2,1
+6169,NV2t016483003.1,NV2t016483006.1,gamma-aminobutyric acid type B receptor subunit 2 ,164830,111,137,180
+6177,NV2t023144002.1,NV2t023144001.1,natriuretic peptide receptor 2 ,231440,334,298,344
+6276,NV2t009042001.1,SELF,nuclear receptor subfamily 2 group E member 1 ,090420,60,33,43
+6298,NV2t014187003.1,NV2t014187001.1,splA/ryanodine receptor domain and SOCS box containing 4,141870,1374,1581,1629
+6307,NV2t010297001.1,SELF,G protein-coupled receptor 6,102970,56,53,52
+6329,NV2t008555001.1,SELF,neuropeptide FF receptor 1,085550,131,127,113
+6348,NV2t007042001.1,SELF,G-protein coupled receptor 151,070420,22,30,26
+6364,NV2t016378001.1,NV2t016378002.1,growth regulating estrogen receptor binding 1,163780,3316,3265,3746
+6394,NV2t001117001.1,SELF,protein tyrosine phosphatase receptor type K ,011170,72,57,69
+6435,NV2t007608001.1,SELF,G-protein coupled receptor,076080,131,143,152
+6458,NV2t016155001.1,SELF,G protein-coupled receptor kinase 3,161550,1465,1197,1375
+6472,NV2t010815001.1,SELF,Neuropeptide FF receptor 2,108150,142,165,186
+6488,NV2t016286003.1,NV2t016286001.1,G protein-coupled receptor 39 ,162860,99,108,150
+6492,NV2t013878003.1,NV2t013878001.1,Gamma-aminobutyric acid type B receptor subunit 2,138780,500,489,581
+6499,NV2t000581001.1,NV2t000581003.1,protein tyrosine phosphatase receptor type M ,005810,59,62,37
+6506,NV2t000557001.1,SELF,neuropeptide Y receptor type 1,005570,70,93,105
+6542,NV2t016648001.1,SELF,neuromedin U receptor 2 ,166480,29,27,53
+6615,NV2t010575002.1,NV2t010575003.1,neuropeptide FF receptor 2,105750,229,246,283
+6643,NV2t004129001.1,SELF,glutamate ionotropic receptor kainate type subunit 2 ,041290,1,0,1
+6648,NV2t000120001.1,SELF,G-protein coupled receptor,001200,10,13,19
+6669,NV2t015111001.1,SELF,adrenocorticotropic hormone receptor,151110,57,68,89
+6685,NV2t017773001.1,SELF,sortilin related VPS10 domain containing receptor 3,177730,875,805,870
+6723,NV2t014401001.1,SELF,MAM and LDL-receptor class A domain-containing protein,144010,3732,3147,3232
+6729,NV2t007827001.1,SELF,Metabotropic glutamate receptor 4,078270,289,273,265
+6733,NV2t024418001.1,SELF,Low-density lipoprotein receptor-related protein 6,244180,987,855,900
+6749,NV2t005716002.1,SELF,smoothened frizzled class receptor,057160,38,87,45
+6772,NV2t020802001.1,SELF,C1D nuclear receptor corepressor,208020,368,377,397
+6840,NV2t006059001.1,SELF,Adhesion G-protein coupled receptor D1,060590,1,0,1
+6929,NV2t007310001.1,SELF,glutamate receptor,073100,1,6,3
+6942,NV2t017407001.1,SELF,mu-type opioid receptor,174070,192,194,232
+6948,NV2t014488001.1,SELF,"Glutamate receptor ionotropic, NMDA 1",144880,1,3,1
+6952,NV2t019959001.1,SELF,G protein-coupled receptor 26,199590,18,23,22
+6954,NV2t019584001.1,SELF,G protein-coupled receptor 185 b,195840,23,27,23
+6984,NV2t020279001.1,SELF,TNF receptor-associated factor,202790,123,131,146
+7005,NV2t002511002.1,NV2t002511001.1,"inositol 1,4,5-trisphosphate receptor type 3 ",025110,2095,1865,1866
+7024,NV2t012693001.1,SELF,gamma-aminobutyric acid type A receptor subunit rho1 ,126930,163,163,181
+7050,NV2t018538001.1,SELF,cannabinoid receptor 2,185380,0,0,1
+7065,NV2t013802001.1,SELF,platelet endothelial aggregation receptor 1,138020,46,61,52
+7154,NV2t001337001.1,SELF,Lipophorin receptor 1; transcript_id=FBtr0301470,013370,871,917,953
+7179,NV2t001090001.1,SELF,relaxin family peptide receptor 1,010900,128,141,149
+7181,NV2t006240001.1,SELF,dopamine receptor D5,062400,8,3,2
+7226,NV2t004093001.1,SELF,sphingosine-1-phosphate receptor 4,040930,12,25,17
+7231,NV2t020150001.1,SELF,progestin and adipoQ receptor family member 9 ,201500,59,59,71
+7273,NV2t004832003.1,NV2t004832001.1,adhesion G protein-coupled receptor G5 ,048320,77,81,112
+7275,NV2t006964002.1,NV2t006964001.1,Melatonin-related receptor,069640,28,28,22
+7283,NV2t004915001.1,SELF,cannabinoid receptor 2,049150,12,5,16
+7364,NV2t002817002.1,NV2t002817001.1,gamma-aminobutyric acid type B receptor subunit 2,028170,417,435,520
+7390,NV2t007002001.1,NV2t007002002.1,TNF receptor associated factor 7 ,070020,412,408,357
+7392,NV2t004003001.1,SELF,"Glutamate receptor ionotropic, NMDA 3B",040030,29,13,18
+7431,NV2t010575007.1,NV2t010575003.1,gastrin/cholecystokinin type B receptor,105750,229,246,283
+7513,NV2t014292001.1,SELF,cholecystokinin B receptor ,142920,9,20,25
+7516,NV2t002527004.1,NV2t002527003.1,tumor necrosis factor receptor superfamily member,025270,274,232,293
+7530,NV2t003907001.1,SELF,gamma-aminobutyric acid type A receptor subunit beta1 ,039070,27,22,31
+7531,NV2t003875001.1,SELF,Pyroglutamylated RF-amide peptide receptor,038750,120,125,125
+7557,NV2t013263001.1,NV2t013263004.1,transient receptor potential cation channel subfamily A member,132630,462,492,483
+7569,NV2t020506002.1,NV2t020506001.1,Sperm receptor for egg jelly,205060,23,23,26
+7611,NV2t007757001.1,SELF,Thyrotropin-releasing hormone receptor,077570,56,53,79
+7612,NV2t014803001.1,SELF,progestin and adipoQ receptor family member 9,148030,168,189,204
+7619,NV2t021302002.1,SELF,hypocretin receptor 2 ,213020,37,46,49
+7623,NV2t009240002.1,NV2t009240001.1,G protein-coupled receptor 63,092400,96,82,79
+7626,NV2t002882002.1,NV2t002882001.1,progesterone receptor membrane component 1 ,028820,569,660,661
+7659,NV2t006634001.1,SELF,G protein-coupled receptor 119,066340,7,9,18
+7687,NV2t015059001.1,SELF,epidermal growth factor receptor pathway substrate 8 ,150590,407,437,397
+7693,NV2t000810002.1,NV2t000810001.1,MAM and LDL-receptor class A domain-containing protein 1 (Fragment),008100,108,123,137
+7713,NV2t010705001.1,SELF,Octopamine receptor,107050,0,0,0
+7715,NV2t006081001.1,NV2t006081002.1,Tyrosine-protein kinase receptor Tie-1 (Fragment),060810,55,79,104
+7718,NV2t016539001.1,SELF,Nuclear receptor corepressor 2,165390,978,760,815
+7742,NV2t016199008.1,NV2t016199005.1,purinergic receptor P2X 4,161990,247,309,335
+7753,NV2t018750002.1,NV2t018750003.1,TNF receptor associated factor 6 ,187500,2514,2228,2430
+7755,NV2t000782004.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+7756,NV2t018750004.1,NV2t018750003.1,TNF receptor associated factor 6 ,187500,2514,2228,2430
+7759,NV2t014687001.1,SELF,glutamate ionotropic receptor AMPA type subunit 2,146870,150,195,201
+7806,NV2t000864001.1,SELF,melanocortin 1 receptor ,008640,7,11,9
+7832,NV2t005827003.1,SELF,nuclear receptor coactivator,058270,1353,1256,1384
+7841,NV2t017698001.1,SELF,MAM and LDL-receptor class A domain-containing protein 1 (Fragment),176980,163,174,152
+7847,NV2t018182002.1,NV2t018182001.1,glycine receptor alpha 2 ,181820,25,53,79
+7876,NV2t001351001.1,SELF,neuropeptide Y receptor type 2,013510,30,17,33
+7879,NV2t024145004.1,NV2t024145001.1,Low-density lipoprotein receptor-related protein 2,241450,199,204,306
+7902,NV2t005849001.1,SELF,orexin/Hypocretin receptor type 1,058490,1,3,2
+7909,NV2t018120002.1,NV2t018120001.1,Neuropeptide SIFamide receptor,181200,126,107,135
+7999,NV2t018710001.1,SELF,Activin receptor type-2B,187100,30,53,45
+8005,NV2t010293001.1,SELF,Transient receptor potential cation channel subfamily M member 6,102930,89,31,63
+8052,NV2t017369001.1,SELF,Melanocyte-stimulating hormone receptor,173690,153,106,146
+8054,NV2t012693002.1,NV2t012693001.1,gamma-aminobutyric acid type A receptor subunit rho1 ,126930,163,163,181
+8055,NV2t012734001.1,SELF,Adhesion G protein-coupled receptor B3,127340,1344,1207,1373
+8062,NV2t019245001.1,SELF,glycine receptor alpha 2 ,192450,29,20,25
+8074,NV2t012077001.1,SELF,Fibroblast growth factor receptor 3,120770,101,109,149
+8081,NV2t024331001.1,SELF,glycine receptor alpha 3 ,243310,248,307,370
+8106,NV2t018182001.1,SELF,glycine receptor alpha 2 ,181820,25,53,79
+8120,NV2t014588005.1,SELF,unc-5 netrin receptor B,145880,39,49,70
+8139,NV2t021604002.1,NV2t021604001.1,RYamide receptor,216040,390,386,489
+8152,NV2t010819001.1,SELF,LDL receptor related protein 11,108190,888,940,1078
+8156,NV2t021604005.1,NV2t021604001.1,RYamide receptor,216040,390,386,489
+8167,NV2t022458002.1,NV2t022458001.1,glycine receptor alpha 3 ,224580,52,48,60
+8180,NV2t016082001.1,SELF,ALK tyrosine kinase receptor,160820,19,12,15
+8195,NV2t017205002.1,SELF,scavenger receptor cysteine rich family member with 4 domains ,172050,154,141,174
+8262,NV2t004680001.1,SELF,GABA type A receptor associated protein like 2,046800,735,823,977
+8278,NV2t010532002.1,NV2t010532001.1,Melatonin-related receptor,105320,40,34,43
+8324,NV2t012368001.1,SELF,Sperm receptor for egg jelly,123680,433,399,405
+8325,NV2t007387001.1,SELF,somatostatin receptor,073870,50,33,45
+8331,NV2t011102001.1,SELF,ANF_receptor domain-containing protein,111020,6,9,10
+8386,NV2t006386001.1,SELF,Adhesion G-protein coupled receptor V1,063860,194,127,108
+8400,NV2t000782002.1,NV2t000782004.1,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+8407,NV2t022394001.1,SELF,melatonin receptor 1A,223940,63,64,63
+8435,NV2t015545001.1,SELF,orexin receptor type 2,155450,437,505,544
+8498,NV2t007102001.1,SELF,Allatostatin-A receptor,071020,6,6,2
+8562,NV2t008014001.1,SELF,gonadotropin-releasing hormone II receptor-like,080140,33,37,37
+8574,NV2t002997001.1,SELF,neuronal acetylcholine receptor subunit alpha-7-like,029970,25,24,27
+8634,NV2t000824002.1,NV2t000824001.1,cadherin EGF LAG seven-pass G-type receptor 3 ,008240,4080,3584,3724
+8678,NV2t020364002.1,NV2t020364001.1,lysophosphatidic acid receptor 3,203640,48,43,54
+8705,NV2t012448001.1,SELF,cannabinoid receptor 1,124480,371,390,417
+8706,NV2t012144002.1,NV2t012144001.1,Calcium-independent receptor for alpha-latrotoxin,121440,397,295,315
+8727,NV2t018659001.1,SELF,aryl hydrocarbon receptor nuclear,186590,273,288,413
+8733,NV2t004542002.1,SELF,signal sequence receptor subunit 1,045420,3118,3281,3587
+8768,NV2t023913001.1,SELF,cholinergic receptor nicotinic alpha 6 subunit ,239130,251,271,274
+8783,NV2t018451002.1,NV2t018451001.1,transient receptor potential cation channel subfamily A member,184510,369,329,396
+8787,NV2t000782003.1,NV2t000782004.1,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+8878,NV2t024088001.1,SELF,neuropeptides B and W receptor 1 ,240880,106,100,132
+8908,NV2t007828001.1,SELF,Adhesion G protein-coupled receptor E2,078280,0,0,2
+8909,NV2t022837003.1,NV2t022837001.1,G protein-coupled receptor 50 ,228370,73,55,77
+8945,NV2t023421009.1,NV2t023421001.1,Gastrin/cholecystokinin type B receptor,234210,626,569,678
+9003,NV2t007793001.1,SELF,Secretory phospholipase A2 receptor,077930,1,0,0
+9004,NV2t019080001.1,SELF,G-protein coupled receptor GRL101,190800,232,238,309
+9013,NV2t023292001.1,SELF,G-protein coupled receptor GRL101-like isoform X1,232920,245,224,298
+9028,NV2t000892001.1,SELF,receptor tyrosine kinase like orphan receptor 2 ,008920,373,400,552
+9048,NV2t019866001.1,SELF,EPH receptor B6 ,198660,5,3,0
+9057,NV2t023510001.1,SELF,Neuropeptide FF receptor 2,235100,103,95,99
+9061,NV2t003527001.1,SELF,Cadherin EGF LAG seven-pass G-type receptor 1,035270,273,277,316
+9180,NV2t011067001.1,NV2t011067002.1,growth factor receptor like 1,110670,9,12,13
+9181,NV2t020105001.1,SELF,5-hydroxytryptamine receptor 5A ,201050,49,32,29
+9183,NV2t004311001.1,SELF,sphingosine-1-phosphate receptor 5 ,043110,150,142,176
+9185,NV2t006767003.1,NV2t006767001.1,macrophage stimulating 1 receptor ,067670,708,691,644
+9200,NV2t005659001.1,SELF,melatonin receptor type,056590,27,15,23
+9201,NV2t024145003.1,NV2t024145001.1,Low-density lipoprotein receptor-related protein 2,241450,199,204,306
+9204,NV2t006895001.1,SELF,Sperm receptor for egg jelly,068950,348,335,393
+9224,NV2t009922001.1,SELF,Tachykinin-like peptides receptor 86C,099220,14,7,6
+9281,NV2t023144001.1,SELF,natriuretic peptide receptor 2 ,231440,334,298,344
+9286,NV2t013986001.1,SELF,signal sequence receptor subunit 3,139860,2037,2051,2256
+9296,NV2t014506001.1,SELF,corticotropin releasing hormone receptor 2,145060,51,68,62
+9305,NV2t002328003.1,SELF,leptin receptor overlapping transcript like 1 ,023280,623,614,670
+9352,NV2t005477001.1,SELF,glutamate receptor,054770,0,0,0
+9355,NV2t016584001.1,SELF,MAM and LDL-receptor class A domain-containing protein 1-like,165840,12,9,12
+9365,NV2t005218001.1,SELF,Galanin receptor 2a,052180,6,13,13
+9431,NV2t023338001.1,SELF,cholinergic receptor nicotinic alpha 6 subunit ,233380,61,66,52
+9480,NV2t003551003.1,SELF,scavenger receptor class B member 2 ,035510,152,155,204
+9518,NV2t000194003.1,NV2t000194002.1,scavenger receptor class F member 1 ,001940,338,310,454
+9561,NV2t016626001.1,SELF,cholecystokinin receptor type A,166260,18,22,26
+9580,NV2t023440001.1,SELF,Neuropeptide FF receptor 2,234400,31,22,30
+9592,NV2t012258001.1,SELF,TNF receptor-associated factor,122580,144,166,161
+9615,NV2t008706004.1,NV2t008706001.1,low density lipoprotein receptor adapter protein,087060,357,388,452
+9625,NV2t000194001.1,NV2t000194002.1,scavenger receptor class F member 1 ,001940,338,310,454
+9632,NV2t017045005.1,NV2t017045003.1,nuclear receptor binding protein 1,170450,242,275,320
+9695,NV2t006081004.1,NV2t006081002.1,Tyrosine-protein kinase receptor Tie-1 (Fragment),060810,55,79,104
+9699,NV2t004979003.1,NV2t004979001.1,polycystin 1 transient receptor potential channel interacting,049790,292,273,293
+9727,NV2t000262001.1,SELF,somatostatin receptor 3,002620,17,16,10
+9765,NV2t009849001.1,NV2t009849002.1,very low-density lipoprotein receptor,098490,1794,1555,1794
+9780,NV2t000315002.1,NV2t000315001.1,somatostatin receptor 4 ,003150,4,4,4
+9898,NV2t002302001.1,SELF,relaxin family peptide receptor 1,023020,60,60,48
+9907,NV2t005827002.1,NV2t005827003.1,nuclear receptor coactivator,058270,1353,1256,1384
+9937,NV2t011286003.1,NV2t011286001.1,Cadherin EGF LAG seven-pass G-type receptor 1,112860,509,468,420
+9948,NV2t012693003.1,NV2t012693001.1,gamma-aminobutyric acid type A receptor subunit rho1 ,126930,163,163,181
+9960,NV2t018166001.1,SELF,G protein-coupled receptor class C group 6 member A ,181660,70,64,90
+10036,NV2t023279003.1,NV2t023279001.1,Adhesion G-protein coupled receptor V1,232790,1028,1173,1317
+10054,NV2t007378001.1,SELF,cytokine receptor like factor 3,073780,397,435,393
+10114,NV2t010443001.1,SELF,G protein-coupled receptor 135,104430,8,13,8
+10125,NV2t019211003.1,NV2t019211002.1,adhesion G protein-coupled receptor V1 ,192110,11111,8546,7603
+10177,NV2t018127001.1,SELF,5-hydroxytryptamine receptor 1B,181270,25,12,32
+10192,NV2t007363001.1,SELF,transient receptor potential cation channel subfamily A member,073630,98,96,117
+10206,NV2t024078003.1,NV2t024078002.1,natural killer cell triggering receptor ,240780,270,260,301
+10207,NV2t019967001.1,SELF,CLPTM1 regulator of GABA type A receptor forward trafficking ,199670,484,499,502
+10214,NV2t005982001.1,SELF,probable G-protein coupled receptor 21,059820,32,31,46
+10226,NV2t019878001.1,SELF,"multiple coagulation factor deficiency 2, ER cargo receptor complex subunit ",198780,426,373,423
+10242,NV2t025713003.1,NV2t025713001.1,5-hydroxytryptamine receptor 7 ,257130,73,74,89
+10245,NV2t023421010.1,NV2t023421001.1,Gastrin/cholecystokinin type B receptor,234210,626,569,678
+10258,NV2t009496001.1,SELF,cholecystokinin receptor type A,094960,21,26,22
+10280,NV2t014611002.1,SELF,gamma-aminobutyric acid type B receptor subunit 2 ,146110,120,127,156
+10303,NV2t023280002.1,NV2t023280001.1,G-protein coupled receptor GRL101,232800,182,172,222
+10357,NV2t001613001.1,NV2t001613002.1,epidermal growth factor receptor pathway substrate 15 like 1,016130,761,881,891
+10461,NV2t023145001.1,SELF,natriuretic peptide receptor 2 ,231450,107,117,110
+10503,NV2t016530002.1,NV2t016530001.1,neuromedin-K receptor,165300,117,128,143
+10563,NV2t007690003.1,NV2t007690004.1,melatonin receptor type,076900,144,125,170
+10599,NV2t013010001.1,SELF,Serine/threonine-protein kinase receptor,130100,831,879,1031
+10636,NV2t025664002.1,SELF,glycine receptor alpha 2 ,256640,286,369,383
+10668,NV2t000788001.1,SELF,low-density lipoprotein receptor-related protein,007880,217,253,261
+10685,NV2t018927001.1,SELF,Low-density lipoprotein receptor-related protein 8,189270,0,1,3
+10694,NV2t013452003.1,SELF,Cannabinoid receptor 1,134520,15,17,15
+10697,NV2t001613002.1,SELF,epidermal growth factor receptor pathway substrate 15 like 1,016130,761,881,891
+10700,NV2t002944001.1,SELF,melanin concentrating hormone receptor 2,029440,64,60,67
+10717,NV2t017045002.1,NV2t017045003.1,nuclear receptor binding protein 1,170450,242,275,320
+10720,NV2t024235001.1,SELF,Octopamine beta1 receptor,242350,7,8,19
+10736,NV2t011321001.1,SELF,olfactory receptor,113210,3,0,5
+10761,NV2t011538001.1,SELF,G protein-coupled receptor 101 ,115380,41,50,48
+10770,NV2t017642001.1,SELF,G protein-coupled receptor class C group 6 member A ,176420,163,144,198
+10791,NV2t011008001.1,SELF,tachykinin receptor 1 ,110080,63,59,78
+10794,NV2t016451001.1,SELF,atypical chemokine receptor 4 ,164510,4,12,2
+10807,NV2t014456002.1,SELF,angiotensin II receptor associated protein ,144560,262,308,335
+10825,NV2t013147001.1,SELF,lysophosphatidic acid receptor 4,131470,364,384,445
+10859,NV2t009284001.1,SELF,Netrin receptor UNC5B-a,092840,3,3,6
+10877,NV2t012744002.1,NV2t012744001.1,transient receptor potential cation channel subfamily M member 2,127440,4266,4214,4550
+10913,NV2t023166001.1,SELF,Prostaglandin E2 receptor EP3 subtype,231660,15,27,36
+10914,NV2t006958002.1,SELF,G protein-coupled receptor 78,069580,1,0,1
+10975,NV2t000513001.1,SELF,neuropeptide FF receptor 2,005130,30,45,47
+11003,NV2t011972003.1,NV2t011972001.1,Discoidin domain-containing receptor 2,119720,138,119,161
+11031,NV2t023353002.1,NV2t023353001.1,melatonin receptor type,233530,3,14,6
+11157,NV2t019499001.1,SELF,Histamine H2 receptor,194990,148,226,250
+11164,NV2t011770003.1,NV2t011770001.1,protein tyrosine phosphatase non-receptor type 14 ,117700,370,389,440
+11176,NV2t008018001.1,SELF,5-hydroxytryptamine receptor 4,080180,38,40,35
+11192,NV2t004265001.1,SELF,glutamate ionotropic receptor NMDA type subunit 3B,042650,44,25,30
+11195,NV2t018221001.1,SELF,leukotriene B4 receptor,182210,20,26,24
+11246,NV2t010075002.1,NV2t010075001.1,neuropeptide FF receptor 2,100750,458,437,470
+11315,NV2t013930001.1,SELF,Ephrin type-A receptor 5,139300,14,11,5
+11349,NV2t023573001.1,SELF,cholinergic receptor nicotinic alpha 6 subunit ,235730,8,4,4
+11350,NV2t011391001.1,SELF,Histamine H2 receptor,113910,134,162,169
+11359,NV2t006998001.1,SELF,Mitochondrial import receptor subunit TOM34,069980,522,571,559
+11386,NV2t010304001.1,SELF,gamma-aminobutyric acid type A receptor subunit gamma3 ,103040,67,54,48
+11390,NV2t001790001.1,SELF,Allatostatin-A receptor,017900,2,1,2
+11393,NV2t005936001.1,NV2t005936002.1,glutamate metabotropic receptor 2,059360,78,130,120
+11407,NV2t009941001.1,SELF,Neuropeptide Y receptor type 2,099410,11,1,11
+11426,NV2t009940001.1,SELF,prokineticin receptor 2 ,099400,35,32,26
+11470,NV2t022278001.1,SELF,melatonin receptor,222780,31,23,16
+11498,NV2t007127001.1,SELF,leukocyte receptor cluster member 8 ,071270,1284,1551,2001
+11621,NV2t012066001.1,SELF,TNF receptor associated factor 3 ,120660,95,98,99
+11669,NV2t009708001.1,SELF,gamma-aminobutyric acid type A receptor subunit gamma3 ,097080,2,10,21
+11685,NV2t006060001.1,NV2t006060004.1,adhesion G protein-coupled receptor D1 ,060600,240,220,263
+11716,NV2t008562003.1,NV2t008562002.1,G protein-coupled receptor 157,085620,221,220,232
+11789,NV2t016019001.1,SELF,retinoic acid receptor RXR,160190,22,42,30
+11798,NV2t003551006.1,NV2t003551003.1,scavenger receptor class B member 2 ,035510,152,155,204
+11819,NV2t002307001.1,SELF,cholecystokinin A receptor ,023070,10,21,14
+11823,NV2t011164002.1,SELF,hypocretin receptor 2 ,111640,728,792,843
+11833,NV2t016948001.1,SELF,glutamate metabotropic receptor 8 ,169480,291,264,268
+11859,NV2t006191001.1,SELF,Macrophage scavenger receptor types I and II,061910,5,1,4
+11860,NV2t016386002.1,NV2t016386003.1,Tnf receptor-associated factor,163860,455,455,537
+11952,NV2t018561001.1,SELF,cholinergic receptor nicotinic alpha 6 subunit ,185610,13,26,23
+11999,NV2t013684001.1,SELF,Growth hormone secretagogue receptor type 1,136840,53,88,66
+12001,NV2t004537001.1,SELF,adenosine receptor A2,045370,46,37,45
+12084,NV2t017227001.1,SELF,5-hydroxytryptamine receptor 1A,172270,61,49,55
+12093,NV2t012199001.1,SELF,lutropin-choriogonadotropic hormone receptor,121990,145,139,186
+12100,NV2t010157001.1,SELF,histamine receptor H4 ,101570,20,13,39
+12123,NV2t005202003.1,NV2t005202001.1,5-hydroxytryptamine receptor 4,052020,348,346,389
+12136,NV2t003705001.1,SELF,Oxoeicosanoid receptor 1,037050,245,256,301
+12143,NV2t015059002.1,NV2t015059001.1,epidermal growth factor receptor pathway substrate 8 ,150590,407,437,397
+12177,NV2t020327001.1,SELF,Adenosine receptor A1-like,203270,259,282,306
+12196,NV2t024235002.1,NV2t024235001.1,Octopamine beta1 receptor,242350,7,8,19
+12208,NV2t017888001.1,SELF,melatonin receptor 1A ,178880,37,34,44
+12244,NV2t024716001.1,SELF,Adhesion G-protein coupled receptor V1,247160,82,80,68
+12300,NV2t021262002.1,NV2t021262001.1,Scavenger receptor cysteine-rich type 1 protein M130,212620,3,4,7
+12315,NV2t023421007.1,NV2t023421001.1,Gastrin/cholecystokinin type B receptor,234210,626,569,678
+12330,NV2t017369002.1,NV2t017369001.1,Melanocyte-stimulating hormone receptor,173690,153,106,146
+12347,NV2t024009001.1,NV2t024009002.1,receptor like tyrosine kinase,240090,1632,1645,1785
+12369,NV2t009467001.1,SELF,Putative serine/threonine-protein kinase/receptor R818,094670,2,1,0
+12374,NV2t005816001.1,SELF,G protein-coupled receptor class C group 6 member A ,058160,37,36,37
+12421,NV2t005202002.1,NV2t005202001.1,5-hydroxytryptamine receptor 4,052020,348,346,389
+12529,NV2t009302001.1,SELF,Cadherin EGF LAG seven-pass G-type receptor 2,093020,1,0,0
+12560,NV2t001366001.1,SELF,Inactive tyrosine-protein kinase transmembrane receptor ROR1,013660,1975,1938,2128
+12580,NV2t011972004.1,NV2t011972001.1,Discoidin domain-containing receptor 2,119720,138,119,161
+12584,NV2t010157002.1,NV2t010157001.1,histamine receptor H4 ,101570,20,13,39
+12627,NV2t000346001.1,SELF,Tyrosine-protein kinase transmembrane receptor ROR2,003460,255,323,291
+12642,NV2t017771001.1,SELF,Sortilin-related receptor (Fragment),177710,0,1,1
+12649,NV2t000712001.1,SELF,TNF receptor-associated factor,007120,0,0,1
+12660,NV2t024137001.1,SELF,protein tyrosine phosphatase non-receptor type 7 ,241370,490,450,523
+12664,NV2t010405001.1,SELF,receptor,104050,4,3,9
+12731,NV2t003841001.1,SELF,lysophosphatidic acid receptor 1,038410,86,92,96
+12759,NV2t022930001.1,SELF,platelet endothelial aggregation receptor 1,229300,625,464,544
+12775,NV2t008331001.1,SELF,somatostatin receptor 4,083310,12,16,15
+12797,NV2t000250004.1,NV2t000250003.1,G protein-coupled receptor 61,002500,475,410,396
+12948,NV2t023019002.1,NV2t023019001.1,G-protein coupled receptor GRL101-like isoform X1,230190,6,12,13
+12964,NV2t020778001.1,SELF,polycystin family receptor for egg jelly ,207780,641,583,594
+12967,NV2t010395002.1,NV2t010395001.1,cannabinoid receptor 2,103950,26,36,31
+13007,NV2t010521003.1,NV2t010521001.1,G protein-coupled receptor 165,105210,157,174,197
+13022,NV2t011164003.1,NV2t011164002.1,hypocretin receptor 2 ,111640,728,792,843
+13044,NV2t006825001.1,SELF,Neuromedin-B receptor,068250,19,3,6
+13045,NV2t024094001.1,SELF,5-hydroxytryptamine receptor 7 ,240940,54,37,36
+13055,NV2t019858001.1,SELF,Ephrin type-A receptor 4,198580,0,1,0
+13061,NV2t016904001.1,SELF,"Glutamate receptor ionotropic, kainate 1",169040,144,151,163
+13062,NV2t017409001.1,SELF,protein tyrosine phosphatase receptor type R ,174090,981,946,1160
+13072,NV2t012744001.1,SELF,transient receptor potential cation channel subfamily M member 2,127440,4266,4214,4550
+13077,NV2t010647001.1,SELF,Neuropeptide Y receptor type 1,106470,10652,10417,11298
+13089,NV2t006254001.1,SELF,sigma non-opioid intracellular receptor 1,062540,355,461,512
+13128,NV2t006060003.1,NV2t006060004.1,adhesion G protein-coupled receptor D1 ,060600,240,220,263
+13134,NV2t000120002.1,NV2t000120001.1,G-protein coupled receptor,001200,10,13,19
+13144,NV2t002729001.1,SELF,Neuropeptide FF receptor 2,027290,7,20,21
+13149,NV2t023421003.1,NV2t023421001.1,Gastrin/cholecystokinin type B receptor,234210,626,569,678
+13173,NV2t008698001.1,SELF,Octopamine receptor,086980,55,34,31
+13207,NV2t000103001.1,SELF,transient receptor potential cation channel subfamily A member,001030,100,108,150
+13246,NV2t021604006.1,NV2t021604001.1,RYamide receptor,216040,390,386,489
+13312,NV2t006202001.1,SELF,Tachykinin-like peptides receptor 99D,062020,72,82,70
+13319,NV2t023781001.1,SELF,Melatonin receptor type 1B-B-like,237810,31,40,45
+13335,NV2t002936001.1,SELF,prokineticin receptor 2 ,029360,13,23,39
+13346,NV2t020753001.1,SELF,receptor,207530,11,15,16
+13376,NV2t024312001.1,SELF,repulsive guidance molecule BMP co-receptor a,243120,638,631,795
+13382,NV2t025256001.1,SELF,Adenosine receptor A2a,252560,1291,1480,1211
+13386,NV2t013314001.1,SELF,G-protein coupled receptor,133140,6,20,11
+13389,NV2t004999001.1,SELF,olfactory receptor,049990,69,84,90
+13410,NV2t012806001.1,SELF,melanocortin receptor 4,128060,68,73,81
+13422,NV2t013756001.1,SELF,Adrenocorticotropic hormone receptor,137560,119,104,101
+13423,NV2t024979002.1,SELF,complement C3d receptor 2 ,249790,281,268,389
+13430,NV2t009576006.1,NV2t009576001.1,adenosine receptor A2,095760,368,299,372
+13453,NV2t010142001.1,SELF,serine/threonine kinase receptor associated protein ,101420,222,267,323
+13492,NV2t018125003.1,NV2t018125001.1,D(1)-like dopamine receptor,181250,32,48,48
+13497,NV2t000581003.1,SELF,protein tyrosine phosphatase receptor type M ,005810,59,62,37
+13544,NV2t010100001.1,SELF,G protein-coupled receptor 165,101000,77,53,68
+13559,NV2t007237001.1,SELF,muscarinic acetylcholine receptor,072370,176,152,195
+13577,NV2t010943001.1,SELF,gamma-aminobutyric acid type B receptor subunit,109430,111,145,144
+13600,NV2t009183001.1,SELF,thromboxane A2 receptor,091830,14,14,14
+13619,NV2t015251001.1,SELF,G protein-coupled receptor 12,152510,37,50,61
+13620,NV2t007690002.1,NV2t007690004.1,melatonin receptor type,076900,144,125,170
+13626,NV2t000302003.1,NV2t000302001.1,Extracellular calcium-sensing receptor,003020,566,643,690
+13656,NV2t006459001.1,SELF,Neurexin like receptor 1,064590,2,4,1
+13689,NV2t002628001.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,026280,0,0,0
+13705,NV2t025664003.1,NV2t025664002.1,glycine receptor alpha 2 ,256640,286,369,383
+13737,NV2t001909001.1,SELF,melatonin receptor type,019090,713,654,782
+13784,NV2t016522001.1,SELF,"Muscle, skeletal receptor tyrosine protein kinase",165220,37,37,52
+13790,NV2t002882001.1,SELF,progesterone receptor membrane component 1 ,028820,569,660,661
+13819,NV2t010606001.1,SELF,Neurotrophin receptor-interacting factor homolog,106060,0,0,0
+13827,NV2t005740003.1,NV2t005740006.1,proteasomal ubiquitin receptor ADRM1,057400,577,648,686
+13852,NV2t000824001.1,SELF,cadherin EGF LAG seven-pass G-type receptor 3 ,008240,4080,3584,3724
+13864,NV2t019862001.1,SELF,Tyrosine kinase receptor Cad96Ca,198620,0,0,0
+13889,NV2t018274001.1,SELF,Beta-2 adrenergic receptor,182740,30,31,52
+13898,NV2t005827001.1,NV2t005827003.1,nuclear receptor coactivator,058270,1353,1256,1384
+13909,NV2t018622001.1,SELF,Galanin receptor 2a,186220,127,129,135
+13912,NV2t017040001.1,SELF,Nuclear receptor-binding protein,170400,224,194,250
+13913,NV2t000019001.1,SELF,Tyrosine-protein kinase receptor,000190,298,317,415
+13979,NV2t015956001.1,SELF,Neuropeptide FF receptor 2,159560,15,26,25
+13985,NV2t007981002.1,SELF,interleukin 1 receptor associated kinase 1,079810,378,453,464
+13998,NV2t003296001.1,SELF,cholinergic receptor nicotinic beta 1 subunit ,032960,315,323,379
+14008,NV2t000250001.1,NV2t000250003.1,G protein-coupled receptor 61,002500,475,410,396
+14014,NV2t000801004.1,NV2t000801001.1,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751
+14041,NV2t001265001.1,SELF,glycine receptor alpha 2 ,012650,65,69,73
+14087,NV2t009908003.1,NV2t009908002.1,Tachykinin-like peptides receptor 86C,099080,230,260,293
+14112,NV2t016286004.1,NV2t016286001.1,G protein-coupled receptor 39 ,162860,99,108,150
+14179,NV2t006767002.1,NV2t006767001.1,macrophage stimulating 1 receptor ,067670,708,691,644
+14188,NV2t021349001.1,SELF,TNF receptor-associated factor,213490,7,6,13
+14247,NV2t023276001.1,SELF,receptor,232760,3960,3053,3201
+14271,NV2t013372005.1,NV2t013372001.1,Olfactory receptor,133720,94,92,80
+14273,NV2t001439001.1,SELF,G protein-coupled receptor class C group 6 member A ,014390,175,142,176
+14302,NV2t023247001.1,SELF,retinoid x receptor beta,232470,237,268,293
+14307,NV2t001744001.1,SELF,Neuronal acetylcholine receptor subunit alpha-7,017440,8,6,1
+14335,NV2t016483006.1,SELF,gamma-aminobutyric acid type B receptor subunit 2 ,164830,111,137,180
+14396,NV2t000824003.1,NV2t000824001.1,cadherin EGF LAG seven-pass G-type receptor 3 ,008240,4080,3584,3724
+14427,NV2t010173002.1,NV2t010173001.1,urotensin-2 receptor,101730,11,12,6
+14440,NV2t003344001.1,SELF,MAM and LDL-receptor class A domain-containing protein 1-like,033440,32,44,34
+14456,NV2t012145001.1,SELF,lipoprotein receptor-related protein,121450,1405,1197,1189
+14457,NV2t018545002.1,NV2t018545001.1,Olfactory receptor 51A7,185450,0,0,0
+14486,NV2t011582001.1,SELF,Tyrosine-protein phosphatase non-receptor type 4,115820,284,258,276
+14491,NV2t018420001.1,SELF,G protein-coupled receptor kinase,184200,1711,1385,1607
+14516,NV2t004251001.1,SELF,5-hydroxytryptamine receptor 2A,042510,65,65,76
+14559,NV2t010395001.1,SELF,cannabinoid receptor 2,103950,26,36,31
+14625,NV2t012755001.1,SELF,interleukin 12 receptor subunit beta 2,127550,44,25,43
+14695,NV2t010007002.1,NV2t010007001.1,adhesion G protein-coupled receptor,100070,114,115,167
+14702,NV2t008706003.1,NV2t008706001.1,low density lipoprotein receptor adapter protein,087060,357,388,452
+14710,NV2t021036001.1,SELF,adenosine receptor A3,210360,6,4,8
+14721,NV2t013084002.1,NV2t013084001.1,Discoidin domain-containing receptor 2,130840,149,164,156
+14741,NV2t023473001.1,SELF,Cannabinoid receptor 1,234730,22,33,54
+14856,NV2t010586001.1,SELF,neuropeptide FF receptor 1,105860,13,18,26
+14899,NV2t002127001.1,SELF,relaxin family peptide receptor 1,021270,28,9,26
+14946,NV2t012859002.1,NV2t012859001.1,C-type mannose receptor,128590,266,271,338
+14980,NV2t006623001.1,SELF,transient receptor potential cation channel subfamily C member,066230,18,14,15
+14986,NV2t009527001.1,SELF,orexin receptor type 2,095270,63,65,69
+14996,NV2t023793001.1,SELF,cholecystokinin receptor type A,237930,9,8,16
+15012,NV2t018183004.1,NV2t018183001.1,glycine receptor alpha 2 ,181830,22,37,37
+15014,NV2t011670002.1,NV2t011670006.1,protein tyrosine phosphatase receptor type,116700,4523,4432,4782
+15028,NV2t009908001.1,NV2t009908002.1,Tachykinin-like peptides receptor 86C,099080,230,260,293
+15049,NV2t025098001.1,SELF,5-hydroxytryptamine receptor 6,250980,78,86,101
+15190,NV2t005827004.1,NV2t005827003.1,nuclear receptor coactivator,058270,1353,1256,1384
+15194,NV2t009619001.1,NV2t009619003.1,neuropeptide FF receptor,096190,170,196,212
+15217,NV2t001912001.1,SELF,G protein-coupled receptor 84,019120,154,176,219
+15279,NV2t024977002.1,NV2t024977001.1,G protein-coupled receptor 17 ,249770,89,74,87
+15305,NV2t021353001.1,NV2t021353003.1,roundabout guidance receptor 1 ,213530,3092,2895,3236
+15323,NV2t018362001.1,SELF,Octopamine beta3 receptor,183620,19,34,43
+15347,NV2t014456001.1,NV2t014456002.1,angiotensin II receptor associated protein ,144560,262,308,335
+15360,NV2t013676001.1,SELF,Melatonin receptor type 1A,136760,12,24,19
+15361,NV2t016386001.1,NV2t016386003.1,Tnf receptor-associated factor,163860,455,455,537
+15366,NV2t013715001.1,SELF,sphingosine 1-phosphate receptor 1,137150,10,5,2
+15395,NV2t003564001.1,SELF,probable G-protein coupled receptor 83,035640,237,267,234
+15405,NV2t014958003.1,NV2t014958001.1,MAM and LDL-receptor class A domain-containing protein 2 (Fragment),149580,2506,2300,2519
+15507,NV2t011277001.1,SELF,Trace amine-associated receptor 1,112770,1,0,5
+15552,NV2t009952001.1,SELF,G-protein coupled receptor 83,099520,25,23,24
+15571,NV2t025592001.1,SELF,B2 bradykinin receptor,255920,72,79,117
+15602,NV2t017362001.1,SELF,Retinoic acid receptor RXR,173620,377,336,295
+15642,NV2t015006001.1,SELF,transforming growth factor beta receptor associated protein 1 ,150060,394,359,427
+15660,NV2t017040004.1,NV2t017040001.1,Nuclear receptor-binding protein,170400,224,194,250
+15723,NV2t013372003.1,NV2t013372001.1,Olfactory receptor,133720,94,92,80
+15743,NV2t007981003.1,NV2t007981002.1,interleukin 1 receptor associated kinase 1,079810,378,453,464
+15754,NV2t003133001.1,SELF,G-protein coupled receptor 157,031330,475,459,568
+15755,NV2t003436001.1,SELF,probable G-protein coupled receptor 83,034360,19,24,29
+15869,NV2t003658001.1,SELF,G protein-coupled receptor 135,036580,1,0,1
+15920,NV2t011066001.1,SELF,cholinergic receptor nicotinic delta subunit ,110660,169,151,184
+15972,NV2t001992001.1,SELF,Bombesin receptor subtype-3,019920,51,48,58
+15974,NV2t018089001.1,NV2t018089003.1,fibroblast growth factor receptor 2,180890,823,844,1002
+15999,NV2t001430001.1,SELF,melatonin receptor 1B,014300,0,1,1
+16053,NV2t018451001.1,SELF,transient receptor potential cation channel subfamily,184510,369,329,396
+16057,NV2t023851001.1,SELF,Neuronal acetylcholine receptor subunit,238510,58,48,35
+16062,NV2t013369002.1,SELF,glycine receptor alpha 2 ,133690,30,23,46
+16072,NV2t016385001.1,SELF,Tnf receptor-associated factor,163850,145,173,187
+16092,NV2t024658001.1,SELF,tumor necrosis factor receptor superfamily member,246580,114,207,232
+16109,NV2t010577001.1,SELF,neuromedin-K receptor,105770,55,32,55
+16125,NV2t010701002.1,NV2t010701001.1,Octopamine receptor,107010,39,35,40
+16131,NV2t010654001.1,SELF,cannabinoid receptor 2,106540,53,38,59
+16153,NV2t002378001.1,SELF,Tumor necrosis factor receptor superfamily member 19L,023780,26,35,42
+16171,NV2t022444002.1,NV2t022444001.1,Adhesion G protein-coupled receptor L3,224440,137,157,181
+16173,NV2t006729001.1,SELF,estrogen receptor binding site associated antigen 9,067290,327,329,359
+16180,NV2t015683001.1,SELF,ALK tyrosine kinase receptor,156830,0,4,3
+16212,NV2t024629001.1,SELF,melanocortin 3 receptor ,246290,30,36,37
+16271,NV2t002965001.1,SELF,G protein-coupled receptor 158,029650,120,98,148
+16273,NV2t014402001.1,SELF,MAM and LDL-receptor class A domain-containing protein 2 (Fragment),144020,184,148,152
+16284,NV2t013220001.1,SELF,atrial natriuretic peptide receptor,132200,12,16,10
+16294,NV2t019168001.1,SELF,melanocortin 5 receptor ,191680,31,34,39
+16307,NV2t024495001.1,SELF,Short transient receptor potential channel 5,244950,2086,2190,2203
+16337,NV2t022982001.1,NV2t022982002.1,MAM and LDL-receptor class A domain-containing protein 1 (Fragment),229820,0,0,0
+16347,NV2t000753001.1,SELF,cholinergic receptor nicotinic alpha 6 subunit ,007530,125,148,145
+16361,NV2t014994001.1,SELF,receptor,149940,31,24,35
+16364,NV2t001745001.1,SELF,Neuronal acetylcholine receptor subunit alpha-7,017450,9,14,11
+16406,NV2t014489001.1,SELF,"Glutamate receptor ionotropic, NMDA 1",144890,2,3,4
+16423,NV2t016286005.1,NV2t016286001.1,G protein-coupled receptor 39 ,162860,99,108,150
+16434,NV2t015943001.1,SELF,low density lipoprotein receptor adaptor protein 1,159430,60,66,65
+16469,NV2t005085001.1,SELF,autocrine motility factor receptor,050850,554,575,721
+16496,NV2t011292001.1,SELF,Adhesion G-protein coupled receptor D1,112920,8,1,2
+16502,NV2t022399001.1,SELF,neurotrophic receptor tyrosine kinase 3 ,223990,1,1,0
+16510,NV2t016682001.1,SELF,golgi SNAP receptor complex member 1 ,166820,232,283,219
+16535,NV2t000579001.1,SELF,protein tyrosine phosphatase receptor type A ,005790,6,1,9
+16561,NV2t010158001.1,SELF,Adhesion G protein-coupled receptor L2,101580,229,256,267
+16587,NV2t015467002.1,NV2t015467001.1,no mechanoreceptor potential C; transcript_id=FBtr0347409,154670,394,411,505
+16603,NV2t010189002.1,NV2t010189001.1,melanocortin 3 receptor ,101890,51,59,63
+16627,NV2t012038002.1,NV2t012038005.1,growth factor receptor bound protein 10,120380,200,220,244
+16628,NV2t017045008.1,NV2t017045003.1,nuclear receptor binding protein 1,170450,242,275,320
+16659,NV2t012338001.1,SELF,receptor,123380,81,110,94
+16671,NV2t003296003.1,NV2t003296001.1,cholinergic receptor nicotinic beta 1 subunit ,032960,315,323,379
+16672,NV2t020778003.1,NV2t020778001.1,polycystin family receptor for egg jelly ,207780,641,583,594
+16717,NV2t000801001.1,SELF,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751
+16723,NV2t017703001.1,SELF,Peroxisome proliferator-activated receptor gamma coactivator-related protein 1,177030,367,394,432
+16725,NV2t025293002.1,NV2t025293001.1,thyrotropin-releasing hormone receptor,252930,108,119,134
+16735,NV2t014586001.1,SELF,5-hydroxytryptamine (serotonin) receptor 1A; transcript_id=FBtr0474126,145860,62,85,88
+16802,NV2t000513002.1,NV2t000513001.1,neuropeptide FF receptor 2,005130,30,45,47
+16816,NV2t009849003.1,NV2t009849002.1,very low-density lipoprotein receptor,098490,1794,1555,1794
+16822,NV2t018588002.1,NV2t018588001.1,Neuronal acetylcholine receptor subunit alpha-10,185880,22,38,28
+16857,NV2t019015001.1,SELF,thyroid stimulating hormone receptor,190150,79,62,62
+16878,NV2t015169001.1,SELF,Adhesion G-protein coupled receptor G6,151690,3,1,3
+16879,NV2t022083002.1,SELF,SRP receptor subunit alpha ,220830,1099,1259,1340
+16891,NV2t020524001.1,SELF,cadherin EGF LAG seven-pass G-type receptor,205240,112,159,147
+16918,NV2t023093002.1,SELF,gamma-aminobutyric acid type A receptor,230930,147,150,143
+16928,NV2t020406001.1,SELF,Gastrin/cholecystokinin type B receptor,204060,27,34,22
+16939,NV2t003418001.1,SELF,neuropeptide FF receptor,034180,36,63,60
+17039,NV2t024979001.1,NV2t024979002.1,complement C3d receptor 2 ,249790,281,268,389
+17062,NV2t013455001.1,SELF,GABA type A receptor-associated protein,134550,881,912,887
+17084,NV2t018103007.1,NV2t018103002.1,growth factor receptor like 1,181030,395,448,554
+17098,NV2t003551004.1,NV2t003551003.1,scavenger receptor class B member 2 ,035510,152,155,204
+17117,NV2t010102001.1,SELF,neuropeptide FF receptor 2,101020,1,4,4
+17146,NV2t021302001.1,NV2t021302002.1,hypocretin receptor 2 ,213020,37,46,49
+17159,NV2t011764003.1,NV2t011764001.1,muscle skeletal receptor tyrosine kinase,117640,579,645,686
+17162,NV2t016903001.1,SELF,glutamate receptor,169030,154,126,178
+17194,NV2t021932002.1,NV2t021932001.1,Fibroblast growth factor receptor 1,219320,203,162,197
+17200,NV2t003396002.1,NV2t003396001.1,Adhesion G protein-coupled receptor E1,033960,315,370,388
+17201,NV2t016908002.1,SELF,aryl hydrocarbon receptor interacting protein,169080,83,89,102
+17216,NV2t006236001.1,SELF,lysophosphatidic acid receptor 3 ,062360,31,49,50
+17223,NV2t011764002.1,NV2t011764001.1,muscle skeletal receptor tyrosine kinase,117640,579,645,686
+17233,NV2t023818001.1,SELF,MAM and LDL-receptor class A domain-containing protein 2 (Fragment),238180,20,19,24
+17236,NV2t024046002.1,NV2t024046001.1,Low-density lipoprotein receptor domain class A,240460,2,2,2
+17253,NV2t013818002.1,NV2t013818001.1,Probable G-protein coupled receptor 19,138180,9,13,11
+17279,NV2t002955001.1,SELF,5-hydroxytryptamine receptor,029550,83,65,92
+17287,NV2t014588002.1,NV2t014588005.1,unc-5 netrin receptor B,145880,39,49,70
+17298,NV2t006146001.1,SELF,Nuclear receptor coactivator 4,061460,410,442,492
+17341,NV2t009908004.1,NV2t009908002.1,Tachykinin-like peptides receptor 86C,099080,230,260,293
+17347,NV2t019803001.1,SELF,Macrophage receptor MARCO,198030,47,38,48
+17352,NV2t003938001.1,SELF,Cannabinoid receptor 2,039380,18,21,23
+17428,NV2t010262001.1,SELF,cholinergic receptor nicotinic alpha 6 subunit ,102620,130,129,129
+17456,NV2t006113001.1,SELF,mas-related G-protein coupled receptor member,061130,6,2,9
+17471,NV2t000809001.1,SELF,orexin/Hypocretin receptor type 1,008090,42,38,51
+17485,NV2t016199006.1,NV2t016199005.1,purinergic receptor P2X 4,161990,247,309,335
+17540,NV2t004191001.1,SELF,Cadherin EGF LAG seven-pass G-type receptor 2,041910,366,308,342
+17570,NV2t012650001.1,SELF,Ephrin type-A receptor 4a (Fragment),126500,297,326,349
+17624,NV2t013452001.1,SELF,Cannabinoid receptor 1,134520,15,17,15
+17639,NV2t010227001.1,SELF,lysophosphatidic acid receptor 1,102270,5,6,8
+17665,NV2t007002003.1,NV2t007002002.1,TNF receptor associated factor 7 ,070020,412,408,357
+17679,NV2t000468001.1,SELF,B cell receptor associated protein 31 ,004680,726,861,972
+17686,NV2t010751001.1,SELF,olfactory receptor family 4 subfamily K member 17 ,107510,28,31,32
+17710,NV2t013847001.1,SELF,asialoglycoprotein receptor 1 ,138470,1,2,1
+17721,NV2t020158002.1,NV2t020158001.1,cornichon family AMPA receptor auxiliary protein 3 ,201580,509,466,540
+17734,NV2t007341001.1,SELF,"Glutamate receptor ionotropic, NMDA 1",073410,1,0,0
+17769,NV2t017680001.1,SELF,olfactory receptor family 4 subfamily D member 9 ,176800,22,27,12
+17780,NV2t021346001.1,SELF,glutamate metabotropic receptor 7,213460,76,71,101
+17784,NV2t025072001.1,SELF,NMDA receptor synaptonuclear signaling and neuronal migration,250720,96,128,132
+17790,NV2t000037002.1,SELF,natural killer cell triggering receptor,000370,126,103,132
+17791,NV2t018089002.1,NV2t018089003.1,fibroblast growth factor receptor 2,180890,823,844,1002
+17839,NV2t000810004.1,NV2t000810001.1,MAM and LDL-receptor class A domain-containing protein 1 (Fragment),008100,108,123,137
+17869,NV2t011411001.1,NV2t011411002.1,olfactory receptor family 9 subfamily A member 4 ,114110,360,409,428
+17873,NV2t017227004.1,NV2t017227001.1,5-hydroxytryptamine receptor 1A,172270,61,49,55
+17883,NV2t001743001.1,SELF,cholinergic receptor nicotinic beta 1 subunit ,017430,93,98,139
+17887,NV2t002864001.1,SELF,cholecystokinin receptor type A,028640,49,58,78
+17904,NV2t013836001.1,SELF,Octopamine receptor beta-2R,138360,26,23,15
+17915,NV2t021730001.1,SELF,Dopamine/Ecdysteroid receptor,217300,45,41,51
+18007,NV2t000608001.1,SELF,Neuropeptide Y receptor type 6,006080,32,35,35
+18010,NV2t010145001.1,SELF,Adhesion G-protein coupled receptor D1,101450,593,640,737
+18037,NV2t000229001.1,SELF,transient receptor potential cation channel subfamily A member,002290,22,34,36
+18085,NV2t016530003.1,NV2t016530001.1,neuromedin-K receptor,165300,117,128,143
+18095,NV2t013147004.1,NV2t013147001.1,lysophosphatidic acid receptor 4,131470,364,384,445
+18107,NV2t024009002.1,SELF,receptor like tyrosine kinase,240090,1632,1645,1785
+18130,NV2t007800001.1,SELF,Low-density lipoprotein receptor-related protein 2,078000,10,13,15
+18170,NV2t018136001.1,SELF,Low affinity immunoglobulin epsilon Fc receptor,181360,0,0,0
+18196,NV2t021969001.1,SELF,receptor,219690,0,0,0
+18232,NV2t016048001.1,SELF,Tyrosine-protein phosphatase non-receptor type 9,160480,2,5,7
+18264,NV2t012448002.1,NV2t012448001.1,cannabinoid receptor 1,124480,371,390,417
+18292,NV2t016199007.1,NV2t016199005.1,purinergic receptor P2X 4,161990,247,309,335
+18311,NV2t005438001.1,SELF,Platelet endothelial aggregation receptor 1,054380,8,4,12
+18316,NV2t006764001.1,SELF,Neurospecific receptor kinase,067640,189,151,204
+18327,NV2t012450001.1,SELF,sphingosine-1-phosphate receptor 2,124500,14,14,21
+18364,NV2t016286002.1,NV2t016286001.1,G protein-coupled receptor 39 ,162860,99,108,150
+18429,NV2t002328002.1,NV2t002328003.1,leptin receptor overlapping transcript like 1 ,023280,623,614,670
+18430,NV2t004752001.1,SELF,Octopamine receptor beta-1R,047520,7,11,7
+18431,NV2t025243001.1,SELF,Trace amine-associated receptor 1-like,252430,38,36,38
+18473,NV2t022578001.1,SELF,RYamide receptor,225780,62,86,76
+18501,NV2t003976001.1,SELF,glutamate receptor,039760,23,17,15
+18520,NV2t021220001.1,SELF,B-cell receptor CD22-like,212200,0,0,1
+18542,NV2t024235003.1,NV2t024235001.1,Octopamine beta1 receptor,242350,7,8,19
+18557,NV2t010599001.1,SELF,Aryl hydrocarbon receptor,105990,897,916,807
+18578,NV2t024983001.1,SELF,neuropeptide FF receptor 1,249830,24,20,19
+18606,NV2t005740001.1,NV2t005740006.1,proteasomal ubiquitin receptor ADRM1,057400,577,648,686
+18615,NV2t018557001.1,SELF,Glutamate metabotropic receptor 6,185570,62,48,57
+18623,NV2t001898001.1,SELF,sphingosine 1-phosphate receptor 1,018980,344,357,341
+18682,NV2t019967002.1,NV2t019967001.1,CLPTM1 regulator of GABA type A receptor forward trafficking ,199670,484,499,502
+18696,NV2t019842002.1,NV2t019842001.1,G protein-coupled receptor 135,198420,3,4,10
+18708,NV2t024643001.1,SELF,Neuronal acetylcholine receptor subunit,246430,2,2,4
+18754,NV2t010701005.1,NV2t010701001.1,Octopamine receptor,107010,39,35,40
+18759,NV2t013147003.1,NV2t013147001.1,lysophosphatidic acid receptor 4,131470,364,384,445
+18793,NV2t012498002.1,NV2t012498001.1,protein tyrosine phosphatase receptor type Q,124980,1133,1119,1302
+18798,NV2t011903001.1,SELF,Notch receptor 2,119030,653,731,945
+18822,NV2t023402001.1,SELF,relaxin family peptide receptor 3.2b,234020,13,30,23
+18845,NV2t009759001.1,SELF,melatonin receptor 1B,097590,5,6,10
+18860,NV2t024587001.1,SELF,G protein-coupled receptor 87 ,245870,38,30,43
+18896,NV2t013930002.1,NV2t013930001.1,Ephrin type-A receptor 5,139300,14,11,5
+18906,NV2t016483002.1,NV2t016483006.1,gamma-aminobutyric acid type B receptor subunit 2 ,164830,111,137,180
+18913,NV2t001945001.1,SELF,SIFamide receptor,019450,92,103,99
+18937,NV2t005740004.1,NV2t005740006.1,proteasomal ubiquitin receptor ADRM1,057400,577,648,686
+18941,NV2t004832002.1,NV2t004832001.1,adhesion G protein-coupled receptor G5 ,048320,77,81,112
+18949,NV2t007252001.1,SELF,transient receptor potential cation channel subfamily C member 7,072520,125,153,147
+18968,NV2t003533001.1,SELF,gamma-aminobutyric acid type A receptor subunit alpha4 ,035330,33,23,39
+18971,NV2t020801003.1,NV2t020801001.1,scavenger receptor cysteine rich family member with 4 domains ,208010,3163,3115,3282
+18998,NV2t014184002.1,NV2t014184001.1,retention in endoplasmic reticulum sorting receptor 1,141840,588,553,670
+19072,NV2t010702001.1,SELF,5-hydroxytryptamine (serotonin) receptor 1A,107020,3,2,1
+19085,NV2t003982001.1,SELF,cannabinoid receptor 1 ,039820,18,21,23
+19089,NV2t008726001.1,SELF,transient receptor potential cation channel subfamily M member 1,087260,71,61,68
+19125,NV2t024040001.1,NV2t024040002.1,nuclear receptor subfamily 2 group F member 1,240400,348,445,423
+19139,NV2t002426001.1,SELF,Octopamine beta3 receptor,024260,35,40,39
+19151,NV2t005346001.1,SELF,Leucokinin receptor,053460,78,89,87
+19185,NV2t002621002.1,NV2t002621001.1,Thyrotropin receptor,026210,3,2,1
+19188,NV2t004542001.1,NV2t004542002.1,signal sequence receptor subunit 1,045420,3118,3281,3587
+19197,NV2t020451001.1,SELF,G-protein coupled receptor 84-like,204510,18,21,26
+19298,NV2t006566001.1,SELF,Glutamate receptor,065660,41,58,46
+19305,NV2t010497001.1,SELF,Gamma-aminobutyric acid receptor subunit beta-like,104970,144,163,174
+19307,NV2t019056001.1,SELF,T-cell receptor beta chain ana 11,190560,92,82,89
+19317,NV2t004241002.1,NV2t004241003.1,nuclear receptor coactivator 5,042410,1375,1402,1651
+19336,NV2t005119001.1,SELF,ALK tyrosine kinase receptor,051190,13,29,32
+19345,NV2t022083005.1,NV2t022083002.1,SRP receptor subunit alpha ,220830,1099,1259,1340
+19349,NV2t014199001.1,SELF,Neuropeptide F receptor; transcript_id=FBtr0308318,141990,20,23,22
+19380,NV2t010896001.1,SELF,Chemerin-like receptor 1,108960,19,21,28
+19405,NV2t005202001.1,SELF,5-hydroxytryptamine receptor 4,052020,348,346,389
+19411,NV2t021025001.1,SELF,cornichon family AMPA receptor auxiliary protein 4,210250,443,438,474
+19415,NV2t002328001.1,NV2t002328003.1,leptin receptor overlapping transcript like 1 ,023280,623,614,670
+19463,NV2t010396001.1,SELF,free fatty acid receptor 4,103960,21,32,37
+19483,NV2t019845001.1,SELF,melatonin receptor 1A ,198450,24,13,18
+19484,NV2t010132001.1,SELF,hyaluronan mediated motility receptor ,101320,367,284,270
+19507,NV2t010075001.1,SELF,neuropeptide FF receptor 2,100750,458,437,470
+19520,NV2t018561002.1,NV2t018561001.1,cholinergic receptor nicotinic alpha 6 subunit ,185610,13,26,23
+19526,NV2t019803002.1,NV2t019803001.1,Macrophage receptor MARCO,198030,47,38,48
+19552,NV2t023144003.1,NV2t023144001.1,natriuretic peptide receptor 2 ,231440,334,298,344
+19600,NV2t024213001.1,SELF,LDL receptor related protein associated protein 1 ,242130,158,122,157
+19635,NV2t019790003.1,NV2t019790001.1,neuromedin U receptor 2 ,197900,19,18,22
+19639,NV2t000801006.1,NV2t000801001.1,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751
+19737,NV2t023277001.1,SELF,adhesion G protein-coupled receptor V1,232770,4060,3047,3153
+19772,NV2t013362001.1,SELF,progestin and adipoQ receptor family member,133620,3,7,10
+19823,NV2t024495003.1,NV2t024495001.1,Short transient receptor potential channel 5,244950,2086,2190,2203
+19906,NV2t010529002.1,NV2t010529001.1,G protein-coupled receptor 31 ,105290,32,69,55
+19922,NV2t007104001.1,SELF,KDEL endoplasmic reticulum protein retention receptor 2,071040,1395,1426,1474
+19942,NV2t018086001.1,SELF,growth factor receptor,180860,737,770,819
+19949,NV2t018273001.1,SELF,G protein-coupled receptor 3,182730,24,31,40
+19978,NV2t023340001.1,SELF,cholinergic receptor nicotinic beta 1 subunit ,233400,29,18,19
+19979,NV2t006785001.1,SELF,ALK tyrosine kinase receptor,067850,3335,3478,3702
+19992,NV2t002932001.1,SELF,Fibroblast growth factor receptor 1-A,029320,366,329,359
+20087,NV2t013263002.1,NV2t013263004.1,transient receptor potential cation channel subfamily A member,132630,462,492,483
+20099,NV2t013147005.1,NV2t013147001.1,lysophosphatidic acid receptor 4,131470,364,384,445
+20110,NV2t010044001.1,SELF,adenosine A3 receptor,100440,49,70,63
+20119,NV2t010160001.1,SELF,MAM and LDL-receptor class A domain-containing protein 2 (Fragment),101600,7,5,5
+20136,NV2t017205001.1,NV2t017205002.1,scavenger receptor cysteine rich family member with 4 domains ,172050,154,141,174
+20165,NV2t006060005.1,NV2t006060004.1,adhesion G protein-coupled receptor D1 ,060600,240,220,263
+20176,NV2t007525001.1,SELF,growth factor receptor bound protein 2,075250,225,273,322
+20178,NV2t010582001.1,SELF,tachykinin receptor 2 ,105820,7,6,12
+20186,NV2t010532001.1,SELF,Melatonin-related receptor,105320,40,34,43
+20228,NV2t020062001.1,SELF,receptor expression-enhancing protein,200620,1,1,2
+20233,NV2t021604001.1,SELF,RYamide receptor,216040,390,386,489
+20276,NV2t016483005.1,NV2t016483006.1,gamma-aminobutyric acid type B receptor subunit 2 ,164830,111,137,180
+20328,NV2t014581002.1,SELF,glutamate ionotropic receptor kainate type subunit 2 ,145810,293,290,366
+20335,NV2t025124001.1,SELF,complement C3d receptor 2,251240,201,206,238
+20380,NV2t002527001.1,NV2t002527003.1,tumor necrosis factor receptor superfamily member,025270,274,232,293
+20398,NV2t011917001.1,SELF,glycine receptor alpha 3 ,119170,11,7,5
+20408,NV2t013090001.1,SELF,Octopamine receptor beta-1R,130900,128,92,114
+20417,NV2t000315001.1,SELF,somatostatin receptor 4 ,003150,4,4,4
+20443,NV2t020933001.1,SELF,Tyrosine-protein kinase receptor torso,209330,185,156,182
+20531,NV2t006767001.1,SELF,macrophage stimulating 1 receptor ,067670,708,691,644
+20552,NV2t004832001.1,SELF,adhesion G protein-coupled receptor G5 ,048320,77,81,112
+20597,NV2t000789002.1,NV2t000789001.1,Tyrosine-protein phosphatase non-receptor type 12,007890,662,612,742
+20624,NV2t010529001.1,SELF,G protein-coupled receptor 31 ,105290,32,69,55
+20663,NV2t024132001.1,SELF,Trace amine-associated receptor 13c-like,241320,31,28,31
+20665,NV2t010569001.1,SELF,glutamate ionotropic receptor NMDA type subunit 1,105690,549,560,550
+20696,NV2t007036001.1,SELF,Tyrosine-protein kinase transmembrane receptor ROR2,070360,0,5,5
+20748,NV2t022521001.1,SELF,nuclear receptor subfamily 5 group A member 1 ,225210,412,444,540
+20785,NV2t025164001.1,SELF,G protein-coupled receptor 19,251640,94,163,158
+20789,NV2t014456005.1,NV2t014456002.1,angiotensin II receptor associated protein ,144560,262,308,335
+20803,NV2t000810003.1,NV2t000810001.1,MAM and LDL-receptor class A domain-containing protein 1 (Fragment),008100,108,123,137
+20809,NV2t025714001.1,SELF,dopamine receptor D4,257140,24,32,34
+20842,NV2t010102002.1,NV2t010102001.1,neuropeptide FF receptor 2,101020,1,4,4
+20948,NV2t007116003.1,NV2t007116002.1,TNF receptor associated factor 1,071160,221,203,252
+21010,NV2t016199001.1,NV2t016199005.1,purinergic receptor P2X 4,161990,247,309,335
+21026,NV2t003314002.1,NV2t003314001.1,Orexin receptor type 2,033140,48,60,50
+21054,NV2t023512003.1,NV2t023512004.1,cholecystokinin A receptor ,235120,17,14,25
+21110,NV2t006061001.1,SELF,Adhesion G protein-coupled receptor L2,060610,0,0,1
+21119,NV2t004862001.1,SELF,transient receptor potential cation channel subfamily C member 4 associated protein,048620,649,725,758
+21135,NV2t018182003.1,NV2t018182001.1,glycine receptor alpha 2 ,181820,25,53,79
+21146,NV2t019891001.1,SELF,glycine receptor alpha 2 ,198910,58,62,93
+21149,NV2t010541001.1,SELF,G protein-coupled receptor 21 ,105410,3,13,10
+21188,NV2t012716001.1,SELF,G-protein coupled receptor 54-like,127160,1,4,1
+21192,NV2t002625001.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,026250,0,0,5
+21193,NV2t022160001.1,SELF,B-cell receptor,221600,17,8,8
+21231,NV2t014588001.1,NV2t014588005.1,unc-5 netrin receptor B,145880,39,49,70
+21239,NV2t015052002.1,SELF,epidermal growth factor receptor pathway substrate 8 ,150520,37,27,35
+21248,NV2t023339001.1,SELF,cholinergic receptor nicotinic alpha 6 subunit ,233390,16,18,19
+21252,NV2t009576004.1,NV2t009576001.1,adenosine receptor A2,095760,368,299,372
+21256,NV2t004285001.1,SELF,Ephrin type-B receptor 2,042850,3,2,5
+21291,NV2t018039001.1,SELF,transient receptor potential cation channel subfamily C member 7 ,180390,3,4,4
+21306,NV2t004744001.1,SELF,G protein-coupled receptor 85 ,047440,15,20,17
+21344,NV2t018158002.1,NV2t018158001.1,nuclear receptor binding SET domain protein 3 ,181580,1093,1072,1289
+21359,NV2t009673001.1,SELF,prokineticin receptor 2 ,096730,14,10,8
+21362,NV2t003638003.1,NV2t003638002.1,neuropeptide Y receptor Y2 ,036380,226,181,209
+21395,NV2t024868001.1,SELF,QRFP-like peptide receptor,248680,30,39,39
+21417,NV2t023360001.1,SELF,Cannabinoid receptor type 1B,233600,35,39,48
+21433,NV2t003396001.1,SELF,Adhesion G protein-coupled receptor E1,033960,315,370,388
+21452,NV2t002377001.1,SELF,Prolow-density lipoprotein receptor-related protein 1,023770,0,0,0
+21464,NV2t021932001.1,SELF,Fibroblast growth factor receptor 1,219320,203,162,197
+21484,NV2t011954001.1,SELF,G protein-coupled estrogen receptor 1 ,119540,130,159,161
+21493,NV2t012165001.1,SELF,macrophage mannose receptor 1-like,121650,31,48,37
+21512,NV2t005740007.1,NV2t005740006.1,proteasomal ubiquitin receptor ADRM1,057400,577,648,686
+21547,NV2t013576002.1,NV2t013576001.1,Neuronal acetylcholine receptor subunit,135760,18,32,38
+21591,NV2t010225001.1,SELF,Short transient receptor potential channel 2,102250,4107,3906,4263
+21616,NV2t000077002.1,NV2t000077001.1,Adhesion G protein-coupled receptor L3,000770,60,53,77
+21644,NV2t025166001.1,SELF,G protein-coupled receptor 107,251660,637,667,702
+21649,NV2t010575003.1,SELF,gastrin/cholecystokinin type B receptor,105750,229,246,283
+21668,NV2t012038005.1,SELF,growth factor receptor bound protein 10,120380,200,220,244
+21691,NV2t003220001.1,SELF,glycine receptor alpha 2 ,032200,31,31,33
+21804,NV2t022046001.1,SELF,hypocretin receptor 2 ,220460,33,38,41
+21808,NV2t013878004.1,NV2t013878001.1,Gamma-aminobutyric acid type B receptor subunit 2,138780,500,489,581
+21834,NV2t007788001.1,SELF,G protein-coupled receptor 20,077880,2,17,16
+21874,NV2t024808001.1,SELF,relaxin family peptide receptor 1,248080,6,5,12
+21878,NV2t024145002.1,NV2t024145001.1,Low-density lipoprotein receptor-related protein 2,241450,199,204,306
+21879,NV2t011670004.1,NV2t011670006.1,protein tyrosine phosphatase receptor type,116700,4523,4432,4782
+21897,NV2t001613003.1,NV2t001613002.1,epidermal growth factor receptor pathway substrate 15 like 1,016130,761,881,891
+21943,NV2t023270001.1,SELF,Adhesion G-protein coupled receptor V1,232700,2423,1899,2137
+21945,NV2t006809001.1,SELF,G-protein coupled receptor GRL101,068090,78,69,91
+22023,NV2t001743002.1,NV2t001743001.1,cholinergic receptor nicotinic beta 1 subunit ,017430,93,98,139
+22057,NV2t005694001.1,SELF,"Glutamate receptor ionotropic, NMDA 3A",056940,1,0,0
+22060,NV2t002540001.1,SELF,TNF receptor associated protein 1,025400,747,702,793
+22079,NV2t020455001.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,204550,12,13,2
+22194,NV2t000217001.1,SELF,olfactory receptor,002170,107,109,141
+22201,NV2t023150001.1,SELF,Beta-2 adrenergic receptor,231500,6,12,13
+22234,NV2t000511001.1,SELF,Neuropeptides B and W receptor 1,005110,15,23,25
+22255,NV2t018899001.1,SELF,free fatty acid receptor 4,188990,0,4,1
+22308,NV2t024140001.1,SELF,G protein-coupled receptor 135,241400,11,7,23
+22321,NV2t006725001.1,SELF,Galanin receptor 2a,067250,83,99,128
+22350,NV2t003704001.1,SELF,lysophosphatidic acid receptor 5,037040,169,118,205
+22361,NV2t023638001.1,SELF,melanin concentrating hormone receptor 2 ,236380,40,30,56
+22367,NV2t013831001.1,SELF,Octopamine receptor beta-2R,138310,0,0,1
+22379,NV2t001349001.1,SELF,Neuropeptide FF receptor 2,013490,154,119,158
+22403,NV2t018086002.1,NV2t018086001.1,growth factor receptor,180860,737,770,819
+22426,NV2t024937001.1,SELF,Short transient receptor potential channel 5,249370,177,208,225
+22431,NV2t015228001.1,SELF,Melatonin-related receptor,152280,5,6,4
+22501,NV2t020506003.1,NV2t020506001.1,Sperm receptor for egg jelly,205060,23,23,26
+22509,NV2t004676001.1,SELF,TNF receptor-associated factor,046760,190,190,220
+22523,NV2t013372006.1,NV2t013372001.1,Olfactory receptor,133720,94,92,80
+22571,NV2t022974002.1,NV2t022974001.1,G-protein coupled receptor GRL101,229740,27,19,25
+22585,NV2t025099001.1,SELF,Octopamine beta3 receptor; transcript_id=FBtr0301944,250990,24,30,22
+22604,NV2t024145001.1,SELF,Low-density lipoprotein receptor-related protein 2,241450,199,204,306
+22611,NV2t007836001.1,SELF,growth factor receptor bound protein 2 ,078360,273,291,332
+22623,NV2t012038001.1,NV2t012038005.1,growth factor receptor bound protein 10,120380,200,220,244
+22625,NV2t024040004.1,NV2t024040002.1,nuclear receptor subfamily 2 group F member 1,240400,348,445,423
+22672,NV2t000084001.1,SELF,D(2) dopamine receptor A,000840,42,34,61
+22690,NV2t021046001.1,SELF,Melatonin-related receptor,210460,57,61,82
+22693,NV2t001923001.1,SELF,Gastrin/cholecystokinin type B receptor,019230,156,177,186
+22709,NV2t013980002.1,NV2t013980001.1,protein tyrosine phosphatase non-receptor type 11 ,139800,360,372,451
+22738,NV2t014974001.1,NV2t014974002.1,protein tyrosine phosphatase receptor type t,149740,10,12,4
+22782,NV2t001228001.1,SELF,Fibroblast growth factor receptor,012280,47,58,66
+22811,NV2t009402001.1,NV2t009402002.1,Melanocyte-stimulating hormone receptor,094020,42,57,40
+22832,NV2t016348002.1,SELF,visual pigment-like receptor peropsin,163480,1,1,1
+22838,NV2t023421001.1,SELF,Gastrin/cholecystokinin type B receptor,234210,626,569,678
+22877,NV2t016530004.1,NV2t016530001.1,neuromedin-K receptor,165300,117,128,143
+22914,NV2t020402002.1,NV2t020402001.1,Cholecystokinin receptor,204020,1,4,7
+22922,NV2t025074001.1,SELF,Adenosine receptor A2a,250740,9,2,26
+22935,NV2t025336001.1,SELF,adhesion G protein-coupled receptor B2 ,253360,1017,974,1077
+22941,NV2t008337001.1,SELF,cysteinyl leukotriene receptor,083370,3,5,5
+22970,NV2t000238001.1,SELF,gamma-aminobutyric acid type A receptor,002380,8,26,16
+22976,NV2t009060001.1,SELF,Gamma-aminobutyric acid type B receptor subunit 2,090600,6,2,5
+22978,NV2t005083001.1,SELF,Allatostatin-A receptor,050830,5,5,11
+23007,NV2t002409001.1,SELF,hyaluronan mediated motility receptor,024090,540,554,512
+23026,NV2t001943001.1,SELF,neuropeptide FF receptor 2,019430,35,47,48
+23049,NV2t018815001.1,SELF,Beta-1 adrenergic receptor,188150,8,10,20
+23073,NV2t005945001.1,SELF,Toll-like receptor Tollo,059450,80,82,96
+23075,NV2t017227003.1,NV2t017227001.1,5-hydroxytryptamine receptor 1A,172270,61,49,55
+23099,NV2t014400001.1,SELF,MAM and LDL-receptor class A domain-containing protein,144000,5106,4107,4203
+23118,NV2t009485001.1,SELF,thyrotropin-releasing hormone receptor,094850,18,4,14
+23207,NV2t025590001.1,SELF,Alpha-1A adrenergic receptor,255900,15,18,18
+23244,NV2t020930001.1,SELF,Platelet-derived growth factor receptor beta,209300,74,80,71
+23277,NV2t006998002.1,NV2t006998001.1,Mitochondrial import receptor subunit TOM34,069980,522,571,559
+23288,NV2t023316001.1,SELF,G protein-coupled receptor 61,233160,35,47,27
+23293,NV2t012077002.1,NV2t012077001.1,Fibroblast growth factor receptor 3,120770,101,109,149
+23358,NV2t002527003.1,SELF,tumor necrosis factor receptor superfamily member,025270,274,232,293
+23374,NV2t012650002.1,NV2t012650001.1,Ephrin type-A receptor 4a (Fragment),126500,297,326,349
+23428,NV2t023421002.1,NV2t023421001.1,Gastrin/cholecystokinin type B receptor,234210,626,569,678
+23433,NV2t006964001.1,SELF,Melatonin-related receptor,069640,28,28,22
+23444,NV2t023029001.1,SELF,Low-density lipoprotein receptor-related protein 6,230290,1,0,0
+23473,NV2t014187002.1,NV2t014187001.1,splA/ryanodine receptor domain and SOCS box containing 4,141870,1374,1581,1629
+23484,NV2t009028001.1,SELF,gamma-aminobutyric acid type B receptor subunit,090280,289,327,353
+23525,NV2t014974003.1,NV2t014974002.1,protein tyrosine phosphatase receptor type t,149740,10,12,4
+23539,NV2t004979001.1,SELF,polycystin 1 transient receptor potential channel interacting,049790,292,273,293
+23540,NV2t016844001.1,SELF,cannabinoid receptor 2,168440,7,5,10
+23541,NV2t023990001.1,SELF,Beta-1 adrenergic receptor,239900,8,11,13
+23556,NV2t003314001.1,SELF,Orexin receptor type 2,033140,48,60,50
+23564,NV2t003174001.1,SELF,alpha2-adrenergic-like octopamine receptor,031740,141,112,132
+23567,NV2t009217001.1,SELF,G protein-coupled receptor class C group 6 member A ,092170,373,381,472
+23588,NV2t008706002.1,NV2t008706001.1,low density lipoprotein receptor adapter protein,087060,357,388,452
+23633,NV2t007043001.1,SELF,orexin receptor type 2,070430,53,62,63
+23636,NV2t015051001.1,SELF,Epidermal growth factor receptor kinase substrate 8,150510,55,52,44
+23661,NV2t021956001.1,SELF,muscarinic acetylcholine receptor,219560,93,117,120
+23696,NV2t021788001.1,SELF,Toll-like receptor 7,217880,119,126,109
+23709,NV2t012584001.1,SELF,glutamate receptor,125840,52,53,41
+23710,NV2t000521004.1,NV2t000521001.1,transient receptor potential cation channel subfamily V member 4,005210,496,558,575
+23713,NV2t013878001.1,SELF,Gamma-aminobutyric acid type B receptor subunit 2,138780,500,489,581
+23760,NV2t003551002.1,NV2t003551003.1,scavenger receptor class B member 2 ,035510,152,155,204
+23778,NV2t001341001.1,SELF,plasminogen receptor with a C-terminal lysine,013410,212,247,267
+23806,NV2t022518001.1,SELF,Adhesion G-protein coupled receptor D1,225180,131,121,159
+23807,NV2t005624002.1,NV2t005624001.1,adhesion G-protein coupled receptor G1,056240,295,278,351
+23816,NV2t023512002.1,NV2t023512004.1,cholecystokinin A receptor ,235120,17,14,25
+23818,NV2t006206001.1,SELF,Cadherin EGF LAG seven-pass G-type receptor 3,062060,0,0,0
+23834,NV2t003815001.1,SELF,Gastrin/cholecystokinin type B receptor,038150,22,27,16
+23877,NV2t012770001.1,SELF,5-hydroxytryptamine receptor 6,127700,1,2,5
+23950,NV2t010701006.1,NV2t010701001.1,Octopamine receptor,107010,39,35,40
+23959,NV2t006081007.1,NV2t006081002.1,Tyrosine-protein kinase receptor Tie-1 (Fragment),060810,55,79,104
+23973,NV2t003035001.1,SELF,Gastrin/cholecystokinin type B receptor,030350,1,5,6
+23974,NV2t024040002.1,SELF,nuclear receptor subfamily 2 group F member 1,240400,348,445,423
+24022,NV2t024236001.1,SELF,cholinergic receptor muscarinic 3 ,242360,44,19,34
+24027,NV2t019364001.1,SELF,Polycystin family receptor for egg jelly,193640,28,25,26
+24032,NV2t017448002.1,NV2t017448001.1,G-protein coupled receptor 12-like,174480,43,60,51
+24037,NV2t013084001.1,SELF,Discoidin domain-containing receptor 2,130840,149,164,156
+24092,NV2t010575005.1,NV2t010575003.1,gastrin/cholecystokinin type B receptor,105750,229,246,283
+24100,NV2t008979001.1,SELF,Octopamine receptor Oamb,089790,53,54,71
+24127,NV2t004851001.1,SELF,Adhesion G-protein coupled receptor D1,048510,25,36,48
+24134,NV2t001962001.1,SELF,growth hormone secretagogue receptor ,019620,17,19,17
+24135,NV2t004157001.1,NV2t004157002.1,Photoreceptor dehydrogenase; transcript_id=FBtr0075426,041570,93,82,90
+24142,NV2t015177001.1,SELF,nerve growth factor receptor ,151770,858,914,887
+24162,NV2t010989001.1,SELF,melanin-concentrating hormone receptor,109890,102,114,108
+24170,NV2t022444001.1,SELF,Adhesion G protein-coupled receptor L3,224440,137,157,181
+24178,NV2t000521005.1,NV2t000521001.1,transient receptor potential cation channel subfamily V member 4,005210,496,558,575
+24183,NV2t013980001.1,SELF,protein tyrosine phosphatase non-receptor type 11 ,139800,360,372,451
+24191,NV2t003296005.1,NV2t003296001.1,cholinergic receptor nicotinic beta 1 subunit ,032960,315,323,379
+24220,NV2t013372002.1,NV2t013372001.1,Olfactory receptor,133720,94,92,80
+24313,NV2t021932004.1,NV2t021932001.1,Fibroblast growth factor receptor 1,219320,203,162,197
+24319,NV2t009611001.1,SELF,TNF receptor-associated factor 3,096110,19,24,15
+24412,NV2t012497001.1,SELF,orexin/Hypocretin receptor type 1,124970,55,65,76
+24413,NV2t024658002.1,NV2t024658001.1,tumor necrosis factor receptor superfamily member,246580,114,207,232
+24435,NV2t002546001.1,SELF,Cannabinoid receptor 1,025460,4,2,0
+24450,NV2t021495002.1,NV2t021495001.1,Adhesion G protein-coupled receptor L3,214950,11,14,13
+24505,NV2t024040003.1,NV2t024040002.1,nuclear receptor subfamily 2 group F member 1,240400,348,445,423
+24508,NV2t018125002.1,NV2t018125001.1,D(1)-like dopamine receptor,181250,32,48,48
+24521,NV2t014456003.1,NV2t014456002.1,angiotensin II receptor associated protein ,144560,262,308,335
+24534,NV2t003296002.1,NV2t003296001.1,cholinergic receptor nicotinic beta 1 subunit ,032960,315,323,379
+24537,NV2t009953001.1,SELF,G-protein coupled receptor 54,099530,13,25,26
+24548,NV2t017739001.1,SELF,Neuropeptide Y receptor type,177390,75,81,97
+24552,NV2t014969001.1,SELF,protein tyrosine phosphatase receptor type M ,149690,34,38,41
+24553,NV2t011987001.1,SELF,G protein-coupled receptor 50,119870,128,109,126
+24612,NV2t005740006.1,SELF,proteasomal ubiquitin receptor ADRM1,057400,577,648,686
+24638,NV2t023715001.1,SELF,MAM and LDL-receptor class A domain-containing protein 2 (Fragment),237150,20,19,13
+24672,NV2t016286006.1,NV2t016286001.1,G protein-coupled receptor 39 ,162860,99,108,150
+24727,NV2t010575001.1,NV2t010575003.1,gastrin/cholecystokinin type B receptor,105750,229,246,283
+24791,NV2t003219001.1,SELF,Histamine H2 receptor,032190,196,209,237
+24809,NV2t000194002.1,SELF,scavenger receptor class F member 1 ,001940,338,310,454
+24810,NV2t012692001.1,SELF,N-methyl-D-aspartate receptor-associated protein; transcript_id=FBtr0089875,126920,803,883,1051
+24814,NV2t016928001.1,SELF,MAM and LDL-receptor class A domain-containing protein 1 (Fragment),169280,1,1,2
+24834,NV2t019019001.1,SELF,5-hydroxytryptamine receptor 5A ,190190,35,28,37
+24868,NV2t020211001.1,SELF,G protein-coupled receptor 6 ,202110,112,152,154
+24870,NV2t005394001.1,SELF,Octopamine beta3 receptor,053940,242,204,216
+24872,NV2t016908001.1,NV2t016908002.1,aryl hydrocarbon receptor interacting protein,169080,83,89,102
+24882,NV2t012276001.1,SELF,Membrane-associated progesterone receptor component 2,122760,153,99,117
+24883,NV2t025583001.1,SELF,TNF receptor associated factor 2 ,255830,1080,1027,1095
+24941,NV2t022174001.1,SELF,neuromedin U receptor 1,221740,13,18,6
+24962,NV2t017574003.1,NV2t017574001.1,hypocretin receptor 2 ,175740,184,226,266
+24963,NV2t013803001.1,SELF,Tyramine receptor Ser-2,138030,34,31,22
+24978,NV2t000237001.1,SELF,Gamma-aminobutyric acid receptor subunit beta-4,002370,0,0,0
+24981,NV2t006436001.1,SELF,adhesion G protein-coupled receptor,064360,28,30,32
+25011,NV2t016082002.1,NV2t016082001.1,ALK tyrosine kinase receptor,160820,19,12,15
+25039,NV2t016348001.1,NV2t016348002.1,visual pigment-like receptor peropsin,163480,1,1,1
+25112,NV2t001352001.1,SELF,neurotensin receptor 2 ,013520,33,24,30
+25121,NV2t007237002.1,NV2t007237001.1,muscarinic acetylcholine receptor,072370,176,152,195
+25144,NV2t013980004.1,NV2t013980001.1,protein tyrosine phosphatase non-receptor type 11 ,139800,360,372,451
+25153,NV2t017888002.1,NV2t017888001.1,melatonin receptor 1A ,178880,37,34,44
+25257,NV2t014632001.1,SELF,G protein-coupled receptor 87 ,146320,324,278,324
+25279,NV2t016736001.1,SELF,histamine receptor H4 ,167360,11,23,15
+25343,NV2t019861001.1,SELF,EPH receptor B6 ,198610,9,10,7
+25348,NV2t013084003.1,NV2t013084001.1,Discoidin domain-containing receptor 2,130840,149,164,156
+25417,NV2t009402002.1,SELF,Melanocyte-stimulating hormone receptor,094020,42,57,40
+25451,NV2t000581004.1,NV2t000581003.1,protein tyrosine phosphatase receptor type M ,005810,59,62,37
+25460,NV2t003294001.1,NV2t003294002.1,acetylcholine receptor subunit beta-like 1,032940,165,180,186
+25514,NV2t024237001.1,SELF,5-hydroxytryptamine receptor 1B,242370,10,3,12
+25524,NV2t022136001.1,SELF,neuropeptide FF receptor 1,221360,74,92,106
+25549,NV2t012743001.1,SELF,follicle-stimulating hormone receptor,127430,55,46,52
+25576,NV2t017407002.1,NV2t017407001.1,mu-type opioid receptor,174070,192,194,232
+25590,NV2t005624003.1,NV2t005624001.1,adhesion G-protein coupled receptor G1,056240,295,278,351
+25610,NV2t010521002.1,NV2t010521001.1,gastrin/cholecystokinin type B receptor,105210,157,174,197
+25617,NV2t023280001.1,SELF,G-protein coupled receptor GRL101,232800,182,172,222
+25639,NV2t022813001.1,SELF,G protein-coupled receptor 26,228130,18,13,26
+25659,NV2t011164001.1,NV2t011164002.1,hypocretin receptor 2 ,111640,728,792,843
+25733,NV2t020296001.1,SELF,scavenger receptor class A member 5,202960,106,96,149
+25766,NV2t014171001.1,SELF,G protein-coupled receptor 135,141710,48,47,37
+25773,NV2t018124001.1,SELF,growth factor receptor-like 1,181240,48,61,55
+25821,NV2t010767001.1,SELF,G protein-coupled receptor 155,107670,413,366,413
+25840,NV2t025291001.1,SELF,adhesion G-protein coupled receptor G4-like,252910,242,232,225
+25851,NV2t021973001.1,SELF,trace amine associated receptor 9,219730,12,21,28
+25856,NV2t022982002.1,SELF,MAM and LDL-receptor class A domain-containing protein 1 (Fragment),229820,0,0,0
+25904,NV2t003518001.1,SELF,Adenosine receptor A3,035180,79,64,63
+25908,NV2t007002002.1,SELF,TNF receptor associated factor 7 ,070020,412,408,357
+25915,NV2t025713004.1,NV2t025713001.1,5-hydroxytryptamine receptor 7 ,257130,73,74,89
+26014,NV2t009240001.1,SELF,G protein-coupled receptor 63,092400,96,82,79
+26017,NV2t012459001.1,SELF,5-hydroxytryptamine (serotonin) receptor 1A,124590,40,75,87
+26022,NV2t024078002.1,SELF,natural killer cell triggering receptor ,240780,270,260,301
+26071,NV2t013128001.1,SELF,trace amine associated receptor 9 ,131280,36,44,53
+26076,NV2t009890001.1,SELF,G protein-coupled receptor 119,098900,33,42,25
+26079,NV2t006810001.1,SELF,MAM and LDL-receptor class A domain-containing protein 2 (Fragment),068100,79,79,96
+26086,NV2t010691002.1,SELF,Notch receptor 2,106910,290,258,264
+26101,NV2t022419001.1,SELF,Sortilin-related receptor,224190,220,217,211
+26113,NV2t019842001.1,SELF,G protein-coupled receptor 135,198420,3,4,10
+26119,NV2t012144001.1,SELF,Calcium-independent receptor for alpha-latrotoxin,121440,397,295,315
+26128,NV2t016585001.1,SELF,Secretory phospholipase A2 receptor,165850,103,100,114
+26143,NV2t017773002.1,NV2t017773001.1,sortilin related VPS10 domain containing receptor 3,177730,875,805,870
+26174,NV2t000077001.1,SELF,Adhesion G protein-coupled receptor L3,000770,60,53,77
+26175,NV2t018545001.1,SELF,Olfactory receptor 51A7,185450,0,0,0
+26199,NV2t011716001.1,SELF,gamma-aminobutyric acid type B receptor subunit 2 ,117160,78,81,99
+26224,NV2t021659001.1,SELF,bombesin-like receptor 3,216590,20,18,32
+26372,NV2t006081002.1,SELF,Tyrosine-protein kinase receptor Tie-1 (Fragment),060810,55,79,104
+26380,NV2t020801002.1,NV2t020801001.1,scavenger receptor cysteine rich family member with 4 domains ,208010,3163,3115,3282
+26393,NV2t024217001.1,SELF,LDL receptor related protein associated protein 1 ,242170,189,193,222
+26406,NV2t014387001.1,SELF,gamma-aminobutyric acid type A receptor,143870,14,5,14
+26470,NV2t025287001.1,SELF,lutropin-choriogonadotropic hormone receptor,252870,26,35,73
+26484,NV2t007145001.1,SELF,Cadherin EGF LAG seven-pass G-type receptor 2 (Fragment),071450,6,11,9
+26488,NV2t019211002.1,SELF,adhesion G protein-coupled receptor V1 ,192110,11111,8546,7603
+26489,NV2t009908005.1,NV2t009908002.1,Tachykinin-like peptides receptor 86C,099080,230,260,293
+26529,NV2t006079002.1,SELF,Tyrosine-protein kinase receptor Tie-1 (Fragment),060790,182,199,223
+26536,NV2t008562001.1,NV2t008562002.1,G protein-coupled receptor 157,085620,221,220,232
+26537,NV2t011742001.1,SELF,cholinergic receptor nicotinic delta subunit ,117420,108,112,159
+26544,NV2t002018001.1,SELF,probable G-protein coupled receptor 158,020180,38,26,27
+26589,NV2t006079001.1,NV2t006079002.1,Tyrosine-protein kinase receptor Tie-1 (Fragment),060790,182,199,223
+26629,NV2t018750006.1,NV2t018750003.1,TNF receptor associated factor 6 ,187500,2514,2228,2430
+26671,NV2t023247002.1,NV2t023247001.1,retinoid x receptor beta,232470,237,268,293
+26703,NV2t020612001.1,SELF,cholecystokinin receptor type A,206120,2,2,6
+26755,NV2t002516001.1,SELF,Adenosine receptor A3,025160,0,0,1
+26781,NV2t013856001.1,SELF,somatostatin receptor type 2,138560,56,57,47
+26799,NV2t017679001.1,SELF,histamine receptor H2,176790,40,46,49
+26807,NV2t008716001.1,SELF,neuronal acetylcholine receptor subunit,087160,86,78,81
+26832,NV2t016862001.1,SELF,G protein-coupled receptor 157 ,168620,87,67,69
+26855,NV2t022573001.1,SELF,gamma-aminobutyric acid type A receptor subunit gamma3 ,225730,7,5,7
+26912,NV2t000010001.1,SELF,signal sequence receptor subunit 4,000100,1887,2484,2573
+26931,NV2t017409006.1,NV2t017409001.1,protein tyrosine phosphatase receptor type R ,174090,981,946,1160
+26932,NV2t004131001.1,SELF,G protein-coupled receptor 78 ,041310,21,17,20
+26942,NV2t009954001.1,SELF,Orexin receptor type 2,099540,0,0,0
+26999,NV2t023640001.1,SELF,prostaglandin I2 receptor ,236400,37,41,53
+27038,NV2t008294001.1,SELF,transient receptor potential cation channel protein painless,082940,309,303,411
+27102,NV2t024658003.1,NV2t024658001.1,tumor necrosis factor receptor superfamily member,246580,114,207,232
+27109,NV2t014581001.1,NV2t014581002.1,glutamate ionotropic receptor kainate type subunit 2 ,145810,293,290,366
+27112,NV2t005659002.1,NV2t005659001.1,melatonin receptor 1A,056590,27,15,23
+27131,NV2t006626001.1,SELF,transient receptor potential cation channel subfamily C member,066260,668,709,848
+27179,NV2t011065001.1,SELF,neuronal acetylcholine receptor subunit,110650,78,72,63
+27181,NV2t021064001.1,SELF,Neuropeptide S receptor,210640,0,0,0
+27206,NV2t010605001.1,SELF,Beta-1 adrenergic receptor,106050,527,510,571
+27215,NV2t020306002.1,NV2t020306001.1,proteinase-activated receptor 1,203060,30,48,60
+27226,NV2t020409001.1,SELF,G protein-coupled receptor 137B ,204090,78,91,140
+27242,NV2t006060002.1,NV2t006060004.1,adhesion G protein-coupled receptor D1 ,060600,240,220,263
+27265,NV2t017409003.1,NV2t017409001.1,protein tyrosine phosphatase receptor type R ,174090,981,946,1160
+27317,NV2t013263003.1,NV2t013263004.1,transient receptor potential cation channel subfamily A member,132630,462,492,483
+27328,NV2t004157002.1,SELF,Photoreceptor dehydrogenase; transcript_id=FBtr0075426,041570,93,82,90
+27352,NV2t000075001.1,SELF,Adhesion G protein-coupled receptor L3,000750,807,659,805
+27367,NV2t018103006.1,NV2t018103002.1,growth factor receptor like 1,181030,395,448,554
+27376,NV2t000235001.1,SELF,glycine receptor alpha 2,002350,16,26,28
+27396,NV2t021353002.1,NV2t021353003.1,roundabout guidance receptor 1 ,213530,3092,2895,3236
+27409,NV2t021751001.1,SELF,G protein-coupled receptor 65,217510,94,87,104
+27439,NV2t022279001.1,SELF,G protein-coupled receptor 33 ,222790,1,0,3
+27455,NV2t018264001.1,SELF,Discoidin domain-containing receptor 2,182640,20,19,19
+27467,NV2t009176001.1,SELF,interleukin 1 receptor associated kinase 1 binding protein 1,091760,67,81,91
+27478,NV2t015790001.1,SELF,transient receptor potential cation channel subfamily,157900,1200,1293,1366
+27495,NV2t021972001.1,SELF,Dopamine receptor 4,219720,6,4,2
+27529,NV2t011286002.1,NV2t011286001.1,Cadherin EGF LAG seven-pass G-type receptor 1,112860,509,468,420
+27534,NV2t003551007.1,NV2t003551003.1,scavenger receptor class B member 2 ,035510,152,155,204
+27584,NV2t022634001.1,SELF,Neuromedin-U receptor 2,226340,2,0,1
+27627,NV2t005045001.1,SELF,Adhesion G-protein coupled receptor D1,050450,2267,2331,2627
+27688,NV2t024495002.1,NV2t024495001.1,Short transient receptor potential channel 5,244950,2086,2190,2203
+27689,NV2t013422002.1,NV2t013422001.1,Adhesion G protein-coupled receptor E2,134220,3,0,1
+27722,NV2t009998001.1,SELF,neuropeptide FF receptor,099980,12,9,4
+27725,NV2t018186002.1,NV2t018186001.1,gamma-aminobutyric acid type A receptor subunit gamma3 ,181860,22,18,25
+27796,NV2t022458001.1,SELF,glycine receptor alpha 3 ,224580,52,48,60
+27855,NV2t017928002.1,SELF,LDL receptor related protein 5,179280,1641,1838,1905
+27882,NV2t017406001.1,SELF,Octopamine receptor beta-2R,174060,134,112,168
+27915,NV2t013422001.1,SELF,Adhesion G protein-coupled receptor E2,134220,3,0,1
+27974,NV2t012498001.1,SELF,protein tyrosine phosphatase receptor type Q,124980,1133,1119,1302
+28000,NV2t023154001.1,SELF,Tyrosine-protein phosphatase non-receptor type 9,231540,0,4,3
+28009,NV2t024629002.1,NV2t024629001.1,melanocortin 3 receptor ,246290,30,36,37
+28123,NV2t016707001.1,SELF,Histamine H2 receptor,167070,20,26,29
+28124,NV2t020507001.1,SELF,polycystin family receptor for egg jelly ,205070,496,434,464
+28148,NV2t019252001.1,SELF,oxytocin receptor,192520,10,2,4
+28160,NV2t021046002.1,NV2t021046001.1,Melatonin-related receptor,210460,57,61,82
+28164,NV2t024046001.1,SELF,Low-density lipoprotein receptor domain class A,240460,2,2,2
+28167,NV2t002621001.1,SELF,Thyrotropin receptor,026210,3,2,1
+28174,NV2t017641001.1,SELF,G protein-coupled receptor class C group 6 member A ,176410,430,443,442
+28175,NV2t003314004.1,NV2t003314001.1,Orexin receptor type 2,033140,48,60,50
+28217,NV2t003705002.1,NV2t003705001.1,adenosine receptor A1-like,037050,245,256,301
+28232,NV2t021932005.1,NV2t021932001.1,Fibroblast growth factor receptor 1,219320,203,162,197
+28243,NV2t013777001.1,SELF,Prolactin-releasing peptide receptor,137770,89,84,118
+28319,NV2t021932003.1,NV2t021932001.1,Fibroblast growth factor receptor 1,219320,203,162,197
+28327,NV2t018588001.1,SELF,Neuronal acetylcholine receptor subunit alpha-10,185880,22,38,28
+28338,NV2t019015002.1,NV2t019015001.1,thyroid stimulating hormone receptor,190150,79,62,62
+28361,NV2t004547002.1,NV2t004547001.1,leukocyte receptor cluster member 1,045470,196,233,283
+28377,NV2t023809001.1,SELF,signal sequence receptor subunit 2 ,238090,2489,2794,2780
+28397,NV2t009218001.1,SELF,G protein-coupled receptor class C group 6 member A ,092180,35,12,22
+28404,NV2t016530001.1,SELF,neuromedin-K receptor,165300,117,128,143
+28409,NV2t021495003.1,NV2t021495001.1,Adhesion G protein-coupled receptor L3,214950,11,14,13
+28426,NV2t011972002.1,NV2t011972001.1,Discoidin domain-containing receptor 2,119720,138,119,161
+28507,NV2t017619001.1,SELF,G protein-coupled receptor class C group 6 member A ,176190,34,30,41
+28541,NV2t024771001.1,SELF,Netrin receptor DCC,247710,158,205,191
+28555,NV2t014748001.1,SELF,Membrane progestin receptor gamma-A,147480,62,63,77
+28602,NV2t008848001.1,SELF,QRFP-like peptide receptor,088480,9,5,5
+28607,NV2t001366002.1,NV2t001366001.1,Inactive tyrosine-protein kinase transmembrane receptor ROR1,013660,1975,1938,2128
+28612,NV2t025727001.1,NV2t025727002.1,complement C3b/C4b receptor 1 like ,257270,120,122,173
+28615,NV2t009317002.1,NV2t009317001.1,prokineticin receptor 2 ,093170,4,4,12
+28619,NV2t002511003.1,NV2t002511001.1,"inositol 1,4,5-trisphosphate receptor type 3 ",025110,2095,1865,1866
+28623,NV2t022460001.1,SELF,Glycine receptor,224600,0,0,0
+28637,NV2t022397001.1,SELF,neurotrophic receptor tyrosine kinase 3 ,223970,4,1,0
+28657,NV2t013462002.1,NV2t013462001.1,Macrophage scavenger receptor types I and II,134620,12,4,1
+28664,NV2t010705002.1,NV2t010705001.1,Octopamine receptor,107050,0,0,0
+28707,NV2t016818001.1,SELF,Prolactin-releasing peptide receptor,168180,3,6,11
+28717,NV2t000578001.1,SELF,receptor-type tyrosine-protein phosphatase,005780,23,33,31
+28823,NV2t010173001.1,SELF,urotensin-2 receptor,101730,11,12,6
+28837,NV2t023620001.1,SELF,transient receptor potential cation channel subfamily M member 3 ,236200,340,348,413
+28860,NV2t024861001.1,SELF,lysophosphatidic acid receptor 1,248610,7,12,11
+28868,NV2t012038003.1,NV2t012038005.1,growth factor receptor bound protein 10,120380,200,220,244
+28878,NV2t011643001.1,SELF,bone morphogenetic protein receptor type 1B ,116430,215,256,253
+28920,NV2t013934001.1,SELF,Ephrin type-A receptor 5,139340,3,1,1
+28946,NV2t013423001.1,SELF,notch receptor 1 ,134230,4869,4590,4770
+29072,NV2t012147001.1,SELF,LDL receptor related protein 2 ,121470,325,242,275
+29085,NV2t023278001.1,SELF,Adhesion G-protein coupled receptor V1,232780,1771,1244,1348
+29094,NV2t002565001.1,SELF,Toll-like receptor 7,025650,0,0,2
+29126,NV2t016155002.1,NV2t016155001.1,G protein-coupled receptor kinase 3,161550,1465,1197,1375
+29153,NV2t019539001.1,SELF,cannabinoid receptor interacting protein 1,195390,113,99,107
+29155,NV2t023440002.1,SELF,Neuropeptide FF receptor 2,234400,31,22,30
+29190,NV2t001025003.1,NV2t001025001.1,low density lipoprotein receptor,010250,1639,1504,1681
+29199,NV2t024694004.1,NV2t024694001.1,xenotropic and polytropic retrovirus receptor 1,246940,433,519,524
+29226,NV2t004520001.1,SELF,Neuropeptide SIFamide receptor,045200,78,42,71
+29232,NV2t008706001.1,SELF,low density lipoprotein receptor adapter protein,087060,357,388,452
+29237,NV2t010267001.1,SELF,melanocortin 3 receptor,102670,47,36,51
+29253,NV2t020351001.1,NV2t020351002.1,cholinergic receptor muscarinic 3 ,203510,316,279,330
+29262,NV2t019860001.1,SELF,Ephrin type-B receptor 1 (Fragment),198600,0,0,0
+29294,NV2t003393001.1,SELF,adhesion G protein-coupled receptor G7 ,033930,270,247,293
+29365,NV2t009511001.1,SELF,C-type mannose receptor 2,095110,1525,1413,1429
+29392,NV2t003314003.1,NV2t003314001.1,Orexin receptor type 2,033140,48,60,50
+29400,NV2t012503001.1,SELF,nuclear receptor coactivator,125030,927,845,892
+29405,NV2t009730002.1,NV2t009730001.1,neuropeptide FF receptor,097300,333,306,366
+29409,NV2t003638002.1,SELF,neuropeptide Y receptor Y2 ,036380,226,181,209
+29417,NV2t004241003.1,SELF,nuclear receptor coactivator 5,042410,1375,1402,1651
+29446,NV2t000367001.1,SELF,Neuropeptide Y receptor type 2,003670,0,0,1
+29475,NV2t000371001.1,SELF,gamma-aminobutyric acid type A receptor,003710,126,140,134
+29483,NV2t024937002.1,NV2t024937001.1,Short transient receptor potential channel 5,249370,177,208,225
+29502,NV2t004241001.1,NV2t004241003.1,nuclear receptor coactivator 5,042410,1375,1402,1651
+29511,NV2t017184001.1,SELF,RYamide receptor,171840,26,31,16
+29516,NV2t023513001.1,SELF,Neuropeptide FF receptor 2,235130,48,28,34
+29530,NV2t023512001.1,NV2t023512004.1,cholecystokinin A receptor ,235120,17,14,25
+29531,NV2t018103005.1,NV2t018103002.1,growth factor receptor like 1,181030,395,448,554
+29558,NV2t013576001.1,SELF,Neuronal acetylcholine receptor subunit,135760,18,32,38
+29559,NV2t011643003.1,NV2t011643001.1,bone morphogenetic protein receptor type 1B ,116430,215,256,253
+29577,NV2t010575004.1,NV2t010575003.1,neuropeptide FF receptor 2,105750,229,246,283
+29583,NV2t000810001.1,SELF,MAM and LDL-receptor class A domain-containing protein 1 (Fragment),008100,108,123,137
+29584,NV2t013321001.1,SELF,Olfactory receptor,133210,124,169,137
+29599,NV2t010186001.1,SELF,protein tyrosine phosphatase non-receptor type 13,101860,1885,1533,1731
+29601,NV2t001180001.1,SELF,Probable glycoprotein hormone G-protein coupled receptor,011800,6,11,10
+29609,NV2t007690004.1,SELF,melatonin receptor type,076900,144,125,170
+29611,NV2t002830001.1,SELF,"polycystin 1 like 3, transient receptor potential channel interacting ",028300,18,10,23
+29616,NV2t002264001.1,SELF,Beta-1 adrenergic receptor,022640,48,89,66
+29633,NV2t017040003.1,NV2t017040001.1,Nuclear receptor-binding protein,170400,224,194,250
+29646,NV2t007045001.1,SELF,neuropeptides B and W receptor 1 ,070450,62,78,100
+29740,NV2t009017002.1,NV2t009017001.1,TNF-receptor-associated factor 6,090170,73,70,117
+29743,NV2t000782005.1,NV2t000782004.1,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+29755,NV2t000276001.1,SELF,Metabotropic glutamate receptor 1,002760,164,192,252
+29763,NV2t016682002.1,NV2t016682001.1,golgi SNAP receptor complex member 1 ,166820,232,283,219
+29765,NV2t002026001.1,SELF,Glycine receptor subunit,020260,15,25,29
+29778,NV2t024078001.1,NV2t024078002.1,natural killer cell triggering receptor ,240780,270,260,301
+29792,NV2t010809001.1,SELF,cholinergic receptor nicotinic alpha 6 subunit ,108090,178,184,233
+29793,NV2t017970001.1,SELF,Nuclear receptor-binding factor 2,179700,50,51,67
+29802,NV2t005666002.1,NV2t005666001.1,Insulin receptor substrate 2-B,056660,345,290,353
+29814,NV2t024024001.1,SELF,G protein-coupled receptor 52 ,240240,9,16,12
+29850,NV2t024040005.1,NV2t024040002.1,nuclear receptor subfamily 2 group F member 1,240400,348,445,423
+29864,NV2t008715001.1,SELF,neuronal acetylcholine receptor subunit,087150,11,6,8
+29921,NV2t009730001.1,SELF,neuropeptide FF receptor,097300,333,306,366
+29930,NV2t014187001.1,SELF,splA/ryanodine receptor domain and SOCS box containing 4,141870,1374,1581,1629
+29952,NV2t012038004.1,NV2t012038005.1,growth factor receptor bound protein 10,120380,200,220,244
+29958,NV2t010044002.1,NV2t010044001.1,adenosine A3 receptor,100440,49,70,63
+29964,NV2t003768002.1,SELF,platelet endothelial aggregation receptor 1 ,037680,832,871,1019
+29980,NV2t018772001.1,SELF,glutamate receptor,187720,92,71,77
+30024,NV2t025336002.1,NV2t025336001.1,adhesion G protein-coupled receptor B2 ,253360,1017,974,1077
+30037,NV2t000506001.1,SELF,5-hydroxytryptamine receptor 7,005060,25,38,48
+30090,NV2t011799001.1,SELF,lysophosphatidic acid receptor 4,117990,8,15,14
+30118,NV2t011573001.1,SELF,hormone receptor,115730,25,31,36
+30119,NV2t023421004.1,NV2t023421001.1,Gastrin/cholecystokinin type B receptor,234210,626,569,678
+30126,NV2t010575006.1,NV2t010575003.1,gastrin/cholecystokinin type B receptor,105750,229,246,283
+30143,NV2t008562002.1,SELF,G protein-coupled receptor 157,085620,221,220,232
+30149,NV2t014806001.1,SELF,progestin and adipoQ receptor family member 9 ,148060,119,95,152
+30152,NV2t004862002.1,NV2t004862001.1,transient receptor potential cation channel subfamily C member 4 associated protein,048620,649,725,758
+30195,NV2t011052001.1,SELF,glycine receptor alpha 2 ,110520,63,41,39
+30312,NV2t014818001.1,SELF,hydroxycarboxylic acid receptor 3 ,148180,3,4,6
+30317,NV2t024095001.1,SELF,receptor,240950,1,4,0
+30321,NV2t014634001.1,SELF,complement C5a receptor 1 ,146340,7,4,4
+30324,NV2t002399001.1,SELF,receptor-type tyrosine-protein phosphatase,023990,690,715,814
+30335,NV2t008085001.1,SELF,receptor,080850,15,8,25
+30336,NV2t018103004.1,NV2t018103002.1,growth factor receptor like 1,181030,395,448,554
+30380,NV2t017045004.1,NV2t017045003.1,nuclear receptor binding protein 1,170450,242,275,320
+30386,NV2t005740005.1,NV2t005740006.1,proteasomal ubiquitin receptor ADRM1,057400,577,648,686
+30391,NV2t017040002.1,NV2t017040001.1,Nuclear receptor-binding protein,170400,224,194,250
+30396,NV2t014611001.1,NV2t014611002.1,gamma-aminobutyric acid type B receptor subunit 2 ,146110,120,127,156
+30407,NV2t005817001.1,SELF,G protein-coupled receptor class C group 6 member A ,058170,24,22,43
+30418,NV2t023279001.1,SELF,Adhesion G-protein coupled receptor V1,232790,1028,1173,1317
+30453,NV2t009119001.1,SELF,metabotropic glutamate receptor,091190,54,53,64
+30461,NV2t020443001.1,SELF,thyrotropin-releasing hormone receptor,204430,2,4,8
+30483,NV2t003527002.1,NV2t003527001.1,Cadherin EGF LAG seven-pass G-type receptor 1,035270,273,277,316
+30506,NV2t003814001.1,SELF,Neuropeptide FF receptor 2,038140,13,24,15
+30509,NV2t017010001.1,SELF,probable G-protein coupled receptor 21,170100,5,13,7
+30594,NV2t013331001.1,SELF,progestin and adipoQ receptor family member 3,133310,78,77,108
+30610,NV2t003294002.1,SELF,acetylcholine receptor subunit beta-like 1,032940,165,180,186
+30625,NV2t009996001.1,SELF,Octopamine beta3 receptor,099960,84,76,86
+30639,NV2t022933001.1,SELF,cholecystokinin B receptor ,229330,35,47,47
+30655,NV2t018388001.1,SELF,transient receptor potential cation channel subfamily V member 5,183880,615,582,678
+30674,NV2t016199005.1,SELF,purinergic receptor P2X 4,161990,247,309,335
+30675,NV2t022575001.1,SELF,Scavenger receptor class A member 5,225750,1,0,0
+30723,NV2t013462001.1,SELF,Macrophage scavenger receptor types I and II,134620,12,4,1
+30788,NV2t009067001.1,SELF,G protein-coupled receptor class C group 6 member A ,090670,92,65,139
+30813,NV2t016483001.1,NV2t016483006.1,gamma-aminobutyric acid type B receptor subunit 2 ,164830,111,137,180
+30842,NV2t011164004.1,NV2t011164002.1,hypocretin receptor 2 ,111640,728,792,843
+30860,NV2t002817001.1,SELF,gamma-aminobutyric acid type B receptor subunit 2,028170,417,435,520
+30876,NV2t010186002.1,NV2t010186001.1,protein tyrosine phosphatase non-receptor type 13,101860,1885,1533,1731
+30878,NV2t015251002.1,NV2t015251001.1,G protein-coupled receptor 12,152510,37,50,61
+30906,NV2t020890001.1,SELF,oxoglutarate alpha-ketoglutarate receptor 1a tandem duplicate,208900,139,120,148
+30909,NV2t004014001.1,SELF,chemokine-like receptor 1,040140,48,38,59
+30915,NV2t000964001.1,SELF,Octopamine receptor beta-3R,009640,2,4,1
+30949,NV2t019080002.1,NV2t019080001.1,G-protein coupled receptor GRL101,190800,232,238,309
+30966,NV2t023246001.1,SELF,Extracellular calcium-sensing receptor,232460,44,46,58
+30981,NV2t023716001.1,SELF,MAM and LDL-receptor class A domain-containing protein 2 (Fragment),237160,0,2,0
+31019,NV2t024979003.1,NV2t024979002.1,complement C3d receptor 2 ,249790,281,268,389
+31029,NV2t014832001.1,SELF,receptor,148320,12,16,9
+31032,NV2t000576001.1,SELF,receptor-type tyrosine-protein phosphatase,005760,145,152,140
+31033,NV2t016694001.1,SELF,TNF receptor associated factor 4 ,166940,227,270,299
+31040,NV2t008357001.1,SELF,transient receptor potential cation channel subfamily A member,083570,590,569,687
+31117,NV2t014839001.1,SELF,lysophosphatidic acid receptor 1,148390,1,2,2
+31142,NV2t021530002.1,NV2t021530001.1,TNF receptor-associated factor,215300,118,94,119
+31155,NV2t008087001.1,SELF,sperm receptor for egg jelly-like,080870,67,63,83
+31226,NV2t024694001.1,SELF,xenotropic and polytropic retrovirus receptor 1,246940,433,519,524
+31256,NV2t018750005.1,NV2t018750003.1,TNF receptor associated factor 6 ,187500,2514,2228,2430
+31302,NV2t003638004.1,NV2t003638002.1,neuropeptide Y receptor Y2 ,036380,226,181,209
+31304,NV2t018574001.1,SELF,gamma-aminobutyric acid type A receptor,185740,74,64,53
+31328,NV2t005624001.1,SELF,adhesion G-protein coupled receptor G1,056240,295,278,351
+31331,NV2t018662001.1,SELF,5-hydroxytryptamine receptor 1A,186620,12,13,8
+31367,NV2t018125001.1,SELF,D(1)-like dopamine receptor,181250,32,48,48
+31369,NV2t018158001.1,SELF,nuclear receptor binding SET domain protein 3 ,181580,1093,1072,1289
+31374,NV2t000085001.1,SELF,D(2) dopamine receptor A,000850,27,29,44
+31390,NV2t021530001.1,SELF,TNF receptor-associated factor,215300,118,94,119
+31421,NV2t023725001.1,SELF,G protein-coupled receptor 89A,237250,117,120,141
+31436,NV2t022083001.1,NV2t022083002.1,SRP receptor subunit alpha ,220830,1099,1259,1340
+31454,NV2t010521001.1,SELF,G protein-coupled receptor 165,105210,157,174,197
+31467,NV2t021659002.1,NV2t021659001.1,bombesin-like receptor 3,216590,20,18,32
+31480,NV2t011286001.1,SELF,Cadherin EGF LAG seven-pass G-type receptor 1,112860,509,468,420
+31490,NV2t012421001.1,SELF,golgi SNAP receptor complex member 2,124210,399,448,489
+31533,NV2t006948003.1,SELF,Aryl hydrocarbon receptor,069480,445,469,522
+31550,NV2t011267001.1,SELF,G protein-coupled receptor class C group 6 member A,112670,249,229,294
+31584,NV2t019211001.1,NV2t019211002.1,adhesion G protein-coupled receptor V1 ,192110,11111,8546,7603
+31651,NV2t013980003.1,NV2t013980001.1,protein tyrosine phosphatase non-receptor type 11 ,139800,360,372,451
+31677,NV2t004132001.1,SELF,Octopamine beta2 receptor,041320,86,107,114
+31714,NV2t006231001.1,SELF,progestin and adipoQ receptor family member 4,062310,30,40,35
+31720,NV2t003705003.1,NV2t003705001.1,Oxoeicosanoid receptor 1,037050,245,256,301
+31725,NV2t003295002.1,SELF,cholinergic receptor nicotinic beta 1 subunit ,032950,36,32,30
+31769,NV2t013878006.1,NV2t013878001.1,Gamma-aminobutyric acid type B receptor subunit 2,138780,500,489,581
+31771,NV2t024658005.1,NV2t024658001.1,tumor necrosis factor receptor superfamily member,246580,114,207,232
+31781,NV2t012172001.1,SELF,mannose receptor C type 2 ,121720,965,859,1074
+31787,NV2t013147002.1,NV2t013147001.1,lysophosphatidic acid receptor 4,131470,364,384,445
+31808,NV2t011764004.1,NV2t011764001.1,Tyrosine-protein kinase receptor,117640,579,645,686
+31824,NV2t020351002.1,SELF,cholinergic receptor muscarinic 3 ,203510,316,279,330
+31859,NV2t011670003.1,NV2t011670006.1,protein tyrosine phosphatase receptor type,116700,4523,4432,4782
+31871,NV2t014958002.1,NV2t014958001.1,MAM and LDL-receptor class A domain-containing protein 2 (Fragment),149580,2506,2300,2519
+31872,NV2t015320001.1,SELF,"proteasome 26S subunit ubiquitin receptor, non-ATPase 2 ",153200,1714,1885,1953
+31883,NV2t021353003.1,SELF,roundabout guidance receptor 1 ,213530,3092,2895,3236
+31904,NV2t021659003.1,NV2t021659001.1,bombesin-like receptor 3,216590,20,18,32
+31908,NV2t011972001.1,SELF,Discoidin domain-containing receptor 2,119720,138,119,161
+31929,NV2t002785003.1,NV2t002785002.1,nuclear receptor subfamily 2 group C member 2,027850,223,248,245
+31942,NV2t017081003.1,SELF,hyaluronan mediated motility receptor ,170810,249,202,265
+31947,NV2t018562001.1,SELF,cholinergic receptor nicotinic alpha 6 subunit ,185620,82,108,127
+31953,NV2t002109001.1,SELF,somatostatin receptor 4 ,021090,8,5,3
+31957,NV2t012046001.1,SELF,General receptor for phosphoinositides 1-associated scaffold protein,120460,382,340,441
+31964,NV2t014702001.1,SELF,Pyroglutamylated RF-amide peptide receptor,147020,0,0,0
+31983,NV2t023093001.1,NV2t023093002.1,gamma-aminobutyric acid type A receptor,230930,147,150,143
+32001,NV2t010515001.1,SELF,"inositol 1,4,5-triphosphate receptor associated 2",105150,334,346,394
+32015,NV2t000801003.1,NV2t000801001.1,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751
+32066,NV2t008930001.1,SELF,transient receptor potential cation channel subfamily V member,089300,559,566,661
+32090,NV2t003295001.1,NV2t003295002.1,cholinergic receptor nicotinic beta 1 subunit ,032950,36,32,30
+32179,NV2t014184001.1,SELF,retention in endoplasmic reticulum sorting receptor 1,141840,588,553,670
+32187,NV2t011670006.1,SELF,protein tyrosine phosphatase receptor type,116700,4523,4432,4782
+32217,NV2t002962001.1,SELF,Adhesion G protein-coupled receptor E1,029620,4,0,3
+32243,NV2t017796001.1,SELF,G protein-coupled receptor 26,177960,51,59,43
+32267,NV2t017889002.1,NV2t017889001.1,growth factor receptor,178890,77,74,67
+32303,NV2t005081001.1,SELF,Adhesion G-protein coupled receptor D1,050810,77,93,94
+32336,NV2t001942001.1,SELF,gastrin releasing peptide receptor,019420,26,47,41
+32345,NV2t025727002.1,SELF,complement C3b/C4b receptor 1 like ,257270,120,122,173
+32440,NV2t021712001.1,SELF,G protein-coupled receptor 34,217120,0,0,2
+32441,NV2t009939001.1,SELF,neuropeptides B and W receptor 1 ,099390,21,21,19
+32443,NV2t016199002.1,NV2t016199005.1,purinergic receptor P2X 4,161990,247,309,335
+32446,NV2t003417001.1,SELF,coagulation factor II thrombin receptor like 2,034170,0,1,0
+32504,NV2t017131001.1,SELF,5-hydroxytryptamine receptor,171310,42,37,56
+32588,NV2t017817001.1,SELF,Octopamine beta3 receptor,178170,26,15,15
+32591,NV2t013094001.1,SELF,natriuretic peptide receptor,130940,100,133,156
+32602,NV2t011067002.1,SELF,growth factor receptor like 1,110670,9,12,13
+32617,NV2t010569002.1,NV2t010569001.1,glutamate ionotropic receptor NMDA type subunit 1,105690,549,560,550
+32619,NV2t023567001.1,SELF,calcium sensing receptor,235670,33,41,43
+32654,NV2t021495001.1,SELF,Adhesion G protein-coupled receptor L3,214950,11,14,13
+32664,NV2t003150001.1,SELF,neuronal acetylcholine receptor subunit,031500,20,27,24
+32722,NV2t000302001.1,SELF,Extracellular calcium-sensing receptor,003020,566,643,690
+32776,NV2t022681001.1,SELF,Low density lipoprotein receptor adapter protein 1-A,226810,59,94,101
+32777,NV2t017928003.1,NV2t017928002.1,LDL receptor related protein 5,179280,1641,1838,1905
+32796,NV2t005740002.1,NV2t005740006.1,proteasomal ubiquitin receptor ADRM1,057400,577,648,686
+32816,NV2t009619003.1,SELF,neuropeptide FF receptor,096190,170,196,212
+32858,NV2t003939001.1,SELF,olfactory receptor family 1 subfamily M member 1 ,039390,4,4,3
+32878,NV2t000250005.1,NV2t000250003.1,G protein-coupled receptor 61,002500,475,410,396
+32880,NV2t007827002.1,NV2t007827001.1,Metabotropic glutamate receptor 4,078270,289,273,265
+32920,NV2t014314001.1,SELF,neuromedin U receptor,143140,1,7,7
+32924,NV2t018103002.1,SELF,growth factor receptor like 1,181030,395,448,554
+32935,NV2t015888002.1,NV2t015888001.1,macrophage receptor with collagenous structure,158880,807,833,831
+32936,NV2t004266001.1,SELF,Glutamate [NMDA] receptor subunit 1,042660,13,12,9
+32940,NV2t020319001.1,SELF,receptor superfamily member 1B,203190,967,945,1057
+33038,NV2t016199004.1,NV2t016199005.1,purinergic receptor P2X 4,161990,247,309,335
+33051,NV2t008762001.1,SELF,Galanin receptor 2a,087620,14,18,36
+33063,NV2t017231001.1,SELF,prostaglandin E receptor,172310,185,156,151
+33065,NV2t018750001.1,NV2t018750003.1,TNF receptor associated factor 6 ,187500,2514,2228,2430
+33098,NV2t019900001.1,SELF,glutamate receptor interacting protein 1,199000,570,563,583
+33110,NV2t024583001.1,SELF,G protein-coupled receptor 87,245830,19,29,37
+33119,NV2t021604003.1,NV2t021604001.1,RYamide receptor,216040,390,386,489
+33124,NV2t002368001.1,SELF,Beta-3 adrenergic receptor,023680,11,8,11
+33135,NV2t016483004.1,NV2t016483006.1,gamma-aminobutyric acid type B receptor subunit 2 ,164830,111,137,180
+33143,NV2t010701004.1,NV2t010701001.1,Octopamine receptor,107010,39,35,40
+33199,NV2t022575002.1,NV2t022575001.1,Scavenger receptor class A member 5,225750,1,0,0
+33301,NV2t020875001.1,SELF,Photoreceptor-specific nuclear receptor,208750,194,228,214
+33309,NV2t023293002.1,SELF,Reticulon-4 receptor-like 2,232930,87,74,73
+33331,NV2t000512001.1,SELF,neuropeptide Y receptor type 5,005120,5,8,13
+33341,NV2t002941001.1,SELF,neuropeptide FF receptor,029410,20,9,24
+33421,NV2t009317001.1,SELF,prokineticin receptor 2 ,093170,4,4,12
+33433,NV2t006060004.1,SELF,adhesion G protein-coupled receptor D1 ,060600,240,220,263
+33445,NV2t024423001.1,SELF,Low-density lipoprotein receptor-related protein 4,244230,76,84,65
+33458,NV2t007116001.1,NV2t007116002.1,TNF receptor associated factor 1,071160,221,203,252
+33466,NV2t023353001.1,SELF,melatonin receptor type,233530,3,14,6
+33471,NV2t019940001.1,SELF,EPH receptor B2,199400,383,321,400
+33476,NV2t014294001.1,SELF,EPH receptor A10,142940,566,578,649
+33492,NV2t023421008.1,NV2t023421001.1,Gastrin/cholecystokinin type B receptor,234210,626,569,678
+33496,NV2t002511001.1,SELF,"inositol 1,4,5-trisphosphate receptor type 3 ",025110,2095,1865,1866
+33570,NV2t014972001.1,SELF,protein tyrosine phosphatase receptor type M ,149720,7,7,2
+33591,NV2t020506001.1,SELF,Sperm receptor for egg jelly,205060,23,23,26
+33596,NV2t013984001.1,SELF,tyrosine-protein phosphatase non-receptor type,139840,82,68,186
+33654,NV2t017045007.1,NV2t017045003.1,nuclear receptor binding protein 1,170450,242,275,320
+33672,NV2t021369001.1,SELF,"polycystin 2 like 2, transient receptor potential cation channel ",213690,8,5,7
+33691,NV2t023019001.1,SELF,G-protein coupled receptor GRL101-like isoform X1,230190,6,12,13
+33726,NV2t017227002.1,NV2t017227001.1,5-hydroxytryptamine receptor 1A,172270,61,49,55
+33777,NV2t010941001.1,SELF,Gamma-aminobutyric acid type B receptor subunit 2,109410,99,107,152
+33779,NV2t018272001.1,SELF,Beta-2 adrenergic receptor,182720,55,49,100
+33810,NV2t013270001.1,SELF,receptor,132700,247,336,345
+33820,NV2t024934001.1,SELF,nuclear receptor subfamily 5 group A member 2,249340,412,448,463
+33822,NV2t023279002.1,NV2t023279001.1,Adhesion G-protein coupled receptor V1,232790,1028,1173,1317
+33829,NV2t019790002.1,NV2t019790001.1,neuromedin U receptor 2 ,197900,19,18,22
+33840,NV2t024977001.1,SELF,G protein-coupled receptor 17 ,249770,89,74,87
+33842,NV2t007402001.1,SELF,G protein-coupled receptor 12,074020,0,2,0
+33939,NV2t002527002.1,NV2t002527003.1,tumor necrosis factor receptor superfamily member,025270,274,232,293
+33968,NV2t018183003.1,NV2t018183001.1,glycine receptor alpha 2 ,181830,22,37,37
+33975,NV2t016242001.1,SELF,olfactory receptor family 2 subfamily T member 34 ,162420,37,27,25
+33994,NV2t018186001.1,SELF,gamma-aminobutyric acid type A receptor subunit gamma3 ,181860,22,18,25
+34056,NV2t023815001.1,SELF,G-protein coupled receptor GRL101,238150,154,132,175
+34099,NV2t023643001.1,SELF,MAM and LDL-receptor class A domain-containing protein 2 (Fragment),236430,0,0,0
+34108,NV2t008018002.1,NV2t008018001.1,5-hydroxytryptamine receptor 4,080180,38,40,35
+34153,NV2t002785002.1,SELF,nuclear receptor subfamily 2 group C member 2,027850,223,248,245
+34172,NV2t001386001.1,SELF,Histamine H2 receptor,013860,5,2,5
+34201,NV2t024251001.1,SELF,nuclear receptor 2C2 associated protein ,242510,96,101,97
+34202,NV2t013292001.1,SELF,G protein-coupled receptor 52 ,132920,16,13,21
+34239,NV2t007981001.1,NV2t007981002.1,interleukin 1 receptor associated kinase 1,079810,378,453,464
+34276,NV2t000217002.1,NV2t000217001.1,olfactory receptor,002170,107,109,141
+34282,NV2t016009001.1,SELF,MAM and LDL-receptor class A domain-containing protein 1-like,160090,767,746,781
+34312,NV2t017229001.1,SELF,scavenger receptor class B member 2,172290,157,142,184
+34330,NV2t005936002.1,SELF,glutamate metabotropic receptor 2,059360,78,130,120
+34382,NV2t016435001.1,SELF,CGRP receptor component,164350,178,154,191
+34395,NV2t007071001.1,SELF,galanin receptor,070710,54,39,67
+34399,NV2t007201001.1,SELF,Leukocyte receptor cluster member 9,072010,156,157,195
+34418,NV2t023796001.1,SELF,protein tyrosine phosphatase receptor type Q,237960,101,107,91
+34492,NV2t022974001.1,SELF,G-protein coupled receptor GRL101,229740,27,19,25
+34551,NV2t014778001.1,SELF,IZUMO1 receptor JUNO,147780,194,238,197
+34556,NV2t016902001.1,SELF,Glutamate receptor 1,169020,124,165,137
+34579,NV2t014456004.1,NV2t014456002.1,angiotensin II receptor associated protein ,144560,262,308,335
+34637,NV2t009915001.1,SELF,hypocretin receptor 2 ,099150,20,10,16
+34650,NV2t022083003.1,NV2t022083002.1,SRP receptor subunit alpha ,220830,1099,1259,1340
+34664,NV2t016199003.1,NV2t016199005.1,purinergic receptor P2X 4,161990,247,309,335
+34712,NV2t000653001.1,SELF,Alpha-2C adrenergic receptor,006530,8,4,4
+34724,NV2t025286001.1,SELF,Relaxin receptor 1,252860,153,117,201
+34767,NV2t020801001.1,SELF,scavenger receptor cysteine rich family member with 4 domains ,208010,3163,3115,3282
+34775,NV2t003551005.1,NV2t003551003.1,scavenger receptor class B member 2 ,035510,152,155,204
+34784,NV2t002771001.1,SELF,adenosine receptor A3,027710,2,7,3
+34922,NV2t000250002.1,NV2t000250003.1,G protein-coupled receptor 61,002500,475,410,396
+34938,NV2t017574001.1,SELF,hypocretin receptor 2 ,175740,184,226,266
+34942,NV2t008590001.1,SELF,gamma-aminobutyric acid type A receptor subunit gamma3 ,085900,11,21,25
+34957,NV2t011781001.1,SELF,Galanin receptor 2b,117810,15,17,6
+34966,NV2t006572001.1,SELF,glutamate ionotropic receptor delta type subunit 2 ,065720,162,226,235
+34971,NV2t016980001.1,SELF,purinergic receptor P2X 4 ,169800,404,396,476
+34974,NV2t000782001.1,NV2t000782004.1,Probable glycoprotein hormone G-protein coupled receptor,007820,3,9,13
+34976,NV2t018183001.1,SELF,glycine receptor alpha 2 ,181830,22,37,37
+34984,NV2t014588003.1,NV2t014588005.1,unc-5 netrin receptor B,145880,39,49,70
+35063,NV2t011906001.1,SELF,glutamate ionotropic receptor NMDA type subunit 3B,119060,133,111,151
+35064,NV2t017409004.1,NV2t017409001.1,protein tyrosine phosphatase receptor type R ,174090,981,946,1160
+35087,NV2t006081006.1,NV2t006081002.1,Tyrosine-protein kinase receptor Tie-1 (Fragment),060810,55,79,104
+35091,NV2t025291002.1,NV2t025291001.1,adhesion G-protein coupled receptor G4-like,252910,242,232,225
+35150,NV2t017409005.1,NV2t017409001.1,protein tyrosine phosphatase receptor type R ,174090,981,946,1160
+35156,NV2t009045001.1,SELF,Nuclear receptor subfamily 2 group E member,090450,107,93,116
+35173,NV2t018183002.1,NV2t018183001.1,glycine receptor alpha 2 ,181830,22,37,37
+35181,NV2t018120001.1,SELF,Neuropeptide SIFamide receptor,181200,126,107,135
+35189,NV2t009618001.1,SELF,neuropeptide FF receptor 2,096180,20,21,30
+35209,NV2t013241001.1,SELF,MAM and LDL-receptor class A domain-containing protein 1 (Fragment),132410,402,450,445
+35220,NV2t023604001.1,NV2t023604002.1,insulin receptor related receptor ,236040,681,640,676
+35231,NV2t003705004.1,NV2t003705001.1,Oxoeicosanoid receptor 1,037050,245,256,301
+35267,NV2t018183005.1,NV2t018183001.1,glycine receptor alpha 2 ,181830,22,37,37
+35272,NV2t004380001.1,SELF,Tyrosine-protein phosphatase non-receptor type 1,043800,122,131,147
+35276,NV2t012635001.1,SELF,Tyrosine-protein kinase receptor Tie-1 (Fragment),126350,125,150,179
+35288,NV2t000801002.1,NV2t000801001.1,Adhesion G-protein coupled receptor G6,008010,1639,1620,1751
+35298,NV2t010146001.1,SELF,substance-K receptor,101460,96,113,147
+35327,NV2t022270001.1,SELF,Netrin receptor DCC,222700,2,3,3
+35341,NV2t020926001.1,SELF,complement C3b/C4b receptor 1 (Knops blood group),209260,368,309,421
+35367,NV2t020198001.1,SELF,Polycystin family receptor for egg jelly,201980,51,40,44
+35396,NV2t019787001.1,SELF,D(3) dopamine receptor,197870,14,9,12
+35402,NV2t000609001.1,SELF,Dopamine/Ecdysteroid receptor,006090,43,39,50
+35403,NV2t025664001.1,NV2t025664002.1,glycine receptor alpha 2 ,256640,286,369,383
+35456,NV2t017045006.1,NV2t017045003.1,nuclear receptor binding protein 1,170450,242,275,320
+35476,NV2t022083004.1,NV2t022083002.1,SRP receptor subunit alpha ,220830,1099,1259,1340
+35529,NV2t022121001.1,SELF,follicle stimulating hormone receptor ,221210,393,441,470
+35533,NV2t014995001.1,SELF,tachykinin receptor 1 ,149950,5,9,12
+35542,NV2t005666001.1,SELF,Insulin receptor substrate 2-B,056660,345,290,353

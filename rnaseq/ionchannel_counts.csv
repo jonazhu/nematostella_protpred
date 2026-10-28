@@ -1,0 +1,66 @@
+,id_x,main_id,name,gene_id,N1,N2,N3
+367,NV2t018474001.1,SELF,acid sensing ion channel subunit family member 4 ,184740,20,31,24
+376,NV2t002930001.1,SELF,"polycystin 2, transient receptor potential cation channel",029300,5858,5579,6141
+807,NV2t018748001.1,SELF,acid sensing ion channel subunit family member 4 ,187480,123,150,167
+1475,NV2t019377001.1,SELF,transient receptor potential cation channel subfamily A member,193770,129,162,237
+1798,NV2t003562001.1,SELF,transient receptor potential cation channel subfamily A member,035620,194,195,241
+2989,NV2t007513001.1,SELF,transient receptor potential cation channel subfamily A member,075130,228,251,300
+3064,NV2t023521001.1,SELF,cation channel sperm associated 2,235210,47,21,24
+3108,NV2t005052001.1,SELF,acid-sensing ion channel 1-like,050520,6,2,6
+4104,NV2t001904001.1,NV2t001904002.1,mucolipin TRP cation channel 3 ,019040,92,131,138
+4131,NV2t014417001.1,SELF,Acid-sensing ion channel 5,144170,7,7,10
+4183,NV2t013940001.1,SELF,cation channel sperm associated 4 ,139400,27,21,16
+4375,NV2t002930002.1,NV2t002930001.1,"polycystin 2, transient receptor potential cation channel",029300,5858,5579,6141
+4846,NV2t019392001.1,NV2t019392002.1,cation channel sperm associated auxiliary subunit gamma ,193920,239,230,245
+5454,NV2t013263004.1,SELF,transient receptor potential cation channel subfamily A member,132630,462,492,483
+7009,NV2t015596001.1,SELF,acid-sensing ion channel,155960,88,95,114
+7177,NV2t022669003.1,NV2t022669001.1,cation channel sperm associated 3,226690,56,80,78
+7557,NV2t013263001.1,NV2t013263004.1,transient receptor potential cation channel subfamily A member,132630,462,492,483
+7707,NV2t018745001.1,SELF,acid sensing ion channel subunit family member 4 ,187450,110,144,150
+8005,NV2t010293001.1,SELF,Transient receptor potential cation channel subfamily M member 6,102930,89,31,63
+8783,NV2t018451002.1,NV2t018451001.1,transient receptor potential cation channel subfamily A member,184510,369,329,396
+9343,NV2t015923001.1,SELF,acid-sensing ion channel,159230,1,0,4
+9717,NV2t014417002.1,NV2t014417001.1,Acid-sensing ion channel 5,144170,7,7,10
+10192,NV2t007363001.1,SELF,transient receptor potential cation channel subfamily A member,073630,98,96,117
+10877,NV2t012744002.1,NV2t012744001.1,transient receptor potential cation channel subfamily M member 2,127440,4266,4214,4550
+11667,NV2t014416002.1,SELF,acid sensing ion channel subunit family member 4 ,144160,90,90,98
+12287,NV2t019392002.1,SELF,cation channel sperm associated auxiliary subunit gamma ,193920,239,230,245
+13072,NV2t012744001.1,SELF,transient receptor potential cation channel subfamily M member 2,127440,4266,4214,4550
+13207,NV2t000103001.1,SELF,transient receptor potential cation channel subfamily A member,001030,100,108,150
+14232,NV2t014416001.1,NV2t014416002.1,acid sensing ion channel subunit family member 4 ,144160,90,90,98
+14980,NV2t006623001.1,SELF,transient receptor potential cation channel subfamily C member,066230,18,14,15
+16053,NV2t018451001.1,SELF,transient receptor potential cation channel subfamily,184510,369,329,396
+16716,NV2t022669002.1,NV2t022669001.1,cation channel sperm associated 3,226690,56,80,78
+18037,NV2t000229001.1,SELF,transient receptor potential cation channel subfamily A member,002290,22,34,36
+18949,NV2t007252001.1,SELF,transient receptor potential cation channel subfamily C member 7,072520,125,153,147
+19089,NV2t008726001.1,SELF,transient receptor potential cation channel subfamily M member 1,087260,71,61,68
+20087,NV2t013263002.1,NV2t013263004.1,transient receptor potential cation channel subfamily A member,132630,462,492,483
+21119,NV2t004862001.1,SELF,transient receptor potential cation channel subfamily C member 4 associated protein,048620,649,725,758
+21291,NV2t018039001.1,SELF,transient receptor potential cation channel subfamily C member 7 ,180390,3,4,4
+22936,NV2t015927001.1,SELF,acid sensing ion channel subunit family member 4 ,159270,32,40,32
+23710,NV2t000521004.1,NV2t000521001.1,transient receptor potential cation channel subfamily V member 4,005210,496,558,575
+23876,NV2t021470001.1,SELF,Cyclic nucleotide-gated cation channel alpha-3,214700,207,183,205
+24178,NV2t000521005.1,NV2t000521001.1,transient receptor potential cation channel subfamily V member 4,005210,496,558,575
+24318,NV2t019780001.1,SELF,Cation channel sperm-associated auxiliary subunit epsilon,197800,131,72,96
+24610,NV2t024015001.1,SELF,acid sensing ion channel subunit 2,240150,1,1,2
+25097,NV2t017159001.1,SELF,acid-sensing ion channel,171590,5,3,3
+27038,NV2t008294001.1,SELF,transient receptor potential cation channel protein painless,082940,309,303,411
+27131,NV2t006626001.1,SELF,transient receptor potential cation channel subfamily C member,066260,668,709,848
+27317,NV2t013263003.1,NV2t013263004.1,transient receptor potential cation channel subfamily A member,132630,462,492,483
+27325,NV2t022669001.1,SELF,cation channel sperm associated 3,226690,56,80,78
+27478,NV2t015790001.1,SELF,transient receptor potential cation channel subfamily,157900,1200,1293,1366
+27939,NV2t015928001.1,SELF,acid-sensing ion channel,159280,15,24,17
+28837,NV2t023620001.1,SELF,transient receptor potential cation channel subfamily M member 3 ,236200,340,348,413
+29903,NV2t001902001.1,SELF,mucolipin TRP cation channel 3 ,019020,448,402,485
+30152,NV2t004862002.1,NV2t004862001.1,transient receptor potential cation channel subfamily C member 4 associated protein,048620,649,725,758
+30655,NV2t018388001.1,SELF,transient receptor potential cation channel subfamily V member 5,183880,615,582,678
+31040,NV2t008357001.1,SELF,transient receptor potential cation channel subfamily A member,083570,590,569,687
+32012,NV2t005051001.1,SELF,Acid-sensing ion channel 1,050510,7,5,2
+32066,NV2t008930001.1,SELF,transient receptor potential cation channel subfamily V member,089300,559,566,661
+32832,NV2t017955001.1,SELF,cation channel sperm associated auxiliary subunit beta,179550,80,88,103
+33131,NV2t001904002.1,SELF,mucolipin TRP cation channel 3 ,019040,92,131,138
+33672,NV2t021369001.1,SELF,"polycystin 2 like 2, transient receptor potential cation channel ",213690,8,5,7
+34320,NV2t009631001.1,SELF,voltage dependent anion channel 1,096310,4342,4759,5168
+34586,NV2t025226002.1,SELF,Cation channel sperm-associated targeting subunit tau,252260,28,25,23
+35215,NV2t005054001.1,SELF,Acid-sensing ion channel 3,050540,2,8,5
+35252,NV2t005048001.1,SELF,acid-sensing proton-gated ion channel,050480,1,2,2
