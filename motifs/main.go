@@ -55,16 +55,16 @@ func main() {
 		f := ReadFasta("../data/Nvec200.fasta")
 		goterms := ReadGOTerms("../data/NV2g.20240221.GO.tsv")
 
-		if !DoesFileExist("background.csv") {
+		if !DoesFileExist("background_Nvec.csv") {
 			fmt.Println("Background file not found. Making background count file.")
-			bg_counts := goterms.CountGOTerms()
+			bg_counts := goterms.CountGOTerms(3)
 			background = CountsToDF(bg_counts)
 			bg_ratios := background.FindTermRatios()
 			background = background.AddNumericColumn(bg_ratios, "term_ratio")
-			WriteCSV(background, "background.csv")
+			WriteCSV(background, "background_Nvec.csv")
 		}
 
-		background = ReadCSV("background.csv")
+		background = ReadCSV("background_Nvec.csv")
 		keys := GetKeys(f)
 
 		motifs := make([]string, 1)
@@ -96,14 +96,14 @@ func main() {
 
 			start = time.Now()
 			fmt.Println("Finding GO terms.")
-			results := artifacts.FindGOTerms(goterms, numProcs)
+			results := artifacts.FindGOTerms(goterms, numProcs, genome)
 			duration = time.Since(start)
 			fmt.Println(len(results), "GO terms found in", duration.Seconds(), "seconds")
 			WriteCSV(results, outfolder+"/"+currentMotif+"_"+gotermfile)
 
 			start = time.Now()
 			fmt.Println("Counting GO terms.")
-			counts := results.CountGOTerms()
+			counts := results.CountGOTerms(3)
 			duration = time.Since(start)
 			fmt.Println(len(counts), "GO terms counted in", duration.Seconds(), "seconds")
 			counts_df := CountsToDF(counts)
@@ -117,6 +117,85 @@ func main() {
 			counts_df = counts_df.AddNumericColumn(test_res[1], "p_val")
 			padj := CorrectPVals(test_res[1], precision)
 			counts_df = counts_df.AddNumericColumn(padj, "padj")
+			duration = time.Since(start)
+			fmt.Println(len(counts_df), "GO terms processed in", duration.Seconds(), "seconds")
+			WriteCSV(counts_df, outfolder+"/"+currentMotif+"_"+countfile)
+		}
+	} else if genome == "jaNemVect" {
+		gtf := ReadGTF("../data/genomic.gtf")
+		f := ReadFasta("../data/GCF_932526225.1_jaNemVect1.1_genomic.fna")
+		goterms := ReadOntology("../data/GCF_932526225.1_jaNemVect1.1_gene_ontology.gaf")
+
+		term2name := ReadTerm2Name("../data/GOterm2name.csv")
+
+		if !DoesFileExist("background_jaNemVect.csv") {
+			fmt.Println("Background file not found. Making background count file.")
+			bg_counts := goterms.CountGOTerms(4)
+			background = CountsToDF(bg_counts)
+			bg_ratios := background.FindTermRatios()
+			background = background.AddNumericColumn(bg_ratios, "term_ratio")
+			WriteCSV(background, "background_jaNemVect.csv")
+		}
+
+		background = ReadCSV("background_jaNemVect.csv")
+		keys := GetKeys(f)
+
+		motifs := make([]string, 1)
+		if singularMotif != "none" {
+			motifs[0] = strings.ToUpper(singularMotif)
+		} else { //due to the usage statement we added earlier, this means we have a file of motifs
+			motifs = ReadMotifsFromFile(infile)
+		}
+
+		for m := range motifs {
+			currentMotif := motifs[m]
+			fmt.Println("-------------------------------------")
+			fmt.Println("Currently analyzing motif", currentMotif)
+
+			start := time.Now()
+			duration := time.Since(start)
+			fmt.Println("Finding artifacts.")
+			for k := range keys {
+				//find the artifacts associated with each chromosome
+				motif_pos := FindMotifPosOneChrom(currentMotif, strings.ToUpper(f[keys[k]]))
+				artifacts_current := FindArtifactsOneChrom(motif_pos, gtf, keys[k][1:12], distance, numProcs) //remove > and trailing description
+				artifacts = append(artifacts, artifacts_current...)
+
+				duration = time.Since(start)
+			}
+			fmt.Println(len(artifacts), "artifacts found in", duration.Seconds(), "seconds")
+			WriteCSV(artifacts, outfolder+"/"+currentMotif+"_"+artifactfile)
+
+			start = time.Now()
+			fmt.Println("Finding GO terms.")
+			results := artifacts.FindGOTerms(goterms, numProcs, genome)
+			duration = time.Since(start)
+			fmt.Println(len(results), "GO terms found in", duration.Seconds(), "seconds")
+			WriteCSV(results, outfolder+"/"+currentMotif+"_"+gotermfile)
+
+			start = time.Now()
+			fmt.Println("Counting GO terms.")
+			counts := results.CountGOTerms(4)
+			duration = time.Since(start)
+			fmt.Println(len(counts), "GO terms counted in", duration.Seconds(), "seconds")
+			counts_df := CountsToDF(counts)
+
+			start = time.Now()
+			fmt.Println("Processing GO terms.")
+			ratios := counts_df.FindTermRatios()
+			counts_df = counts_df.AddNumericColumn(ratios, "term_ratio")
+			test_res := TestTermRatios(counts_df, background)
+			counts_df = counts_df.AddNumericColumn(test_res[0], "z_score")
+			counts_df = counts_df.AddNumericColumn(test_res[1], "p_val")
+			padj := CorrectPVals(test_res[1], precision)
+			counts_df = counts_df.AddNumericColumn(padj, "padj")
+
+			//change the GO terms to the actual names in counts_df
+			for i := 1; i < len(counts_df); i++ {
+				current_term := counts_df[i][0]
+				counts_df[i][0] = term2name[current_term]
+			}
+
 			duration = time.Since(start)
 			fmt.Println(len(counts_df), "GO terms processed in", duration.Seconds(), "seconds")
 			WriteCSV(counts_df, outfolder+"/"+currentMotif+"_"+countfile)

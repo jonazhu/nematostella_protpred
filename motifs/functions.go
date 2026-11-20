@@ -119,7 +119,7 @@ FindGOTerms is a method for a dataframe of GTF artifacts, presumably from FindAr
 a dataframe of GO terms, presumably from ReadGoTerms() and a number of processors to use, and uses parallel processing
 to find the terms associated with each of the artifacts.
 */
-func (df dataframe) FindGOTerms(goterms dataframe, numProcs int) dataframe {
+func (df dataframe) FindGOTerms(goterms dataframe, numProcs int, genome string) dataframe {
 	var results dataframe
 
 	c := make(chan dataframe)
@@ -128,7 +128,7 @@ func (df dataframe) FindGOTerms(goterms dataframe, numProcs int) dataframe {
 		start := (i * n) / numProcs
 		end := ((i + 1) * n) / numProcs
 
-		go FindGOTermsParallel(df[start:end], goterms, c)
+		go FindGOTermsParallel(df[start:end], goterms, genome, c)
 	}
 
 	for i := 0; i < numProcs; i++ {
@@ -137,24 +137,35 @@ func (df dataframe) FindGOTerms(goterms dataframe, numProcs int) dataframe {
 		results = append(results, sub_df...)
 	}
 
-	return results.RemoveGODuplicates()
+	return results.RemoveGODuplicates(genome)
 }
 
 /*
 FindGOTermsParallel is a helper fucntion for FindGOTerms() that takes in a sub-dataframe of GTF artifacts,
 the whole GOterms dataframe, and a channel to put the results in afterwards.
 */
-func FindGOTermsParallel(df dataframe, goterms dataframe, c chan dataframe) {
+func FindGOTermsParallel(df dataframe, goterms dataframe, genome string, c chan dataframe) {
 	var sub_df dataframe
 
 	for i := range df {
 		currentRow := df[i]
-		currentID := currentRow[8][42:57]
+		currentID := ""
+		if genome == "Nvec200" {
+			currentID = currentRow[8][42:57]
+		} else { //assumed to be jaNemVect
+			currentID = currentRow[8][9:21]
+		}
 
 		for j := range goterms {
 			currentGOEntry := goterms[j]
-			if currentID == currentGOEntry[0] {
-				sub_df = append(sub_df, currentGOEntry)
+			if genome == "Nvec200" {
+				if currentID == currentGOEntry[0] {
+					sub_df = append(sub_df, currentGOEntry)
+				}
+			} else { //again, assumed jaNemVect
+				if currentID == currentGOEntry[2] {
+					sub_df = append(sub_df, currentGOEntry)
+				}
 			}
 		}
 	}
@@ -164,13 +175,14 @@ func FindGOTermsParallel(df dataframe, goterms dataframe, c chan dataframe) {
 
 /*
 CountGOTerms is a serial method for a GOTerm dataframe (presumably from FindGOTerms) that counts the number
-of times each term shows up in the dataframe. It returns a map of strings (terms) to ints.
+of times each term shows up in the dataframe, and it takes an index to be counted (indexing the column
+containing the GO terms, obviously). It returns a map of strings (terms) to ints.
 */
-func (df dataframe) CountGOTerms() map[string]int {
+func (df dataframe) CountGOTerms(index int) map[string]int {
 	counts := make(map[string]int)
 
 	for i := range df {
-		current_term := df[i][3]
+		current_term := df[i][index]
 		//does the key exist in the map?
 		if _, exists := counts[current_term]; !exists {
 			counts[current_term] = 1
@@ -395,39 +407,55 @@ taken from the file.
 func ReadFasta(filename string) map[string]string {
 	f := make(map[string]string)
 
-	//standard file reading code
 	file, err := os.Open(filename)
 	if err != nil {
 		panic(err)
 	}
-
 	defer file.Close()
-
-	index := 0
-	descriptions := make([]string, 0)
-	seqs := make([]string, 0)
 
 	scanner := bufio.NewScanner(file)
 	buf := make([]byte, maxCapacity)
 	scanner.Buffer(buf, maxCapacity)
 
-	for scanner.Scan() {
-		currentRow := scanner.Text()
-		if index%2 == 0 {
-			descriptions = append(descriptions, currentRow)
-		} else {
-			seqs = append(seqs, currentRow)
+	var currentDesc string
+	var seqBuilder strings.Builder
+	haveRecord := false
+
+	// saveRecord stores the record being built (if any) in the map.
+	saveRecord := func() {
+		if haveRecord {
+			f[currentDesc] = seqBuilder.String()
 		}
-		index++
+		seqBuilder.Reset()
 	}
 
-	if len(descriptions) != len(seqs) {
-		panic("Inputted FASTA file does not have equal number of descriptions as sequences.")
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+
+		// skip blank lines
+		if line == "" {
+			continue
+		}
+
+		if strings.HasPrefix(line, ">") {
+			// new record: save the previous one first
+			saveRecord()
+			currentDesc = line
+			haveRecord = true
+		} else {
+			if !haveRecord {
+				panic("Inputted FASTA file has sequence data before the first description line.")
+			}
+			seqBuilder.WriteString(line)
+		}
 	}
 
-	for i := 0; i < len(descriptions); i++ {
-		f[descriptions[i]] = seqs[i]
+	if err := scanner.Err(); err != nil {
+		panic(err)
 	}
+
+	// don't forget the final record
+	saveRecord()
 
 	return f
 }
@@ -486,8 +514,8 @@ func ReadGTF(filename string) dataframe {
 
 /*
 ReadGOTerms takes in a filename for a string and returns a 2-dimenstional array of strings to store the information
-from the file. With how it is formatted, it will automatically create heading labels corresponding to a standard GO
-term TSV (["id", "type", "term_id", "term_name", "description", "source"]).
+from the file. With how it is formatted, it will automatically create heading labels corresponding to the Nvec200
+GO term accompanied file, which is a TSV with columns (["id", "type", "term_id", "term_name", "description", "source"]).
 */
 func ReadGOTerms(filename string) dataframe {
 	var df dataframe
@@ -531,6 +559,57 @@ func ReadGOTerms(filename string) dataframe {
 	}
 
 	return df
+}
+
+/*
+ReadOntology is like ReadGOTerms in that it takes in an Ontology TSV file, but this one is designed for
+the jaNemVect ontology TSV, which has the column names included.
+*/
+func ReadOntology(filename string) dataframe {
+	var df dataframe
+	currentIndex := 0
+
+	//standard file reading code
+	file, err := os.Open(filename)
+	if err != nil {
+		panic(err)
+	}
+
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		currentRow := scanner.Text()
+		entries := strings.Split(currentRow, "\t")
+
+		//make a new row
+		newRow := make([]string, len(entries))
+		df = append(df, newRow)
+		for i := range entries {
+			df[currentIndex][i] = entries[i]
+		}
+
+		currentIndex++
+	}
+
+	return df
+}
+
+/*
+ReadTerm2Name is a function that reads in the provided file of GO terms, mapped to names of biological processes, and
+returns a map of strings to strings with the keys as the GO terms themselves and the values as the processes.
+*/
+func ReadTerm2Name(filename string) map[string]string {
+	term2name := make(map[string]string)
+
+	term2name_df := ReadCSV(filename)
+	for i := range term2name_df {
+		k := term2name_df[i][1]
+		v := term2name_df[i][2]
+		term2name[k] = v
+	}
+
+	return term2name
 }
 
 /*
@@ -629,7 +708,7 @@ func (df dataframe) RemoveDuplicates() dataframe {
 The RemoveGODuplicates() method is designed for a GO term dataframe, in that the duplicate checking is done only for columns
 0 (GeneID) and 2 (GOTermID). Typically when these are the same, the only difference (if any) is in the source (InterPro/OMA.)
 */
-func (df dataframe) RemoveGODuplicates() dataframe {
+func (df dataframe) RemoveGODuplicates(genome string) dataframe {
 	var sub_df dataframe
 
 	for i := range df {
@@ -642,9 +721,16 @@ func (df dataframe) RemoveGODuplicates() dataframe {
 		hasEqual := false
 		for j := range sub_df {
 			currentCheckRow := sub_df[j]
-			if currentRow[0] == currentCheckRow[0] && currentRow[2] == currentCheckRow[2] {
-				hasEqual = true
+			if genome == "Nvec200" {
+				if currentRow[0] == currentCheckRow[0] && currentRow[2] == currentCheckRow[2] {
+					hasEqual = true
+				}
+			} else { //assumed to be jaNemVect
+				if currentRow[2] == currentCheckRow[2] && currentRow[4] == currentCheckRow[4] {
+					hasEqual = true
+				}
 			}
+
 		}
 
 		if !hasEqual {
