@@ -1,0 +1,11 @@
+{
+    "exit_code": 0,
+    "arguments": [
+        "--fasta",
+        "jaNemVect_gpcrs_and_ionchannels_2.fasta"
+    ],
+    "app_uri": "DTU/DeepTMHMM:1.0.57",
+    "ended_at": "2026-11-20T18:45:55.448769Z",
+    "job_uuid": "c023ebf7-8ab2-4921-85f1-d0ee7d7530fa",
+    "started_at": "2026-11-20T18:41:26.713047Z"
+}
