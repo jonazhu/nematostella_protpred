@@ -1,0 +1,642 @@
+package main
+
+import (
+	"bufio"
+	"fmt"
+	"io"
+	"math"
+	"os"
+	"strconv"
+	"strings"
+)
+
+const (
+	maxCapacity = 8192 * 8192
+	negInf      = math.MinInt / 2
+	stateM      = iota
+	stateX
+	stateY
+)
+
+type AlignMatrices struct {
+	M, X, Y [][]int
+}
+
+type OptimalAlignment struct {
+	name            string
+	score           int
+	alignmentMatrix AlignMatrices
+}
+
+/*
+ReadFasta takes in a filename for a FASTA file and returns a fasta (a map from strings to strings)
+taken from the file.
+*/
+func ReadFasta(filename string) map[string]string {
+	f := make(map[string]string)
+
+	file, err := os.Open(filename)
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	buf := make([]byte, maxCapacity)
+	scanner.Buffer(buf, maxCapacity)
+
+	var currentDesc string
+	var seqBuilder strings.Builder
+	haveRecord := false
+
+	// saveRecord stores the record being built (if any) in the map.
+	saveRecord := func() {
+		if haveRecord {
+			f[currentDesc] = seqBuilder.String()
+		}
+		seqBuilder.Reset()
+	}
+
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+
+		// skip blank lines
+		if line == "" {
+			continue
+		}
+
+		if strings.HasPrefix(line, ">") {
+			// new record: save the previous one first
+			saveRecord()
+			currentDesc = line
+			haveRecord = true
+		} else {
+			if !haveRecord {
+				panic("Inputted FASTA file has sequence data before the first description line.")
+			}
+			seqBuilder.WriteString(line)
+		}
+	}
+
+	if err := scanner.Err(); err != nil {
+		panic(err)
+	}
+
+	// don't forget the final record
+	saveRecord()
+
+	return f
+}
+
+/*
+ReadBlosum reads a BLOSUM matrix file and returns the scores as a 2D slice
+of ints, along with a map from each symbol (e.g. 'A') to its row/column
+index. Scores are accessed as matrix[index['A']][index['R']].
+Note that all the provided BLOSUM matrix files are of the same indexing as they
+are all provided by NCBI, but the mapping mainly exists for weird cases of matrices
+from other sources.
+*/
+func ReadBlosum(filename string) ([][]int, map[byte]int) {
+	file, err := os.Open(filename)
+	if err != nil {
+		panic(err)
+	}
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+
+	var header []string
+	matrix := make([][]int, 0)
+
+	for scanner.Scan() {
+		line := strings.TrimSpace(scanner.Text())
+
+		if line == "" || strings.HasPrefix(line, "#") {
+			continue
+		}
+
+		fields := strings.Fields(line)
+
+		// first non-comment line is the column header
+		if header == nil {
+			header = fields
+			continue
+		}
+
+		rowIndex := len(matrix)
+		if rowIndex >= len(header) {
+			panic("BLOSUM file has more rows than columns.")
+		}
+		if fields[0] != header[rowIndex] {
+			panic(fmt.Sprintf("Row label %q does not match column label %q.", fields[0], header[rowIndex]))
+		}
+		if len(fields)-1 != len(header) {
+			panic(fmt.Sprintf("Row %q has %d scores, expected %d.", fields[0], len(fields)-1, len(header)))
+		}
+
+		row := make([]int, len(header))
+		for j, s := range fields[1:] {
+			v, err := strconv.Atoi(s)
+			if err != nil {
+				panic(err)
+			}
+			row[j] = v
+		}
+		matrix = append(matrix, row)
+	}
+
+	if err := scanner.Err(); err != nil {
+		panic(err)
+	}
+	if len(matrix) != len(header) {
+		panic("BLOSUM matrix is not square.")
+	}
+
+	index := make(map[byte]int)
+	for i, h := range header {
+		if len(h) != 1 {
+			panic(fmt.Sprintf("Unexpected column label %q.", h))
+		}
+		index[h[0]] = i
+	}
+
+	return matrix, index
+}
+
+/*
+Returns the maximum of 3 integers; needed for Needleman-Wunsch algorithm.
+*/
+func max3(a, b, c int) int {
+	if b > a {
+		a = b
+	}
+	if c > a {
+		a = c
+	}
+	return a
+}
+
+/*
+Returns the maximum of 3 integers in a slice; needed for parsing scores.
+*/
+func GetMaxScore(scores []int) int {
+	if scores[1] > scores[0] {
+		return scores[1]
+	}
+	if scores[2] > scores[0] {
+		return scores[2]
+	}
+	return scores[0]
+}
+
+/*
+Makes a new matrix of dimensions rows (int) x cols (int).
+*/
+func newMatrix(rows, cols int) [][]int {
+	m := make([][]int, rows)
+	for i := range m {
+		m[i] = make([]int, cols)
+		for j := range m[i] {
+			m[i][j] = negInf
+		}
+	}
+	return m
+}
+
+/*
+toIndices converts a protein string into matrix indices, panicking on symbols that aren't in the substitution matrix.
+*/
+func toIndices(p string, index map[byte]int) []int {
+	out := make([]int, len(p))
+	for i := 0; i < len(p); i++ {
+		c := p[i]
+		if c >= 'a' && c <= 'z' {
+			c -= 'a' - 'A'
+		}
+		idx, err := index[c]
+		if !err {
+			panic(fmt.Sprintf("Symbol %q at position %d is not in the substitution matrix.", p[i], i))
+		}
+		out[i] = idx
+	}
+	return out
+}
+
+/*
+AlignProts takes two protein sequences and globally aligns them based on a simple Needleman-Wunsch Algorithm
+using the BLOSUM matrix desired (taking the substitution matrix and index mapping from ReadBlosum),
+as well as two negative ints for a gap start and gap extend penalty. It returns three alignment matrices
+generated by the algorithm, which are then read into a formal alignment separately.
+*/
+func AlignProts(p1, p2 string, subMat [][]int, index map[byte]int, gapStart, gapExtend int) AlignMatrices {
+	if gapStart >= 0 || gapExtend >= 0 {
+		panic("Both gapStart and gapExtend must be negative.")
+	}
+
+	a := toIndices(p1, index)
+	b := toIndices(p2, index)
+	n, m := len(a), len(b)
+
+	M := newMatrix(n+1, m+1)
+	X := newMatrix(n+1, m+1)
+	Y := newMatrix(n+1, m+1)
+
+	// Borders: only a gap can occupy them
+	M[0][0] = 0
+	for i := 1; i <= n; i++ {
+		X[i][0] = gapStart + (i-1)*gapExtend
+	}
+	for j := 1; j <= m; j++ {
+		Y[0][j] = gapStart + (j-1)*gapExtend
+	}
+
+	for i := 1; i <= n; i++ {
+		for j := 1; j <= m; j++ {
+			s := subMat[a[i-1]][b[j-1]]
+
+			M[i][j] = max3(M[i-1][j-1], X[i-1][j-1], Y[i-1][j-1]) + s
+
+			// gap in p2: open from M or Y, or extend X
+			X[i][j] = max3(M[i-1][j]+gapStart, Y[i-1][j]+gapStart, X[i-1][j]+gapExtend)
+
+			// gap in p1: open from M or X, or extend Y
+			Y[i][j] = max3(M[i][j-1]+gapStart, X[i][j-1]+gapStart, Y[i][j-1]+gapExtend)
+		}
+	}
+
+	return AlignMatrices{M, X, Y}
+}
+
+/*
+Scores is a AlignMatrices method that takes in the alignment from AlignProts and returns
+the scores of all three matrices (M, X, and Y).
+*/
+func (a AlignMatrices) Scores() []int {
+	scores := make([]int, 3)
+
+	scores[0] = a.M[len(a.M)-1][len(a.M[0])-1]
+	scores[1] = a.X[len(a.X)-1][len(a.X[0])-1]
+	scores[2] = a.Y[len(a.Y)-1][len(a.Y[0])-1]
+
+	return scores
+}
+
+/*
+Returns the string keys from a FASTA map.
+*/
+func GetKeys(m map[string]string) []string {
+	keys := make([]string, 0, len(m))
+	for k := range m {
+		keys = append(keys, k)
+	}
+
+	return keys
+}
+
+/*
+AddAlias adds a new symbol to a substitution matrix whose scores are copied
+from an existing symbol. For example, AddAlias(m, idx, 'U', 'C') scores
+selenocysteine like cysteine, useful for a select few proteins.
+It returns the extended matrix and the new index map.
+*/
+func AddAlias(matrix [][]int, index map[byte]int, newSym, likeSym byte) ([][]int, map[byte]int) {
+	src, ok := index[likeSym]
+	if !ok {
+		panic(fmt.Sprintf("Symbol %q is not in the substitution matrix.", likeSym))
+	}
+	if _, exists := index[newSym]; exists {
+		panic(fmt.Sprintf("Symbol %q is already in the substitution matrix.", newSym))
+	}
+
+	n := len(matrix)
+	out := make([][]int, n+1)
+	for i := 0; i < n; i++ {
+		out[i] = make([]int, n+1)
+		copy(out[i], matrix[i])
+		out[i][n] = matrix[i][src] // new column
+	}
+	out[n] = make([]int, n+1)
+	copy(out[n], matrix[src])    // new row
+	out[n][n] = matrix[src][src] // new symbol against itself
+
+	newIndex := make(map[byte]int, len(index)+1)
+	for k, v := range index {
+		newIndex[k] = v
+	}
+	newIndex[newSym] = n
+
+	return out, newIndex
+}
+
+/*
+FindMaxScore takes in a map of strings to ints and returns the string key with the maximum associated value.
+*/
+func FindMaxScore(scores map[string]int) (string, int) {
+	keys := make([]string, 0, len(scores))
+	for k1 := range scores {
+		keys = append(keys, k1)
+	}
+
+	maxKey := ""
+	maxVal := negInf
+	for k2 := range keys {
+		currentKey := keys[k2]
+		currentVal := scores[currentKey]
+
+		if currentVal > maxVal {
+			maxKey = currentKey
+			maxVal = currentVal
+		}
+	}
+
+	return maxKey, maxVal
+}
+
+/*
+FindBestAlignment is a function that takes in a single protein string and a FASTA map of other proteins, as
+well as the parameters for AlignProts, and a number of processors to use for parallel processing.
+It returns an object of four items: the name of the best alignment, the score, the best alignment itself, and
+whether the alignment is M, X, or Y.
+*/
+func FindBestAlignment(p1, name string, otherKeys []string, otherProts map[string]string, subMat [][]int,
+	index map[byte]int, gapStart, gapExtend, numProcs int) OptimalAlignment {
+	c := make(chan OptimalAlignment)
+	n := len(otherKeys)
+
+	for i := 0; i < numProcs; i++ {
+		startIndex := (i * n) / numProcs
+		endIndex := ((i + 1) * n) / numProcs
+
+		go ParallelAlignProts(p1, otherKeys[startIndex:endIndex], otherProts, subMat, index, gapStart, gapExtend, c)
+	}
+
+	best_alignments := make([]OptimalAlignment, 0)
+	maxScore := negInf
+	for i := 0; i < numProcs; i++ {
+		next_alignment := <-c
+		best_alignments = append(best_alignments, next_alignment)
+		if next_alignment.score > maxScore {
+			maxScore = next_alignment.score
+		}
+	}
+
+	for i := range best_alignments {
+		if best_alignments[i].score == maxScore {
+			return best_alignments[i]
+		}
+	}
+
+	panic("Something went wrong in finding the best alignment.")
+}
+
+/*
+ParallelAlignProts is a function that takes in the parameters for FindBestAlignment, but takes a subslice of keys
+and a channel to put the optimal alignments into.
+*/
+func ParallelAlignProts(p1 string, otherKeys []string, otherProts map[string]string, subMat [][]int,
+	index map[byte]int, gapStart, gapExtend int, c chan OptimalAlignment) {
+	p1_scores := make(map[string]int)
+	for k2 := range otherKeys {
+		p2 := otherProts[otherKeys[k2]]
+		alignment := AlignProts(p1, p2, subMat, index, gapStart, gapExtend)
+		p1_scores[otherKeys[k2]] = GetMaxScore(alignment.Scores())
+	}
+
+	matchProt, matchScore := FindMaxScore(p1_scores)
+	matchAlignment := AlignProts(p1, otherProts[matchProt], subMat, index, gapStart, gapExtend)
+	c <- OptimalAlignment{matchProt, matchScore, matchAlignment}
+}
+
+/*
+Traceback recovers one optimal global alignment from the matrices produced
+by AlignProts. It returns the two gapped sequences (same length, '-' for
+gaps) and the alignment score.
+*/
+func Traceback(p1, p2 string, mats AlignMatrices, gapStart, gapExtend int) (string, string, int) {
+	M, X, Y := mats.M, mats.X, mats.Y
+	i, j := len(p1), len(p2)
+
+	// Start in whichever matrix holds the best final score (ties prefer M).
+	state, score := stateM, M[i][j]
+	if X[i][j] > score {
+		state, score = stateX, X[i][j]
+	}
+	if Y[i][j] > score {
+		state, score = stateY, Y[i][j]
+	}
+
+	r1 := make([]byte, 0, i+j)
+	r2 := make([]byte, 0, i+j)
+
+	for i > 0 || j > 0 {
+		switch state {
+		case stateM:
+			r1 = append(r1, p1[i-1])
+			r2 = append(r2, p2[j-1])
+
+			pm, px, py := M[i-1][j-1], X[i-1][j-1], Y[i-1][j-1]
+			switch {
+			case pm >= px && pm >= py:
+				state = stateM
+			case px >= py:
+				state = stateX
+			default:
+				state = stateY
+			}
+			i--
+			j--
+
+		case stateX: // p1 residue against a gap
+			r1 = append(r1, p1[i-1])
+			r2 = append(r2, '-')
+
+			cur := X[i][j]
+			switch {
+			case X[i-1][j]+gapExtend == cur:
+				state = stateX
+			case M[i-1][j]+gapStart == cur:
+				state = stateM
+			default:
+				state = stateY
+			}
+			i--
+
+		case stateY: // p2 residue against a gap
+			r1 = append(r1, '-')
+			r2 = append(r2, p2[j-1])
+
+			cur := Y[i][j]
+			switch {
+			case Y[i][j-1]+gapExtend == cur:
+				state = stateY
+			case M[i][j-1]+gapStart == cur:
+				state = stateM
+			default:
+				state = stateX
+			}
+			j--
+		}
+	}
+
+	reverse(r1)
+	reverse(r2)
+	return string(r1), string(r2), score
+}
+
+/*
+Simple function to reverse a string as a slice of bytes. Here the string parameter is itself changed,
+hence nothing is returned.
+*/
+func reverse(b []byte) {
+	for l, r := 0, len(b)-1; l < r; l, r = l+1, r-1 {
+		b[l], b[r] = b[r], b[l]
+	}
+}
+
+/*
+WriteAlignment takes a filename, two protein descriptions or names, and the two aligned protein sequences given from
+Traceback(), writing the alignment to the filename specified.
+*/
+func WriteAlignment(w io.Writer, desc1, desc2, aln1, aln2 string) {
+	writeRecord := func(desc, seq string) {
+		fmt.Fprintln(w, desc)
+		for start := 0; start < len(seq); start += 60 {
+			end := min(start+60, len(seq))
+			fmt.Fprintln(w, seq[start:end])
+		}
+	}
+	writeRecord(desc1, aln1)
+	writeRecord(desc2, aln2)
+}
+
+/*
+WritePrettyAlignment writes an alignment in a Biopython-style layout:
+
+	seq1      0 MKV-LAA 6
+	          0 |||.|||
+	seq2      0 MKVQLAA 7
+
+name1 and name2 are short labels (not full FASTA descriptions), and width is
+the number of alignment columns per block. It writes to any io.Writer, so it
+works with the same bufio.Writer used for WriteAlignment.
+*/
+func WritePrettyAlignment(w io.Writer, name1, name2, aln1, aln2 string, score, width int) {
+	if len(aln1) != len(aln2) {
+		panic("Aligned sequences must have equal length.")
+	}
+	if width <= 0 {
+		width = 60
+	}
+
+	// match line: | identical, . mismatch, space for gap
+	mid := make([]byte, len(aln1))
+	identities := 0
+	for k := 0; k < len(aln1); k++ {
+		a, b := aln1[k], aln2[k]
+		switch {
+		case a == '-' || b == '-':
+			mid[k] = ' '
+		case strings.EqualFold(aln1[k:k+1], aln2[k:k+1]):
+			mid[k] = '|'
+			identities++
+		default:
+			mid[k] = '.'
+		}
+	}
+
+	fmt.Fprintf(w, "Score: %d | Identities: %d/%d\n\n", score, identities, len(aln1))
+
+	// pad both labels to the same width so the columns line up
+	labelWidth := max(len(name1), len(name2))
+
+	pos1, pos2 := 0, 0 // residues consumed so far in each ungapped sequence
+	for start := 0; start < len(aln1); start += width {
+		end := min(start+width, len(aln1))
+		s1, s2, m := aln1[start:end], aln2[start:end], string(mid[start:end])
+
+		end1 := pos1 + len(s1) - strings.Count(s1, "-")
+		end2 := pos2 + len(s2) - strings.Count(s2, "-")
+
+		fmt.Fprintf(w, "%-*s %5d %s %d\n", labelWidth, name1, pos1, s1, end1)
+		fmt.Fprintf(w, "%-*s %5s %s\n", labelWidth, "", "", m)
+		fmt.Fprintf(w, "%-*s %5d %s %d\n", labelWidth, name2, pos2, s2, end2)
+		fmt.Fprintln(w)
+
+		pos1, pos2 = end1, end2
+	}
+}
+
+/*
+AlignProts takes two protein sequences and globally aligns them based on a simple Needleman-Wunsch Algorithm
+using the BLOSUM matrix desired (taking the substitution matrix and index mapping from ReadBlosum),
+as well as two negative ints for a gap start and gap extend penalty. It returns the alignment matrix
+generated by the algorithm, which is then read into a formal alignment separately.
+
+NOTE: This is an old function I wrote. It doesn't work very well.
+
+func AlignProts(p1, p2 string, subMat [][]int, index map[byte]int, gapStart, gapExtend int) [][]int {
+	if gapStart >= 0 || gapExtend >= 0 {
+		panic("At least one of start gapping penalty and extend gapping penalty are positive; both must be negative.")
+	}
+
+	alignmentMatrix := make([][]int, len(p1)+1)
+
+	for i := range alignmentMatrix {
+		alignmentMatrix[i] = make([]int, len(p2)+1)
+	}
+
+	//start 0th row: the 0th element is 0, the first is the gapStart penalty, and each one
+	//after is the gapExtend penalty added to the previous element.
+	for j := range alignmentMatrix[0] {
+		if j == 0 {
+			alignmentMatrix[0][j] = 0
+		} else if j == 1 {
+			alignmentMatrix[0][j] = gapStart
+		} else {
+			alignmentMatrix[0][j] = alignmentMatrix[0][j-1] + gapExtend
+		}
+	}
+
+	//range through all subsequent rows
+	for rowInd := 1; rowInd < len(p1)+1; rowInd++ {
+
+		//gapStarted := false
+
+		//range through all columns of this row
+		for colInd := 0; colInd < len(p2)+1; colInd++ {
+			//fmt.Println(rowInd, colInd)
+			if colInd == 0 && rowInd == 1 { //special case for the very first row, column
+				alignmentMatrix[rowInd][colInd] = gapStart
+			} else if colInd == 0 { //special case for the first column
+				alignmentMatrix[rowInd][colInd] = alignmentMatrix[rowInd-1][colInd] + gapExtend
+			} else { //in this case, we have three other numbers to compare to
+				diagNeighbor := alignmentMatrix[rowInd-1][colInd-1]
+				topNeighbor := alignmentMatrix[rowInd-1][colInd]
+				leftNeighbor := alignmentMatrix[rowInd][colInd-1]
+
+				currentP1AA := p1[rowInd-1]
+				currentP2AA := p2[colInd-1]
+				p1AAindex := index[currentP1AA]
+				p2AAindex := index[currentP2AA]
+
+				subMatScore := subMat[p1AAindex][p2AAindex] //ordering doesn't particularly matter as the matrix is symmetrical
+
+				diagScore := diagNeighbor + subMatScore
+				topScore := topNeighbor + gapExtend
+				leftScore := leftNeighbor + gapExtend
+
+				//check maximum between 3 numbers
+				//defaulting to a diagonal even if all three scores are equal
+				if diagScore >= topScore && diagScore >= leftScore {
+					alignmentMatrix[rowInd][colInd] = diagScore
+				} else if topScore >= diagScore && topScore >= leftScore {
+					alignmentMatrix[rowInd][colInd] = topScore
+				} else {
+					alignmentMatrix[rowInd][colInd] = leftScore
+				}
+			}
+		}
+	}
+
+	return alignmentMatrix
+} */
