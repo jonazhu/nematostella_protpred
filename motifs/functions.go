@@ -573,6 +573,30 @@ func ReadCSV(filename string) dataframe {
 }
 
 /*
+ReadMotifsFromFile is a function that takes in a file of motifs, one motif per line.
+It returns the capitalized motifs in a slice of strings. It also strips the lines and checks if the length is 0.
+*/
+func ReadMotifsFromFile(filename string) []string {
+	motifs := make([]string, 0)
+	//standard file reading code
+	file, err := os.Open(filename)
+	if err != nil {
+		panic(err)
+	}
+
+	defer file.Close()
+
+	scanner := bufio.NewScanner(file)
+	for scanner.Scan() {
+		currentLine := scanner.Text()
+		currentMotif := strings.TrimSpace(currentLine)
+		currentMotif = strings.ToUpper(currentMotif)
+		motifs = append(motifs, currentMotif)
+	}
+	return motifs
+}
+
+/*
 RemoveDuplicates is a dataframe method that removes rows that are completely duplicated.
 For removing rows based on specific column index values, use a different function.
 */
