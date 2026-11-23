@@ -1,0 +1,8 @@
+Here I've aligned the proteins from each file (Nvec200 and jaNemVect GPCRs & Ion Channels) to themselves.
+We would expect that each protein aligns perfectly to itself; if not something is wrong with the code.
+Alternatively, it could be that there are multiple perfect matches, in which case there would be duplicates
+within the proteomes, which is validated in the Jupyter notebook in this folder. 
+
+Since you'd never really want to align a FASTA file with itself as that would probably only tell you information
+you already know, which is that some proteins are equal (can also be checked an easier way), the contents of
+this folder are mainly a sanity check to ensure the code works as intended and will always find the best match.

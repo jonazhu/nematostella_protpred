@@ -17,6 +17,7 @@ var fasta2 string
 var subMatFile string
 var outfasta string
 var outpretty string
+var outmatches string
 var startGap int
 var extendGap int
 var descWidth int
@@ -29,6 +30,7 @@ func init() {
 	flag.StringVar(&fasta2, "f2", "none", "Input FASTA file of proteins to which F1 proteins will be aligned.")
 	flag.StringVar(&outfasta, "of", "alignments.fasta", "Output FASTA file of optimal alignments generated without scores.")
 	flag.StringVar(&outpretty, "op", "alignments_pretty.txt", "Output file of optimal alignments neatly printed with scores and identity match proportions.")
+	flag.StringVar(&outmatches, "om", "matches.csv", "Output file of best match pairings and the final alignment scores in CSV format.")
 	flag.StringVar(&subMatFile, "sm", "blosum62.txt", "Text file containing the substitution matrix to be used in alignment. By default, the provided BLOSUM62 matrix is used, consistent with BLASTP.")
 	flag.IntVar(&startGap, "sg", -12, "Penalty to be applied for starting a gap. MUST BE NEGATIVE. By default, the BLASTP penalty is used.")
 	flag.IntVar(&extendGap, "eg", -1, "Penalty to be applied for extending a gap. MUST BE NEGATIVE. By default, the BLASTP penalty is used.")
@@ -68,6 +70,16 @@ func main() {
 	pw := bufio.NewWriter(prettyfile)
 	defer pw.Flush()
 
+	matchfile, err := os.Create(outmatches)
+	if err != nil {
+		panic(err)
+	}
+	defer matchfile.Close()
+
+	mw := bufio.NewWriter(matchfile)
+	defer mw.Flush()
+	fmt.Fprintln(mw, "protein1,protein2,score")
+
 	for k1 := range keys_Nvec200 {
 		start := time.Now()
 		fmt.Println("Aligning", keys_Nvec200[k1])
@@ -79,6 +91,7 @@ func main() {
 		fmt.Fprintln(w, "")
 		WritePrettyAlignment(pw, keys_Nvec200[k1][0:descWidth+1], best_align.name[0:descWidth+1], s1, s2, best_align.score, prettyWidth)
 		fmt.Fprintln(pw, "")
+		WriteMatch(mw, keys_Nvec200[k1], best_align.name, best_align.score)
 
 		duration := time.Since(start)
 		fmt.Println("Finished processing", keys_Nvec200[k1], "in", duration)

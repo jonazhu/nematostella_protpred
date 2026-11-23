@@ -494,7 +494,7 @@ func reverse(b []byte) {
 }
 
 /*
-WriteAlignment takes a filename, two protein descriptions or names, and the two aligned protein sequences given from
+WriteAlignment takes a filewriter, two protein descriptions or names, and the two aligned protein sequences given from
 Traceback(), writing the alignment to the filename specified.
 */
 func WriteAlignment(w io.Writer, desc1, desc2, aln1, aln2 string) {
@@ -525,7 +525,7 @@ func WritePrettyAlignment(w io.Writer, name1, name2, aln1, aln2 string, score, w
 		panic("Aligned sequences must have equal length.")
 	}
 	if width <= 0 {
-		width = 60
+		width = 150 //default parameter, also set by commandline flag argparse
 	}
 
 	// match line: | identical, . mismatch, space for gap
@@ -564,6 +564,26 @@ func WritePrettyAlignment(w io.Writer, name1, name2, aln1, aln2 string, score, w
 
 		pos1, pos2 = end1, end2
 	}
+}
+
+/*
+WriteMatch writes a single row to a CSV file with three columns, which are the three parameters
+of the function: the first protein ID, the second protein ID, and the alignment score. It is designed
+to be used in conjunction with WriteAlignment and WritePrettyAlignment in recording the optimal
+matches for easy reading later on. While the writing itself can be done with a single fmt.Fprintln statement,
+this function handles stray commas and int to string conversion.
+*/
+func WriteMatch(w io.Writer, name1, name2 string, score int) {
+	//handles name1 and name2 in case there are commas
+	if strings.Contains(name1, ",") {
+		name1 = strings.ReplaceAll(name1, ",", ";")
+	}
+	if strings.Contains(name2, ",") {
+		name2 = strings.ReplaceAll(name2, ",", ";")
+	}
+
+	scoreString := strconv.Itoa(score)
+	fmt.Fprintln(w, name1+","+name2+","+scoreString)
 }
 
 /*
