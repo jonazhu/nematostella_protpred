@@ -33,10 +33,17 @@ in the reference, returned as a 2D slice of ints, with each subslice being 2 lon
 In the context of this program, this means the reference is a chromosome string.
 */
 func FindMotifPosOneChrom(motif string, chrom string) [][]int {
-	re := regexp.MustCompile(motif)
+	motif_regex := ParseMotif(motif)
+	re := regexp.MustCompile(motif_regex)
 	motif_pos := re.FindAllStringIndex(chrom, -1)
 
-	return motif_pos
+	//find reverse complement of the motif
+	motif_revcomp := ReverseComplement(motif)
+	motif_revcomp_regex := ParseMotif(motif_revcomp)
+	re2 := regexp.MustCompile(motif_revcomp_regex)
+	motif_pos_revcomp := re2.FindAllStringIndex(chrom, -1)
+
+	return append(motif_pos, motif_pos_revcomp...)
 }
 
 /*
@@ -673,6 +680,92 @@ func ReadMotifsFromFile(filename string) []string {
 		motifs = append(motifs, currentMotif)
 	}
 	return motifs
+}
+
+/*
+ParseMotif is a function that takes a singular DNA sequence motif and returns a string
+to be passed to FindMotifPosOneChrom, which gets parsed as a regular expression.
+The difference here is that ParseMotif will specify A, T, C, G for corresponding DNA sequence letters,
+such as W for A or T.
+*/
+func ParseMotif(motif string) string {
+	parsedMotif := ""
+	for i := 0; i < len(motif); i++ {
+		c := motif[i]
+		if c == 'A' {
+			parsedMotif += "A"
+		} else if c == 'T' {
+			parsedMotif += "T"
+		} else if c == 'G' {
+			parsedMotif += "G"
+		} else if c == 'C' {
+			parsedMotif += "C"
+		} else if c == 'W' { //weak: indicates A or T
+			parsedMotif += "[AT]"
+		} else if c == 'S' { //strong: indicates C or G
+			parsedMotif += "[CG]"
+		} else if c == 'M' { //amino: indicates A or C
+			parsedMotif += "[AC]"
+		} else if c == 'K' { //keto: indicates T or G
+			parsedMotif += "[TG]"
+		} else if c == 'R' { //purine: indicates A or G
+			parsedMotif += "[AG]"
+		} else if c == 'Y' { //pyrimidine: indicates C or T
+			parsedMotif += "[CT]"
+		} else if c == 'B' { //not A
+			parsedMotif += "[GTC]"
+		} else if c == 'D' { //not C
+			parsedMotif += "[AGT]"
+		} else if c == 'H' { //not G
+			parsedMotif += "[ATC]"
+		} else if c == 'V' { //not T
+			parsedMotif += "[AGC]"
+		} else if c == 'N' {
+			parsedMotif += "[AGCT]"
+		} else {
+			panic("Motif contains a character not in DNA sequence notation.")
+		}
+	}
+
+	return parsedMotif
+}
+
+/*
+ReverseComplement takes in a motif with standard IUPAC character nomenclature and returns the reverse complement
+of the motif. For example, ATGNATAWW becomes WWTATNCTA.
+*/
+func ReverseComplement(motif string) string {
+	newMotif := ""
+	basePos := len(motif) - 1
+
+	for i := range motif {
+		n := basePos - i
+		if motif[n] == 'A' {
+			newMotif += "T"
+		} else if motif[n] == 'T' {
+			newMotif += "A"
+		} else if motif[n] == 'C' {
+			newMotif += "G"
+		} else if motif[n] == 'G' {
+			newMotif += "C"
+		} else if motif[n] == 'R' {
+			newMotif += "Y"
+		} else if motif[n] == 'Y' {
+			newMotif += "R"
+		} else if motif[n] == 'B' {
+			newMotif += "V"
+		} else if motif[n] == 'V' {
+			newMotif += "B"
+		} else if motif[n] == 'D' {
+			newMotif += "H"
+		} else if motif[n] == 'H' {
+			newMotif += "D"
+		} else { //in this case, we assume W, S, or N, which are unchanged. The parsing of the motif into the correct regex handles stray cases.
+			newMotif += string(motif[n])
+		}
+	}
+
+	return newMotif
 }
 
 /*

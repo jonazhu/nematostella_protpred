@@ -76,8 +76,9 @@ func main() {
 
 		for m := range motifs {
 			currentMotif := motifs[m]
+			revComp := ReverseComplement(currentMotif)
 			fmt.Println("-------------------------------------")
-			fmt.Println("Currently analyzing motif", currentMotif)
+			fmt.Println("Currently analyzing motif", currentMotif, "and reverse complement", revComp)
 
 			start := time.Now()
 			duration := time.Since(start)
@@ -149,8 +150,9 @@ func main() {
 
 		for m := range motifs {
 			currentMotif := motifs[m]
+			revComp := ReverseComplement(currentMotif)
 			fmt.Println("-------------------------------------")
-			fmt.Println("Currently analyzing motif", currentMotif)
+			fmt.Println("Currently analyzing motif", currentMotif, "and reverse complement", revComp)
 
 			start := time.Now()
 			duration := time.Since(start)
